@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name":123125,
+  "email":"@m"
+}
+###
+GET http://localhost:3000/api/user
+Content-Type: application/json
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name":"Tandeptrai",
+  "email": "tan124125laall@gmail.com",
+  "password":"Le@123456",
+  "confirmPassword":"Le@123456"
+}
+
+###
