@@ -18,9 +18,9 @@ const regexEqual = (x, y) => {
 const plugins = [[withLess, { lessLoaderOptions: { lessOptions: { javascriptEnabled: true } } }]];
 
 // Append sentry in production mode
-if (process.env.NODE_ENV === 'production') {
-  plugins.push([withSentryConfig, { silent: true }]);
-}
+// if (process.env.NODE_ENV === 'production') {
+//   plugins.push([withSentryConfig, { silent: true }]);
+// }
 
 /** @type {import('next').NextConfig} */
 module.exports = withPlugins(plugins, {
