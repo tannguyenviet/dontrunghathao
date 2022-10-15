@@ -6,7 +6,7 @@ import React from 'react'
 import LandingPage from '../modules/LandingPage'
 
 export default LandingPage
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale } :any) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common', 'footer'])),
