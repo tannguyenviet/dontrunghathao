@@ -9,15 +9,15 @@ import Layout from 'components/Layout';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
-      <Auth0Provider
+      {/* <Auth0Provider
         domain="dev-upislsyj.us.auth0.com"
         clientId="gMHc30aqq3YiUlpUCX5kLXaELEHDlcFE"
         redirectUri={'http://localhost:3000'}
-      >
+      > */}
         <Layout>
           <Component {...pageProps} />
         </Layout>
-      </Auth0Provider>
+      {/* </Auth0Provider> */}
     </Provider>
   );
 }
