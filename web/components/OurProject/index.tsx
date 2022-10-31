@@ -32,7 +32,7 @@ const OurProject = () => {
           </span>
           <span onClick={goPrev} className={styles.arrow}>
             <span>&nbsp;Next</span>
-            <NextIcon />
+            <NextIcon color='#8a1722' />
           </span>
         </div>
       </div>
@@ -42,11 +42,10 @@ const OurProject = () => {
           ref={carouselRef}
           dots={false}
           draggable={true}
-          arrows={true}
           swipeToSlide={true}
           className={styles.slider}
           slidesToShow={3}
-          autoplay={true}
+          // autoplay={true}
           centerPadding={'10px'}
         >
           <div className={styles.itemCarousel}>

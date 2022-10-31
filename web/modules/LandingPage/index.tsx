@@ -240,7 +240,7 @@ const LandingPage = () => {
           width={1320}
           height={342}
           className={styles.bgImage}
-          src="/images/grid-1.png"
+          src="/images/banner.png"
           alt="grid-1-banner"
         />
         <div className={styles.contentImage}>
@@ -284,7 +284,7 @@ const LandingPage = () => {
       </div> */}
       <div className={styles.spacing}>
         <div className={styles.coreValue}>
-          <div className={styles.coreTitle}>Our core values</div>
+          <div className={styles.coreTitle}>Core Values</div>
           <Row gutter={[20, 0]} className={styles.features}>
             <Col className={styles.feature}>
               <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-1.png'}></Image>
@@ -390,7 +390,7 @@ const LandingPage = () => {
                       <div className={styles.featureTitle}>Professional</div>
                     </Col>
                     <Col sm={24} md={10} className={styles.text}>
-                      Professional assistance to all buyer’s visit
+                     {` Professional assistance to all buyer’s visit          `}
                     </Col>
                   </Row>
                 </div>
@@ -400,10 +400,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className={styles.wrapDivider}>
-        <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
-      </div>
-      {/* <OurProject /> */}
+
       <div className={styles.gallery}>
         <div className={clsx(styles.item, styles.item1)}>
           <span className={styles.titleProduct}>
@@ -496,6 +493,11 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <div className={clsx(styles.wrapDivider,styles.hiddenMd)}>
+        <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
+      </div>
+      <OurProject />
+ 
       <div className={styles.wrapDivider}>
         <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
       </div>
@@ -511,7 +513,7 @@ const LandingPage = () => {
             IDS connects to the source of product supply easily.
           </div>
           <Row gutter={[16, 0]} className={styles.listCard}>
-            <Col className={styles.card} md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -543,7 +545,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -575,7 +577,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -607,7 +609,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -649,7 +651,7 @@ const LandingPage = () => {
         <div className={styles.clientSay}>
           <div className={styles.clientTitle}>What do our clients say?</div>
           <Row gutter={[84, 0]}>
-            <Col className={styles.left} md={24} lg={9}>
+            <Col className={styles.left} xs={24} sm={24} md={24} lg={9}>
               <div className={styles.wrapImage}>
                 <div className={styles.bg}>124512512</div>
                 <Image
@@ -663,7 +665,7 @@ const LandingPage = () => {
                 ></Image>
               </div>
             </Col>
-            <Col className={styles.right} md={24} lg={15}>
+            <Col className={styles.right}  xs={24} sm={24}  md={24} lg={15}>
               <div className={styles.wrapImage}>
                 <Image
                   priority={true}
