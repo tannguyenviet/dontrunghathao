@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './styles.module.less';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -262,23 +262,7 @@ const LandingPage = () => {
             </Row>
           </div>
         </div>
-        <div className={styles.thinking}>
-          <Image
-            priority={true}
-            sizes="fill"
-            objectFit="cover"
-            width={1320}
-            height={342}
-            className={styles.bgImage}
-            src="/images/banner.png"
-            alt="grid-1-banner"
-          />
-          <div className={styles.contentImage}>
-            <Image priority={true} width={98} height={80} className={styles.comma} src="/images/comma.png" alt="" />
-            <span>When you think of product sourcing made easy, think of us!</span>
-            <span className={styles.smallTitle}>- From IDS team -</span>
-          </div>
-        </div>
+
         {/* <div className={styles.spacingVision}>
         <div className={styles.vision}>
           <Row>
@@ -342,6 +326,23 @@ const LandingPage = () => {
                 <div className={styles.text}>Every problem has a solution.</div>
               </Col>
             </Row>
+          </div>
+        </div>
+        <div className={styles.thinking}>
+          <Image
+            priority={true}
+            sizes="fill"
+            objectFit="cover"
+            width={1320}
+            height={342}
+            className={styles.bgImage}
+            src="/images/banner.png"
+            alt="grid-1-banner"
+          />
+          <div className={styles.contentImage}>
+            <Image priority={true} width={98} height={80} className={styles.comma} src="/images/comma.png" alt="" />
+            <span>When you think of product sourcing made easy, think of us!</span>
+            <span className={styles.smallTitle}>- From IDS team -</span>
           </div>
         </div>
         <div className={styles.wrapDivider}>

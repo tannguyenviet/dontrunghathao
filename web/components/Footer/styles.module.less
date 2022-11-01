@@ -1,6 +1,51 @@
-.footer{
+.footer {
   // height: 100px;
+
   background-color: black;
   color: white;
   padding: 10px 0 10px 0;
+  padding: 77px 0;
+  .location {
+    display: flex;
+    .wrapText {
+      margin-left: 10px;
+    }
+  }
+  .contact {
+    .cardContact {
+      margin-bottom: 6px;
+      display: flex;
+      .text {
+        margin-left: 10px;
+      }
+    }
+  }
+  .listSection {
+    .row {
+      display: flex;
+      div {
+        text-align: left;
+        white-space: nowrap;
+        margin-bottom: 6px;
+      }
+      & > div:first-child {
+        width: 150px;
+        margin-right: auto;
+      }
+    }
+  }
+}
+.hidden {
+  opacity: 0;
+}
+.spacing {
+  padding: 0 172px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hiddenMd {
+    display: none;
+  }
 }
