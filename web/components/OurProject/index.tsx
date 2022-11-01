@@ -70,7 +70,7 @@ const OurProject = () => {
           </div>
         </Carousel>
       </div>
-      <button onClick={goNext}>Next</button>
+      <button className={styles.hidden} onClick={goNext}>Next</button>
     </div>
   );
 };

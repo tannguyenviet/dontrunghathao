@@ -708,13 +708,13 @@ const LandingPage = () => {
                   <Col className={styles.input} span={24}>
                     <textarea placeholder="Tell us about your products and projects" />
                   </Col>
-                  <Col span={4}>
+                  <Col span={5}>
                     <button>{t('contactUs.button')}</button>
                   </Col>
                 </Row>
               </Col>
               <Col className={styles.wrapSocial} md={10}>
-                <div className={styles.social}>
+                {/* <div className={styles.social}>
                   <span>{t('contactUs.seeMore')}</span>
                   <div className={styles.listIcon}>
                     <a className={styles.wrapImage} href="">
@@ -724,7 +724,7 @@ const LandingPage = () => {
                       <Image alt="instagram" width={37} height={37} src="/images/linkedin.png"></Image>
                     </a>
                   </div>
-                </div> 
+                </div>  */}
               </Col>
             </Row>
           </div>
