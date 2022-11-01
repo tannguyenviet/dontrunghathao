@@ -11,8 +11,9 @@
   },
   "aboutUs": {
     "title": "About us",
-    "des1" : "Vietnam, which is a country with a strong institutional foundation, lots of resources as well as reasonable prices, has been actively integrating into the global economy through a broad system of FTAs.",
-    "des2": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units in clarifying and systematizing purchase plans in order to achieve optimal efficiency."
+    "des1": "With the perspective of \"Making the development of the source of goods and the purchase process straightforward and efficient\", we always strive to handle the demand of locating sources and acquiring a diversity of goods from foreign partners, while also accompanying Vietnamese manufacturers to utilize the positive aspects and potentials of Vietnamese commodity elites.",
+    "des2" : "Vietnam, which is a country with a strong institutional foundation, lots of resources as well as reasonable prices, has been actively integrating into the global economy through a broad system of FTAs.",
+    "des3": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units in clarifying and systematizing purchase plans in order to achieve optimal efficiency."
   },
   "ourJourney": {
     "title": "Our Journey",
@@ -48,6 +49,7 @@
     "from": "- From IDS team -"
   },
   "coreValue": {
+    "title": "Core Value",
     "core1": "Integrity",
     "desCore1": "The foundations of being successful.",
     "core2": "Trustworthiness",

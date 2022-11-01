@@ -10,8 +10,9 @@
   },
   "aboutUs": {
     "title": "Về Chúng Tôi",
-    "des1" : "Việt Nam, một quốc gia có nền tảng thể chế vững mạnh, nhiều nguồn lực cũng như giá cả hợp lý, đã và đang tích cực hội nhập kinh tế toàn cầu thông qua một hệ thống các FTA rộng lớn.",
-    "des2": "Trong điều kiện môi trường vĩ mô thuận lợi như hiện nay, mục tiêu của IDS là hỗ trợ các đơn vị mua hàng quốc tế làm rõ và hệ thống hóa các kế hoạch mua hàng nhằm đạt được hiệu quả tối ưu."
+    "des1": "Với quan điểm \"Làm cho việc phát triển nguồn hàng và quy trình mua hàng trở nên đơn giản và hiệu quả\", chúng tôi luôn nỗ lực giải quyết nhu cầu tìm kiếm nguồn hàng và mua hàng đa dạng từ các đối tác nước ngoài, đồng thời đồng hành cùng các nhà sản xuất Việt Nam để tận dụng những mặt tích cực và tiềm năng của tinh hoa hàng hóa Việt Nam.",
+    "des2" : "Việt Nam, một quốc gia có nền tảng thể chế vững mạnh, nhiều nguồn lực cũng như giá cả hợp lý, đã và đang tích cực hội nhập kinh tế toàn cầu thông qua một hệ thống các FTA rộng lớn.",
+    "des3": "Trong điều kiện môi trường vĩ mô thuận lợi như hiện nay, mục tiêu của IDS là hỗ trợ các đơn vị mua hàng quốc tế làm rõ và hệ thống hóa các kế hoạch mua hàng nhằm đạt được hiệu quả tối ưu."
   },
   "ourJourney": {
     "title": "Hành trình chúng tôi",
@@ -47,6 +48,7 @@
     "from": "- Từ nhóm IDS -"
   },
   "coreValue": {
+    "title": "Giá trị cốt lõi",
     "core1": "Sự toàn vẹn",
     "desCore1": "Các nền tảng của thành công.",
     "core2": "Đáng tin cậy",
@@ -55,8 +57,8 @@
     "desCore3": "Giá trị được tạo ra bằng cách kiểm soát tốc độ.",
     "core4": "Sự đổi mới",
     "desCore4": "Nâng cấp tiêu chuẩn từng ngày.",
-    "core5": "Creativity",
-    "desCore5": "Sáng tạo"
+    "core5": "Sự sáng tạo",
+    "desCore5": "Mọi vấn đề đều có giải pháp."
   },
   "whyIds": {
     "title": "TẠI SAO IDS?",
