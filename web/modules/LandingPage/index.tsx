@@ -48,7 +48,7 @@ const LandingPage = () => {
   const { pathname, asPath, query, locale } = router;
   const account = useAppSelector(getAccount);
   const { loginWithRedirect, logout, user } = useAuth0();
-  const ZoomInScrollOut = batch( FadeIn(), ZoomIn());
+  const ZoomInScrollOut = batch(FadeIn(), ZoomIn());
   return (
     <ScrollContainer>
       <div className={clsx(styles.container)}>
@@ -534,7 +534,9 @@ const LandingPage = () => {
         <div className={clsx(styles.wrapDivider, styles.hiddenMd)}>
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
         </div>
-        <OurProject />
+        <div className={styles.spacing}>
+          <OurProject />
+        </div>
 
         <div className={styles.wrapDivider}>
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
@@ -603,15 +605,15 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-2.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
                     />
                   </div>
                   <div className={styles.script}>
-                  A strong desire to flourish, the connection creates value and being 
-willing to learn are the basis which links IDS’s clients to the development of the firm.
+                    A strong desire to flourish, the connection creates value and being willing to learn are the basis
+                    which links IDS’s clients to the development of the firm.
                   </div>
                 </div>
               </Col>
@@ -642,7 +644,7 @@ willing to learn are the basis which links IDS’s clients to the development of
                     />
                   </div>
                   <div className={styles.script}>
-                  We work for you as an extension of your business in helping you thrive sustainably.
+                    We work for you as an extension of your business in helping you thrive sustainably.
                   </div>
                 </div>
               </Col>
@@ -666,14 +668,14 @@ willing to learn are the basis which links IDS’s clients to the development of
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-4.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
                     />
                   </div>
                   <div className={styles.script}>
-                  We work for you as an extension of your business in helping you thrive sustainably.
+                    We work for you as an extension of your business in helping you thrive sustainably.
                   </div>
                 </div>
               </Col>
@@ -734,9 +736,7 @@ willing to learn are the basis which links IDS’s clients to the development of
                   </div>
                   <span className={styles.contactTitle}>CONTACT US</span>
                 </div>
-                <div className={styles.text}>
-                Subscribe For Newsletter
-                </div>
+                <div className={styles.text}>Subscribe For Newsletter</div>
                 <Row gutter={[15, 20]}>
                   <Col className={styles.input} span={12}>
                     <input placeholder="First name" type="text" />

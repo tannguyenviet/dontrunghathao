@@ -413,6 +413,7 @@
       background: #fff;
       padding: 24px 20px 57px 20px;
       border-radius: 4px;
+      height: 595px;
     }
     .card {
       display: flex;
@@ -796,18 +797,26 @@
       }
     }
   }
-  .clientSay{
-      .left {
-        .bg{
-          width: 100%;
-          left: 0;
-        }
+  .clientSay {
+    .left {
+      .bg {
+        width: 100%;
+        left: 0;
       }
+    }
   }
-
+  .ourTeam {
+    .listCard {
+      margin-top: 46px;
+      .wrapCard {
+        height: 595px;
+        margin-bottom: 16px;
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
-  .coreValue{
+  .coreValue {
     .features {
       justify-content: center;
       .feature {
@@ -871,16 +880,15 @@
     }
   }
   .gallery {
-
     .item {
       .wrapContent {
         padding: 20px 20px;
         font-size: 12px;
-        .itemTitle{
+        .itemTitle {
           font-size: 20px;
         }
       }
-      .titleProduct{
+      .titleProduct {
         font-size: 30px;
       }
     }
@@ -888,12 +896,11 @@
 }
 @media (max-width: 576px) {
   .why {
-
-    .right{
+    .right {
       width: 100%;
     }
     .feature {
-      flex-direction: column; 
+      flex-direction: column;
       .leftFeature {
         justify-content: center !important;
         align-items: flex-start !important;
@@ -908,27 +915,26 @@
       .wrapContent {
         padding: 10px;
         font-size: 10px;
-        .itemTitle{
+        .itemTitle {
           font-size: 14px;
         }
       }
-      .titleProduct{
+      .titleProduct {
         font-size: 20px;
       }
     }
   }
   .thinking {
-    padding:0 20px;
+    padding: 0 20px;
     .contentImage {
-      padding:20px;
+      padding: 20px;
       font-size: 1.375rem;
       & > span:first-child {
         width: 24px !important;
       }
-      .smallTitle{
+      .smallTitle {
         font-size: 0.675rem;
       }
     }
-
   }
 }

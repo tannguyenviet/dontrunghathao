@@ -1,9 +1,119 @@
 {
-  "common":{
-    "home":"Khanh Ha Khung Nhung ma JP"
+  "common": {
+    "home": "Khanh Ha Khung Nhung ma JP"
   },
-  "sourcing":{
-    "title":"Sourcing Made Easy & Effective",
-    "intel":"Intelligent direct sourcing group"
+  "sourcing": {
+    "title": "Sourcing Made Easy & Effective",
+    "intel": "Intelligent direct sourcing group",
+    "des": " IDS (Intelligent Direct Sourcing) được thành lập với mục tiêu tạo sự kết nối giữa các khách hàng B2B (Doanh nghiệp với Doanh nghiệp) trên toàn thế giới và các nhà sản xuất tại Việt Nam để đạt được các tiêu chuẩn lớn nhất về chất lượng, thời gian quay vòng và giá trị",
+    "contactBut": "LIÊN HỆ CHÚNG TÔI"
+  },
+  "aboutUs": {
+    "title": "Về Chúng Tôi",
+    "des1" : "Việt Nam, một quốc gia có nền tảng thể chế vững mạnh, nhiều nguồn lực cũng như giá cả hợp lý, đã và đang tích cực hội nhập kinh tế toàn cầu thông qua một hệ thống các FTA rộng lớn.",
+    "des2": "Trong điều kiện môi trường vĩ mô thuận lợi như hiện nay, mục tiêu của IDS là hỗ trợ các đơn vị mua hàng quốc tế làm rõ và hệ thống hóa các kế hoạch mua hàng nhằm đạt được hiệu quả tối ưu."
+  },
+  "ourJourney": {
+    "title": "Hành trình chúng tôi",
+    "des1": "Cuộc hành trình của IDS bắt đầu vào năm 2021, lấy cảm hứng từ sự bền bỉ trước những tác động thảm khốc của đại dịch Covid-19. Với đội ngũ có tầm nhìn xa và ham học hỏi, IDS không ngừng mở rộng mạng lưới cung ứng trên khắp Việt Nam, là điểm đến lý tưởng cho các kế hoạch mua hàng trong bối cảnh mới.",
+    "des2": "Hiện tại, IDS không chỉ có trụ sở chính đặt tại Thành phố Hồ Chí Minh (Việt Nam), mà còn có hai văn phòng tại Melbourne (Úc) và Đà Nẵng (Việt Nam). Chúng tôi tự tin rằng chúng tôi có thể hỗ trợ các đối tác quốc tế, đặc biệt là các đối tác ở Bắc Mỹ và Úc, tiếp cận dịch vụ cung ứng một cách dễ dàng, hiệu quả và nhanh chóng.",
+    "des3": "Sau một năm hoạt động, IDS đã thiết lập và củng cố mối quan hệ với hàng trăm nhà máy sản xuất nhiều loại mặt hàng như 5B - Solar Reinvented, VBP Interior, Aldi Siêu thị, Austdoor Group JSC, Watt EV. Nhờ mục tiêu đa dạng hóa các dịch vụ của mình, chúng tôi đã phát triển mạnh mẽ và kiểm tra kỹ lưỡng ngành cung ứng của Việt Nam.",
+    "buyersTitle": "khách hàng quốc tế",
+    "buyer1": "Úc",
+    "buyer2": "Bắc Mỹ"
+  },
+  "offices": {
+    "title": "Văn phòng",
+    "country1": "Australia",
+    "office1": "SYDNEY",
+    "country2": "Australia",
+    "office2": "MELBOURNE",
+    "country3": "Vietnam",
+    "office3": "DANANG",
+    "country4": "Vietnam",
+    "office4": "HO CHI MINH"
+  },
+  "vision": {
+    "title": "Tầm nhìn",
+    "des1": "Doanh nghiệp hàng đầu cung cấp",
+    "des2": "dịch vụ chuỗi cung ứng ở Việt Nam"
+  },
+  "mission": {
+    "title": "Sứ mệnh",
+    "des": "IDS là cầu nối tạo ra giá trị cho khả năng phát triển các doanh nghiệp quốc tế và doanh nghiệp tại Việt Nam. Chúng tôi cung cấp trải nghiệm dịch vụ tuyệt vời nhất cho khách hàng B2B (Doanh nghiệp đến Doanh nghiệp) với tiêu chí \"Chất lượng - Tốc độ - Giá trị."
+  },
+  "quote": {
+    "des": "Khi bạn nghĩ về việc tìm nguồn cung ứng sản phẩm trở nên dễ dàng, hãy nghĩ đến chúng tôi!",
+    "from": "- Từ nhóm IDS -"
+  },
+  "coreValue": {
+    "core1": "Sự toàn vẹn",
+    "desCore1": "Các nền tảng của thành công.",
+    "core2": "Đáng tin cậy",
+    "desCore2": "Sự đáng tin cậy đặt lên hàng đầu.",
+    "core3": "Tốc độ",
+    "desCore3": "Giá trị được tạo ra bằng cách kiểm soát tốc độ.",
+    "core4": "Sự đổi mới",
+    "desCore4": "Nâng cấp tiêu chuẩn từng ngày.",
+    "core5": "Creativity",
+    "desCore5": "Sáng tạo"
+  },
+  "whyIds": {
+    "title": "TẠI SAO IDS?",
+    "reason1": "Mạng Lưới",
+    "reason2": "Chuyên môn hóa",
+    "reason3": "Chuyên nghiệp",
+    "des1": "Mạng lưới chuyên sâu với các nhà sản xuất hàng đầu Việt Nam",
+    "des2": "Hiểu biết sâu sắc về sản phẩm và cách thức kinh doanh của Việt Nam",
+    "des3": "Hỗ trợ chuyên nghiệp cho tất cả các chuyến thăm của người mua"
+  },
+  "productDiversity": {
+    "title1": "Sản phẩm",
+    "title2": "Đa dạng",
+    "product1": "Gỗ",
+    "product2": "Sản phẩm công nghiệp",
+    "product3": "Xây dựng & Vật liệu xây dựng",
+    "product4": "Tro Bay",
+    "product5": "Những sản phẩm nông nghiệp",
+    "contact1": "Liên hệ chúng tôi",
+    "contact2": "Liên hệ chúng tôi",
+    "contact3": "Liên hệ chúng tôi",
+    "contact4": "Liên hệ chúng tôi",
+    "contact5": "Liên hệ chúng tôi"
+  },
+  "ourProjects":{
+    "title": "Các dự án của chúng tôi",
+    "des": "IDS luôn mong muốn trở thành người bạn đồng hành để đạt được những trải nghiệm hợp tác tạo nên giá trị hiện hữu.",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "ourTeam": {
+    "title": "Đội ngũ của chúng tôi",
+    "des1": "IDS có một nhóm các chuyên gia am hiểu giúp chúng tôi có thể cung cấp cho từng khách hàng những dịch vụ phù hợp mà họ cần. Đội ngũ nhân lực hùng hậu, ham học hỏi và luôn tuân theo giá trị cốt lõi “Tin cậy - Chính trực - Tốc độ - Đổi mới - Sáng tạo” là nền tảng để phục vụ khách hàng.",
+    "des2": "IDS kết nối với nguồn cung cấp sản phẩm một cách dễ dàng.",
+    "name1": "Joe Nguyen",
+    "name2": "Hua Hai Long",
+    "name3": "Tran Cong Hau",
+    "name4": "Daniel Hearn",
+    "pos1": "Chủ tịch",
+    "pos2": "Tổng giám đốc",
+    "pos3": "Phó Tổng Giám đốc",
+    "pos4": "Giám đốc IDS Australia",
+    "desPos1": "Sự biến động của thị trường gây ra những thách thức đáng kể đối với việc mua sắm, chúng tôi ở đây để giúp bạn làm chủ cuộc chơi.",
+    "desPos2": "Khát vọng phát triển mạnh mẽ, kết nối tạo ra giá trị và sẵn sàng học hỏi là cơ sở gắn kết khách hàng của IDS với sự phát triển của công ty.",
+    "desPos3": "Chúng tôi làm việc cho bạn như một phần mở rộng của doanh nghiệp của bạn trong việc giúp bạn phát triển bền vững.",
+    "desPos4": "Chúng tôi làm việc cho bạn như một phần mở rộng của doanh nghiệp của bạn trong việc giúp bạn phát triển bền vững."
+  },
+  "clientSays": {
+    "title": "Khách hàng của chúng tôi nói gì?",
+    "des": "Đó là một đặc ân khi được làm việc với Joe và Kenny, đặc biệt là khi đại dịch Covid-19 gây thiệt hại nặng nề cho tất cả các doanh nghiệp trên toàn thế giới. IDS đã giúp chúng tôi tạo nên điều kỳ diệu: 60 container hàng hóa được giao thành công trong vòng 5 tháng hoàn toàn trực tuyến kể từ đầu",
+    "name": "Matthew Vocale",
+    "desName": "Chánh văn phòng chuỗi cung ứng của 5B"
+  },
+  "contactUs": {
+    "title": "LIÊN HỆ CHÚNG TÔI",
+    "des": "Đăng ký để nhận bản tin",
+    "button": "GỬI ĐI",
+    "seeMore": "XEM THÊM VỀ CHÚNG TÔI"
   }
 }
