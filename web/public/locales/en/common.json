@@ -1,5 +1,16 @@
 {
-  "common":{
-    "home":"Khanh Ha Khung"
-  }
+  "common-home": "Khanh Ha Khung Nhung ma JP",
+  "sourcing-title": "Sourcing Made Easy & Effective",
+  "sourcing-intel": "Intelligent direct sourcing group",
+  "sourcing-description": "IDS (Intelligent Direct Sourcing) was founded with the goal of making a connection between worldwide B2B (Business to Business) clients and manufacturers in Vietnam so as to reach the greatest standards of quality, turnaround time and value.",
+  "sourcing-contactBut": "CONTACT US",
+  "aboutUs-title": "About us",
+  "aboutUs-description2": "Vietnam, which is a country with a strong institutional foundation, lots of resources as well as reasonable prices, has been actively integrating into the global economy through a broad system of FTAs.",
+  "aboutUs-description3": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units in clarifying and systematizing purchase plans in order to achieve optimal efficiency.",
+  "ourJourney-title": "Our Journey",
+  "ourJourney-description1": "The journey of IDS began in 2021, inspired by the tenacity of the disastrous effects of the Covid-19 pandemic. With a team that has both the foresight and the willingness to learn, IDS is constantly expanding its supply network across Vietnam, which is the ideal destination for purchase plans in the new context.",
+  "ourJourney-description2": "Currently, IDS has not only its headquarters located in Ho Chi Minh City (Vietnam), but also two offices in Melbourne (Australia) and Da Nang (Vietnam). We are confident that we can support international partners, especially those in North America and Australia, accessing the supply service easily, efficiently, and quickly.",
+  "buyersTitle": "international buyers",
+  "buyer1": "Australia",
+  "buyer2": "North American"
 }

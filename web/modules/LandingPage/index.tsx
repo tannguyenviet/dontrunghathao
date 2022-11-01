@@ -38,7 +38,7 @@ const LandingPage = () => {
           <Image priority={true} width={126} height={212} src="/images/float-icon-right.png" alt="" />
         </div>
         <div className={clsx(styles.wrapContent, styles.spacing)}>
-          <div className={styles.smallTitle}>Intelligent direct sourcing group</div>
+          <div className={styles.smallTitle}>{t('sourcing.intel')}</div>
           <div className={styles.title}>
             Sourcing Made <br /> Easy & Effective
           </div>
@@ -184,19 +184,19 @@ const LandingPage = () => {
             <div className={styles.places}>
               <div className={styles.space}>
                 <div>Australia</div>
-                <div className={styles.mainText}>SYSNEY</div>
+                <div className={styles.mainText}>SYDNEY</div>
               </div>
               <div className={styles.space}>
                 <div>Australia</div>
-                <div className={styles.mainText}>SYSNEY</div>
+                <div className={styles.mainText}>MELBOURNE</div>
               </div>
               <div className={styles.space}>
-                <div>Australia</div>
-                <div className={styles.mainText}>SYSNEY</div>
+                <div>Vietnam</div>
+                <div className={styles.mainText}>DANANG</div>
               </div>
               <div className={styles.space}>
-                <div>Australia</div>
-                <div className={styles.mainText}>SYSNEY</div>
+                <div>Vietnam</div>
+                <div className={styles.mainText}>HO CHI MINH</div>
               </div>
             </div>
           </Col>
@@ -390,7 +390,7 @@ const LandingPage = () => {
                       <div className={styles.featureTitle}>Professional</div>
                     </Col>
                     <Col sm={24} md={10} className={styles.text}>
-                     {` Professional assistance to all buyer’s visit          `}
+                      {` Professional assistance to all buyer’s visit          `}
                     </Col>
                   </Row>
                 </div>
@@ -399,7 +399,9 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-
+      <div className={styles.wrapDivider}>
+        <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
+      </div>
 
       <div className={styles.gallery}>
         <div className={clsx(styles.item, styles.item1)}>
@@ -493,11 +495,11 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className={clsx(styles.wrapDivider,styles.hiddenMd)}>
+      <div className={clsx(styles.wrapDivider, styles.hiddenMd)}>
         <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
       </div>
       <OurProject />
- 
+
       <div className={styles.wrapDivider}>
         <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
       </div>
@@ -545,7 +547,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -577,7 +579,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -609,7 +611,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </Col>
-            <Col className={styles.card} xs={24} sm={12}  md={12} lg={6}>
+            <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
               <div className={styles.wrapCard}>
                 <div className={styles.header}>
                   <span className={styles.name}>Joe Nguyen</span>
@@ -665,7 +667,7 @@ const LandingPage = () => {
                 ></Image>
               </div>
             </Col>
-            <Col className={styles.right}  xs={24} sm={24}  md={24} lg={15}>
+            <Col className={styles.right} xs={24} sm={24} md={24} lg={15}>
               <div className={styles.wrapImage}>
                 <Image
                   priority={true}

@@ -1,6 +1,7 @@
 .container {
   background: var(--light-gray);
   overflow: hidden;
+  margin-top: 80px;
 }
 .root {
   padding: 0 172px;
@@ -806,6 +807,17 @@
 
 }
 @media (max-width: 768px) {
+  .coreValue{
+    .features {
+      justify-content: center;
+      .feature {
+        flex-basis: 50%;
+        width: 50%;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+    }
+  }
   .wrapDivider {
     padding: 32px 0px;
   }
@@ -905,5 +917,18 @@
       }
     }
   }
+  .thinking {
+    padding:0 20px;
+    .contentImage {
+      padding:20px;
+      font-size: 1.375rem;
+      & > span:first-child {
+        width: 24px !important;
+      }
+      .smallTitle{
+        font-size: 0.675rem;
+      }
+    }
 
+  }
 }
