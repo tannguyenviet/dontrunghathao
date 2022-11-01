@@ -66,7 +66,7 @@ const LandingPage = () => {
             <div className={clsx(styles.wrapContent, styles.spacing)}>
               <div className={styles.smallTitle}>{t('sourcing.intel')}</div>
               <div className={styles.title}>
-                Sourcing Made <br /> Easy & Effective
+              {t('sourcing.title1')} <br /> {t('sourcing.title2')}
               </div>
               <div className={styles.script}>
                 IDS (Intelligent Direct Sourcing) was founded with the goal of making a connection between worldwide B2B
