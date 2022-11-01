@@ -760,7 +760,7 @@ const LandingPage = () => {
                 </Row>
               </Col>
               <Col className={styles.wrapSocial} md={10}>
-                <div className={styles.social}>
+                {/* <div className={styles.social}>
                   <span>SEE MORE ABOUT US</span>
                   <div className={styles.listIcon}>
                     <a className={styles.wrapImage} href="">
@@ -770,7 +770,7 @@ const LandingPage = () => {
                       <Image alt="instagram" width={37} height={37} src="/images/linkedin.png"></Image>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </Col>
             </Row>
           </div>
