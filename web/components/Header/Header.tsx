@@ -26,8 +26,8 @@ const Header = () => {
           label: <span>English</span>,
         },
         {
-          key: 'jp',
-          label: <span>Japan</span>,
+          key: 'vn',
+          label: <span>Vietnam</span>,
         },
       ]}
     ></Menu>
@@ -106,7 +106,6 @@ const Header = () => {
             <Image width={12} height={6} alt="drop" src="/images/down-icon.png" />
           </div>
         </Dropdown>
-        <button onClick={() => handleChangeLanguage()}>124124124</button>
       </div>
     </div>
   );

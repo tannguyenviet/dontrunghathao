@@ -1,16 +1,119 @@
 {
-  "common-home": "Khanh Ha Khung Nhung ma JP",
-  "sourcing-title": "Sourcing Made Easy & Effective",
-  "sourcing-intel": "Intelligent direct sourcing group",
-  "sourcing-description": "IDS (Intelligent Direct Sourcing) was founded with the goal of making a connection between worldwide B2B (Business to Business) clients and manufacturers in Vietnam so as to reach the greatest standards of quality, turnaround time and value.",
-  "sourcing-contactBut": "CONTACT US",
-  "aboutUs-title": "About us",
-  "aboutUs-description2": "Vietnam, which is a country with a strong institutional foundation, lots of resources as well as reasonable prices, has been actively integrating into the global economy through a broad system of FTAs.",
-  "aboutUs-description3": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units in clarifying and systematizing purchase plans in order to achieve optimal efficiency.",
-  "ourJourney-title": "Our Journey",
-  "ourJourney-description1": "The journey of IDS began in 2021, inspired by the tenacity of the disastrous effects of the Covid-19 pandemic. With a team that has both the foresight and the willingness to learn, IDS is constantly expanding its supply network across Vietnam, which is the ideal destination for purchase plans in the new context.",
-  "ourJourney-description2": "Currently, IDS has not only its headquarters located in Ho Chi Minh City (Vietnam), but also two offices in Melbourne (Australia) and Da Nang (Vietnam). We are confident that we can support international partners, especially those in North America and Australia, accessing the supply service easily, efficiently, and quickly.",
-  "buyersTitle": "international buyers",
-  "buyer1": "Australia",
-  "buyer2": "North American"
+  "common": {
+    "home": "Khanh Ha Khung Nhung ma JP"
+  },
+  "sourcing": {
+    "title": "Sourcing Made Easy & Effective",
+    "intel": "Intelligent direct sourcing group",
+    "des": "IDS (Intelligent Direct Sourcing) was founded with the goal of making a connection between worldwide B2B (Business to Business) clients and manufacturers in Vietnam so as to reach the greatest standards of quality, turnaround time and value.",
+    "contactBut": "CONTACT US"
+  },
+  "aboutUs": {
+    "title": "About us",
+    "des1" : "Vietnam, which is a country with a strong institutional foundation, lots of resources as well as reasonable prices, has been actively integrating into the global economy through a broad system of FTAs.",
+    "des2": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units in clarifying and systematizing purchase plans in order to achieve optimal efficiency."
+  },
+  "ourJourney": {
+    "title": "Our Journey",
+    "des1": "The journey of IDS began in 2021, inspired by the tenacity of the disastrous effects of the Covid-19 pandemic. With a team that has both the foresight and the willingness to learn, IDS is constantly expanding its supply network across Vietnam, which is the ideal destination for purchase plans in the new context.",
+    "des2": "Currently, IDS has not only its headquarters located in Ho Chi Minh City (Vietnam), but also two offices in Melbourne (Australia) and Da Nang (Vietnam). We are confident that we can support international partners, especially those in North America and Australia, accessing the supply service easily, efficiently, and quickly.",
+    "des3": "IDS has established and consolidated relationships with hundreds of factories producing a wide range of goods after one year of operation, such as 5B - Solar Reinvented, VBP Interior, Aldi Supermarket, Austdoor Group JSC, Watt EV. Thanks to the goal of diversifying our services, we have thrived and carefully examined Vietnam's supply industry.",
+    "buyersTitle": "international buyers",
+    "buyer1": "Australia",
+    "buyer2": "North American"
+  },
+  "offices": {
+    "title": "OFFICES",
+    "country1": "Australia",
+    "office1": "SYDNEY",
+    "country2": "Australia",
+    "office2": "MELBOURNE",
+    "country3": "Vietnam",
+    "office3": "DANANG",
+    "country4": "Vietnam",
+    "office4": "HO CHI MINH"
+  },
+  "vision": {
+    "title": "Vision",
+    "des1": "The top business providing ",
+    "des2": "supply chain services in Vietnam"
+  },
+  "mission": {
+    "title": "Mission",
+    "des": "IDS is a bridge that creates value for the possibility of developing international enterprises and businesses in Vietnam. We provide the greatest service experience to B2B clients (Business to Business) with the criterion \"Quality - Speed - Value”."
+  },
+  "quote": {
+    "des": "When you think of product sourcing made easy, think of us!",
+    "from": "- From IDS team -"
+  },
+  "coreValue": {
+    "core1": "Integrity",
+    "desCore1": "The foundations of being successful.",
+    "core2": "Trustworthiness",
+    "desCore2": "Trustworthiness comes first.",
+    "core3": "SPEED",
+    "desCore3": "Value is created by speed control.",
+    "core4": "Innovation",
+    "desCore4": "Upgrade the standard day by day.",
+    "core5": "Creativity",
+    "desCore5": "Every problem has a solution."
+  },
+  "whyIds": {
+    "title": "WHY IDS?",
+    "reason1": "Network",
+    "reason2": "Specialize",
+    "reason3": "Professional",
+    "des1": "Intensive network with Vietnam leading manufacturers",
+    "des2": "In depth understanding of products and Vietnam business manner",
+    "des3": " Professional assistance to all buyer's visit"
+  },
+  "productDiversity": {
+    "title1": "Product",
+    "title2": " Diversity",
+    "product1": "Timber & wood",
+    "product2": "Industrial products",
+    "product3": "Building & construction materials",
+    "product4": "FLY ASH",
+    "product5": "Agricultural products",
+    "contact1": "Contact US",
+    "contact2": "Contact US",
+    "contact3": "Contact US",
+    "contact4": "Contact US",
+    "contact5": "Contact US"
+  },
+  "ourProjects":{
+    "title": "Our Projects",
+    "des": "IDS always wants to be a companion in order to achieve collaborative experiences that create the existent value.",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "ourTeam": {
+    "title": "Our Team",
+    "des1": "IDS has a group of knowledgeable experts that enable us to offer each client the suitable services they need. Strong human resources who are eager to learn and always follow the core value “Trustworthiness - Integrity - Speed - Innovation - Creativity” is the background to serve clients.",
+    "des2": "IDS connects to the source of product supply easily.",
+    "name1": "Joe Nguyen",
+    "name2": "Hua Hai Long",
+    "name3": "Tran Cong Hau",
+    "name4": "Daniel Hearn",
+    "pos1": "Company President",
+    "pos2": "General Director",
+    "pos3": "VICE general director",
+    "pos4": "Director of IDS Australia",
+    "desPos1": "Market volatility causes significant challenges to procurement, we are here to help you master the game.",
+    "desPos2": "A strong desire to flourish, the connection creates value and being willing to learn are the basis which links IDS's clients to the development of the firm.",
+    "desPos3": "We work for you as an extension of your business in helping you thrive sustainably.",
+    "desPos4": "We work for you as an extension of your business in helping you thrive sustainably."
+  },
+  "clientSays": {
+    "title": "What do our clients say?",
+    "des": "It has been a privilege working with Joe and Kenny, especially when the Covid-19 pandemic took a heavy toll on all businesses worldwide. IDS helped us to pull up a miracle: 60 containers of goods delivered successfully within 5 totally-woking-online months from the scratch",
+    "name": "Matthew Vocale",
+    "desName": "Chief Supply Chain Office of 5B"
+  },
+  "contactUs": {
+    "title": "CONTACT US",
+    "des": "Subscribe For Newsletter",
+    "button": "SUBMIT",
+    "seeMore": "SEE MORE ABOUT US"
+  }
 }

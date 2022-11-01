@@ -1,7 +1,7 @@
 module.exports = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'jp'],
+    locales: ['en', 'jp','vn'],
     localeDetection: false,
     react: {
       transEmptyNodeValue: '', // what to return for empty Trans
