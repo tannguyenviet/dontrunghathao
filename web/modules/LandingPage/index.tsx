@@ -19,10 +19,7 @@ import NextIcon from 'assets/svg/Next';
 import PhoneIcon from 'assets/svg/Phone';
 import EmailIcon from 'assets/svg/Email';
 import dynamic from 'next/dynamic';
-const Animator = dynamic(
-  import('react-scroll-motion').then((it) => it.Animator),
-  { ssr: false }
-);
+
 
 import {
   ScrollContainer,
@@ -50,9 +47,7 @@ const LandingPage = () => {
   const { loginWithRedirect, logout, user } = useAuth0();
   const ZoomInScrollOut = batch(FadeIn(), ZoomIn());
   return (
-    <ScrollContainer>
       <div className={clsx(styles.container)}>
-        <Animator animation={ZoomInScrollOut}>
           <div className={clsx(styles.sourcing)}>
             <div className={styles.bgImage}>
               <Image objectFit="contain" priority={true} width={868} height={880} src="/images/bg.png" alt="" />
@@ -69,16 +64,13 @@ const LandingPage = () => {
               {t('sourcing.title1')} <br /> {t('sourcing.title2')}
               </div>
               <div className={styles.script}>
-                IDS (Intelligent Direct Sourcing) was founded with the goal of making a connection between worldwide B2B
-                (Business to Business) clients and manufacturers in Vietnam so as to reach the greatest standards of
-                quality, turnaround time and value.
+              {t('sourcing.des')}
               </div>
               <div className={styles.wrapButton}>
-                <button>CONTACT US</button>
+                <button>{t('sourcing.contactBut')}</button>
               </div>
             </div>
           </div>
-        </Animator>
 
         <div className={clsx(styles.wrapDivider, styles.dividerShort)}>
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
@@ -93,21 +85,15 @@ const LandingPage = () => {
                 </div>
               </Col>
               <Col className={styles.right} sm={24} md={12}>
-                <div className={styles.aboutTitle}>About Us</div>
+                <div className={styles.aboutTitle}>{t('aboutUs.title')}</div>
                 <div className={styles.text}>
-                  {`With the perspective of "Making the development of the source of goods and the purchase process
-                straightforward and efficient", we always strive to handle the demand of locating sources and acquiring
-                a diversity of goods from foreign partners, while also accompanying Vietnamese manufacturers to utilize
-                the positive aspects and potentials of Vietnamese commodity elites.`}
+                  {t('aboutUs.des1')}
                 </div>
                 <div className={styles.text}>
-                  Vietnam, which is a country with a strong institutional foundation, lots of resources as well as
-                  reasonable prices, has been actively integrating into the global economy through a broad system of
-                  FTAs.
+                {t('aboutUs.des2')}
                 </div>
                 <div className={styles.text}>
-                  In the current advantageous macro-environment, IDS's goal is to assist international purchasing units
-                  in clarifying and systematizing purchase plans in order to achieve optimal efficiency.
+                {t('aboutUs.des3')}
                 </div>
               </Col>
             </Row>
@@ -131,18 +117,12 @@ const LandingPage = () => {
             </Col>
             <Col sm={24} md={14} className={styles.wrapText}>
               <div className={styles.left}>
-                <div className={styles.title}>Our Journey</div>
+                <div className={styles.title}>{t('ourJourney.title')}</div>
                 <div className={styles.text}>
-                  The journey of IDS began in 2021, inspired by the tenacity of the disastrous effects of the Covid-19
-                  pandemic. With a team that has both the foresight and the willingness to learn, IDS is constantly
-                  expanding its supply network across Vietnam, which is the ideal destination for purchase plans in the
-                  new context.
+                  {t('ourJourney.des1')}
                   <br />
                   <br />
-                  Currently, IDS has not only its headquarters located in Ho Chi Minh City (Vietnam), but also two
-                  offices in Melbourne (Australia) and Da Nang (Vietnam). We are confident that we can support
-                  international partners, especially those in North America and Australia, accessing the supply service
-                  easily, efficiently, and quickly.
+                  {t('ourJourney.des2')}
                 </div>
               </div>
             </Col>
@@ -170,9 +150,9 @@ const LandingPage = () => {
               src="/images/internationalbuyer.png"
             />
             <div className={styles.textBuyer}>
-              <span>INTERNATIONAL BUYER</span>
-              <span>Australia</span>
-              <span>North American</span>
+              <span>{t('ourJourney.buyersTitle')}</span>
+              <span>{t('ourJourney.buyer1')}</span>
+              <span>{t('ourJourney.buyer2')}</span>
             </div>
           </Col>
           <Col className={styles.wrapImage} span={5}>
@@ -201,32 +181,29 @@ const LandingPage = () => {
         <div className={styles.spacing}>
           <Row gutter={[114, 0]} className={styles.offices}>
             <Col className={styles.text} sm={24} md={10}>
-              {`IDS has established and consolidated relationships with hundreds of factories producing a wide range of
-            goods after one year of operation, such as 5B – Solar Reinvented, VBP Interior, Aldi Supermarket, Austdoor
-            Group JSC, Watt EV. Thanks to the goal of diversifying our services, we have thrived and carefully examined
-            Vietnam's supply industry.`}
+            {t('ourJourney.des3')}
             </Col>
             <Col className={styles.contents} sm={24} md={14}>
               <div className={styles.rank}>
                 <span>#4</span>
-                <span className={styles.text}>OFFICES</span>
+                <span className={styles.text}>{t('offices.title')}</span>
               </div>
               <div className={styles.places}>
                 <div className={styles.space}>
-                  <div>Australia</div>
-                  <div className={styles.mainText}>SYDNEY</div>
+                  <div>{t('offices.country1')}</div>
+                  <div className={styles.mainText}>{t('offices.office1')}</div>
                 </div>
                 <div className={styles.space}>
-                  <div>Australia</div>
-                  <div className={styles.mainText}>MELBOURNE</div>
+                  <div>{t('offices.country2')}</div>
+                  <div className={styles.mainText}>{t('offices.office2')}</div>
                 </div>
                 <div className={styles.space}>
-                  <div>Vietnam</div>
-                  <div className={styles.mainText}>DANANG</div>
+                  <div>{t('offices.country3')}</div>
+                  <div className={styles.mainText}>{t('offices.office3')}</div>
                 </div>
                 <div className={styles.space}>
-                  <div>Vietnam</div>
-                  <div className={styles.mainText}>HO CHI MINH</div>
+                  <div>{t('offices.country4')}</div>
+                  <div className={styles.mainText}>{t('offices.office4')}</div>
                 </div>
               </div>
             </Col>
@@ -241,17 +218,17 @@ const LandingPage = () => {
                 </div>
               </Col>
               <Col xs={24} sm={24} md={10} className={styles.right}>
-                <div className={styles.sectionTitle}>Vision</div>
+                <div className={styles.sectionTitle}>{t('vision.title')}</div>
                 <div className={styles.text}>
-                  The top business providing <br /> supply chain services in Vietnam
+                {t('vision.des1')}<br /> {t('vision.des2')}
                 </div>
               </Col>
             </Row>
             <Row className={clsx(styles.section, styles.missionSection)}>
               <Col xs={24} sm={24} md={11} lg={11} className={styles.right}>
-                <div className={styles.sectionTitle}>Mission</div>
+                <div className={styles.sectionTitle}>{t('mission.title')}</div>
                 <div className={styles.text}>
-                  {`IDS is a bridge that creates value for the possibility of developing international enterprises and businesses in Vietnam. We provide the greatest service experience to B2B clients (Business to Business) with the criterion "Quality - Speed – Value”. `}
+                {t('mission.des')}
                 </div>
               </Col>
               <Col xs={24} sm={24} className={styles.left} md={13} lg={13}>
@@ -262,68 +239,51 @@ const LandingPage = () => {
             </Row>
           </div>
         </div>
-
-        {/* <div className={styles.spacingVision}>
-        <div className={styles.vision}>
-          <Row>
-            <Col className={styles.left} md={24} lg={10}>
-              <div className={styles.division}>
-                <div className={styles.divisionTitle}>Vision</div>
-                <div className={styles.text}>The top business providing supply chain services in Vietnam</div>
-              </div>
-              <div className={styles.division}>
-                <div className={styles.divisionTitle}>Mission</div>
-                <div className={styles.text}>
-                  {` IDS is a bridge that creates value for the possibility of developing international enterprises and
-                  businesses in Vietnam. We provide the greatest service experience to B2B clients (Business to
-                  Business) with the criterion "Quality - Speed – Value”. `}
-                </div>
-              </div>
-            </Col>
-            <Col className={styles.right} md={24} lg={14}>
-              <div className={styles.wrapImage}>
-                <Image
-                  priority={true}
-                  sizes="fill"
-                  objectFit="cover"
-                  src="/images/overview.png"
-                  alt="overview"
-                  width={796}
-                  height={403}
-                ></Image>
-              </div>
-            </Col>
-          </Row>
+        <div className={styles.thinking}>
+          <Image
+            priority={true}
+            sizes="fill"
+            objectFit="cover"
+            width={1320}
+            height={342}
+            className={styles.bgImage}
+            src="/images/banner.png"
+            alt="grid-1-banner"
+          />
+          <div className={styles.contentImage}>
+            <Image priority={true} width={98} height={80} className={styles.comma} src="/images/comma.png" alt="" />
+            <span>{t('quote.des')}</span>
+            <span className={styles.smallTitle}>{t('quote.from')}</span>
+          </div>
         </div>
-      </div> */}
         <div className={styles.spacing}>
           <div className={styles.coreValue}>
-            <div className={styles.coreTitle}>Core Values</div>
+            <div className={styles.coreTitle}>{t('coreValue.title')}</div>
             <Row gutter={[20, 0]} className={styles.features}>
               <Col className={styles.feature}>
                 <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-1.png'}></Image>
-                <div className={styles.featureTitle}>intergrity</div>
-                <div className={styles.text}>The foundations of being successful. </div>
+                <div className={styles.featureTitle}>{t('coreValue.core1')}</div>
+                <div className={styles.text}>{t('coreValue.desCore1')}</div>
               </Col>
               <Col className={styles.feature}>
                 <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-2.png'}></Image>
-                <div className={styles.featureTitle}>Trustworthiness</div>
-                <div className={styles.text}>Trustworthiness comes first. </div>
+                <div className={styles.featureTitle}>{t('coreValue.core2')}</div>
+                <div className={styles.text}>{t('coreValue.desCore2')}</div>
               </Col>
               <Col className={styles.feature}>
                 <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-3.png'}></Image>
-                <div className={styles.featureTitle}>SPEED</div>
-                <div className={styles.text}>Value is created by speed control. </div>
+                <div className={styles.featureTitle}>{t('coreValue.core3')}</div>
+                <div className={styles.text}>{t('coreValue.desCore3')}</div>
               </Col>
               <Col className={styles.feature}>
                 <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-4.png'}></Image>
-                <div className={styles.featureTitle}>Innovation </div>
-                <div className={styles.text}>Upgrade the standard day by day. </div>
+                <div className={styles.featureTitle}>{t('coreValue.core4')} </div>
+                <div className={styles.text}>{t('coreValue.desCore4')}</div>
               </Col>
               <Col className={styles.feature}>
                 <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-5.png'}></Image>
-                <div className={styles.featureTitle}>Creativity </div>
-                <div className={styles.text}>Every problem has a solution.</div>
+                <div className={styles.featureTitle}>{t('coreValue.core5')} </div>
+                <div className={styles.text}>{t('coreValue.desCore5')}</div>
               </Col>
             </Row>
           </div>
@@ -377,7 +337,7 @@ const LandingPage = () => {
                   </div>
                 </Col>
                 <Col className={styles.right} sm={24} md={24} lg={12}>
-                  <div className={styles.whyTitle}>WHY IDS?</div>
+                  <div className={styles.whyTitle}>{t('whyIds.title')}</div>
                   <div className={styles.features}>
                     <Row className={styles.feature}>
                       <Col sm={24} md={14} className={styles.leftFeature}>
@@ -390,10 +350,10 @@ const LandingPage = () => {
                             src="/images/why-feature-1.png"
                           />
                         </div>
-                        <div className={styles.featureTitle}>Network</div>
+                        <div className={styles.featureTitle}>{t('whyIds.reason1')}</div>
                       </Col>
                       <Col sm={24} md={10} className={styles.text}>
-                        Intensive network with Vietnam leading manufacturers
+                      {t('whyIds.des1')}
                       </Col>
                     </Row>
                     <Row className={styles.feature}>
@@ -407,10 +367,10 @@ const LandingPage = () => {
                             src="/images/why-feature-2.png"
                           />
                         </div>
-                        <div className={styles.featureTitle}>Specialize</div>
+                        <div className={styles.featureTitle}>{t('whyIds.reason2')}</div>
                       </Col>
                       <Col sm={24} md={10} className={styles.text}>
-                        Indepth understanding of products and Vietnam business manner
+                      {t('whyIds.des2')}
                       </Col>
                     </Row>
                     <Row className={styles.feature}>
@@ -424,10 +384,10 @@ const LandingPage = () => {
                             src="/images/why-feature-3.png"
                           />
                         </div>
-                        <div className={styles.featureTitle}>Professional</div>
+                        <div className={styles.featureTitle}>{t('whyIds.reason3')}</div>
                       </Col>
                       <Col sm={24} md={10} className={styles.text}>
-                        {` Professional assistance to all buyer’s visit          `}
+                      {t('whyIds.des3')}
                       </Col>
                     </Row>
                   </div>
@@ -443,7 +403,7 @@ const LandingPage = () => {
         <div className={styles.gallery}>
           <div className={clsx(styles.item, styles.item1)}>
             <span className={styles.titleProduct}>
-              Product <br /> Diversity
+            {t('productDiversity.title1')} <br /> {t('productDiversity.title2')} 
             </span>
           </div>
           <div className={clsx(styles.item, styles.item2)}>
@@ -456,9 +416,9 @@ const LandingPage = () => {
               alt=""
             />
             <div className={styles.wrapContent}>
-              <div className={styles.itemTitle}>Timber & wood</div>
+              <div className={styles.itemTitle}>{t('productDiversity.product1')} </div>
               <div className={styles.wrapContact}>
-                <a href="">Contact US</a>
+                <a href="">{t('productDiversity.contact1')}</a>
                 <NextIcon />
               </div>
             </div>
@@ -473,9 +433,9 @@ const LandingPage = () => {
               alt=""
             />
             <div className={styles.wrapContent}>
-              <div className={styles.itemTitle}>Industrial products</div>
+              <div className={styles.itemTitle}>{t('productDiversity.product2')}</div>
               <div className={styles.wrapContact}>
-                <a href="">Contact US</a>
+                <a href="">{t('productDiversity.contact2')}</a>
                 <NextIcon />
               </div>
             </div>
@@ -490,9 +450,9 @@ const LandingPage = () => {
               alt=""
             />
             <div className={styles.wrapContent}>
-              <div className={styles.itemTitle}>Building & construction materials</div>
+              <div className={styles.itemTitle}>{t('productDiversity.product3')}</div>
               <div className={styles.wrapContact}>
-                <a href="">Contact US</a>
+                <a href="">{t('productDiversity.contact3')}</a>
                 <NextIcon />
               </div>
             </div>
@@ -507,9 +467,9 @@ const LandingPage = () => {
               alt=""
             />
             <div className={styles.wrapContent}>
-              <div className={styles.itemTitle}>FLY ASH</div>
+              <div className={styles.itemTitle}>{t('productDiversity.product4')}</div>
               <div className={styles.wrapContact}>
-                <a href="">Contact US</a>
+                <a href="">{t('productDiversity.contact4')}</a>
                 <NextIcon />
               </div>
             </div>
@@ -524,9 +484,9 @@ const LandingPage = () => {
               alt=""
             />
             <div className={styles.wrapContent}>
-              <div className={styles.itemTitle}>Agricultural products</div>
+              <div className={styles.itemTitle}>{t('productDiversity.product5')}</div>
               <div className={styles.wrapContact}>
-                <a href="">Contact US</a>
+                <a href="">{t('productDiversity.contact5')}</a>
                 <NextIcon />
               </div>
             </div>
@@ -544,20 +504,18 @@ const LandingPage = () => {
         </div>
         <div className={styles.spacing}>
           <div className={styles.ourTeam}>
-            <div className={styles.teamTitle}>Our Team</div>
+            <div className={styles.teamTitle}>{t('ourTeam.title')}</div>
             <div className={styles.description}>
-              IDS has a group of knowledgeable experts that enable us to offer each client the suitable services they
-              need. Strong human resources who are eager to learn and always follow the core value “Trustworthiness –
-              Integrity – Speed – Innovation – Creativity” is the background to serve clients.
+            {t('ourTeam.des1')}
               <br />
               <br />
-              IDS connects to the source of product supply easily.
+              {t('ourTeam.des2')}
             </div>
             <Row gutter={[16, 0]} className={styles.listCard}>
               <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Joe Nguyen</span>
+                    <span className={styles.name}>{t('ourTeam.name1')}</span>
                     <span className={styles.wrapImages}>
                       <span className={styles.wrapIcon}>
                         <PhoneIcon />
@@ -567,7 +525,7 @@ const LandingPage = () => {
                       </span>
                     </span>
                   </div>
-                  <div className={styles.job}>Company President</div>
+                  <div className={styles.job}>{t('ourTeam.pos1')}</div>
                   <div className={styles.wrapAvatar}>
                     <Image
                       priority={true}
@@ -581,15 +539,14 @@ const LandingPage = () => {
                     />
                   </div>
                   <div className={styles.script}>
-                    Market volatility causes significant challenges to procurement, we are here to help you master the
-                    game.
+                  {t('ourTeam.desPos1')}
                   </div>
                 </div>
               </Col>
               <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Hua Hai Long</span>
+                    <span className={styles.name}>{t('ourTeam.name2')}</span>
                     <span className={styles.wrapImages}>
                       <span className={styles.wrapIcon}>
                         <PhoneIcon />
@@ -599,39 +556,7 @@ const LandingPage = () => {
                       </span>
                     </span>
                   </div>
-                  <div className={styles.job}>Company President</div>
-                  <div className={styles.wrapAvatar}>
-                    <Image
-                      priority={true}
-                      sizes={'fill'}
-                      objectFit="cover"
-                      alt="avatar"
-                      src="/images/avatar-2.png"
-                      className={styles.avatar}
-                      width={222}
-                      height={222}
-                    />
-                  </div>
-                  <div className={styles.script}>
-                    A strong desire to flourish, the connection creates value and being willing to learn are the basis
-                    which links IDS’s clients to the development of the firm.
-                  </div>
-                </div>
-              </Col>
-              <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
-                <div className={styles.wrapCard}>
-                  <div className={styles.header}>
-                    <span className={styles.name}>Tran Cong Hau</span>
-                    <span className={styles.wrapImages}>
-                      <span className={styles.wrapIcon}>
-                        <PhoneIcon />
-                      </span>
-                      <span className={styles.wrapIcon}>
-                        <EmailIcon />
-                      </span>
-                    </span>
-                  </div>
-                  <div className={styles.job}>Company President</div>
+                  <div className={styles.job}>{t('ourTeam.pos2')}</div>
                   <div className={styles.wrapAvatar}>
                     <Image
                       priority={true}
@@ -645,14 +570,14 @@ const LandingPage = () => {
                     />
                   </div>
                   <div className={styles.script}>
-                    We work for you as an extension of your business in helping you thrive sustainably.
+                  {t('ourTeam.desPos2')}
                   </div>
                 </div>
               </Col>
               <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Daniel Hearn</span>
+                    <span className={styles.name}>{t('ourTeam.name3')}</span>
                     <span className={styles.wrapImages}>
                       <span className={styles.wrapIcon}>
                         <PhoneIcon />
@@ -662,21 +587,52 @@ const LandingPage = () => {
                       </span>
                     </span>
                   </div>
-                  <div className={styles.job}>Company President</div>
+                  <div className={styles.job}>{t('ourTeam.pos3')}</div>
                   <div className={styles.wrapAvatar}>
                     <Image
                       priority={true}
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar-4.png"
+                      src="/images/avatar.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
                     />
                   </div>
                   <div className={styles.script}>
-                    We work for you as an extension of your business in helping you thrive sustainably.
+                  {t('ourTeam.desPos3')}
+                  </div>
+                </div>
+              </Col>
+              <Col className={styles.card} xs={24} sm={12} md={12} lg={6}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>{t('ourTeam.name4')}</span>
+                    <span className={styles.wrapImages}>
+                      <span className={styles.wrapIcon}>
+                        <PhoneIcon />
+                      </span>
+                      <span className={styles.wrapIcon}>
+                        <EmailIcon />
+                      </span>
+                    </span>
+                  </div>
+                  <div className={styles.job}>{t('ourTeam.pos4')}</div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>
+                  {t('ourTeam.desPos4')}
                   </div>
                 </div>
               </Col>
@@ -688,7 +644,7 @@ const LandingPage = () => {
         </div>
         <div className={styles.spacing}>
           <div className={styles.clientSay}>
-            <div className={styles.clientTitle}>What do our clients say?</div>
+            <div className={styles.clientTitle}>{t('clientSays.title')}</div>
             <Row gutter={[84, 0]}>
               <Col className={styles.left} xs={24} sm={24} md={24} lg={9}>
                 <div className={styles.wrapImage}>
@@ -716,12 +672,10 @@ const LandingPage = () => {
                   ></Image>
                 </div>
                 <div className={styles.text}>
-                  It has been a privilege working with Joe and Kenny, especially when the Covid-19 pandemic took a heavy
-                  toll on all businesses worldwide. IDS helped us to pull up a miracle: 60 containers of goods delivered
-                  successfully within 5 totally-woking-online months from the scratch
+                {t('clientSays.des')}
                 </div>
-                <div className={styles.name}>Matthew Vocale</div>
-                <div className={styles.profile}>Chief Supply Chain Office of 5B</div>
+                <div className={styles.name}>{t('clientSays.name')}</div>
+                <div className={styles.profile}>{t('clientSays.desName')}</div>
               </Col>
             </Row>
           </div>
@@ -735,9 +689,9 @@ const LandingPage = () => {
                   <div className={styles.wrapImage}>
                     <Image src="/images/vector-horizon.png" alt="vector" width={235} height={22} />
                   </div>
-                  <span className={styles.contactTitle}>CONTACT US</span>
+                  <span className={styles.contactTitle}>{t('contactUs.title')}</span>
                 </div>
-                <div className={styles.text}>Subscribe For Newsletter</div>
+                <div className={styles.text}>{t('contactUs.des')}</div>
                 <Row gutter={[15, 20]}>
                   <Col className={styles.input} span={12}>
                     <input placeholder="First name" type="text" />
@@ -754,14 +708,14 @@ const LandingPage = () => {
                   <Col className={styles.input} span={24}>
                     <textarea placeholder="Tell us about your products and projects" />
                   </Col>
-                  <Col span={4}>
-                    <button>SUBMIT</button>
+                  <Col span={5}>
+                    <button>{t('contactUs.button')}</button>
                   </Col>
                 </Row>
               </Col>
               <Col className={styles.wrapSocial} md={10}>
                 {/* <div className={styles.social}>
-                  <span>SEE MORE ABOUT US</span>
+                  <span>{t('contactUs.seeMore')}</span>
                   <div className={styles.listIcon}>
                     <a className={styles.wrapImage} href="">
                       <Image alt="facebook" width={20} height={40} src="/images/facebook.png"></Image>
@@ -770,13 +724,12 @@ const LandingPage = () => {
                       <Image alt="instagram" width={37} height={37} src="/images/linkedin.png"></Image>
                     </a>
                   </div>
-                </div> */}
+                </div>  */}
               </Col>
             </Row>
           </div>
         </div>
       </div>
-    </ScrollContainer>
   );
 };
 
