@@ -174,7 +174,7 @@ const LandingPage = () => {
               height={316}
               alt="hands"
               className={styles.image}
-              src="/images/hands.png"
+              src="/images/hand.png"
             />
           </Col>
         </Row>
@@ -419,7 +419,7 @@ const LandingPage = () => {
               <div className={styles.itemTitle}>{t('productDiversity.product1')} </div>
               <div className={styles.wrapContact}>
                 <a href="">{t('productDiversity.contact1')}</a>
-                <NextIcon />
+                <Image  src='/images/small-next.png' width={21} height={13.5}></Image>
               </div>
             </div>
           </div>
@@ -436,7 +436,7 @@ const LandingPage = () => {
               <div className={styles.itemTitle}>{t('productDiversity.product2')}</div>
               <div className={styles.wrapContact}>
                 <a href="">{t('productDiversity.contact2')}</a>
-                <NextIcon />
+                <Image  src='/images/small-next.png' width={21} height={13.5}></Image>
               </div>
             </div>
           </div>
@@ -453,7 +453,7 @@ const LandingPage = () => {
               <div className={styles.itemTitle}>{t('productDiversity.product3')}</div>
               <div className={styles.wrapContact}>
                 <a href="">{t('productDiversity.contact3')}</a>
-                <NextIcon />
+                <Image  src='/images/small-next.png' width={21} height={13.5}></Image>
               </div>
             </div>
           </div>
@@ -470,7 +470,7 @@ const LandingPage = () => {
               <div className={styles.itemTitle}>{t('productDiversity.product4')}</div>
               <div className={styles.wrapContact}>
                 <a href="">{t('productDiversity.contact4')}</a>
-                <NextIcon />
+                <Image  src='/images/small-next.png' width={21} height={13.5}></Image>
               </div>
             </div>
           </div>
@@ -487,7 +487,7 @@ const LandingPage = () => {
               <div className={styles.itemTitle}>{t('productDiversity.product5')}</div>
               <div className={styles.wrapContact}>
                 <a href="">{t('productDiversity.contact5')}</a>
-                <NextIcon />
+                <Image  src='/images/small-next.png' width={21} height={13.5}></Image>
               </div>
             </div>
           </div>

@@ -3,9 +3,8 @@ import Item from 'antd/lib/list/Item';
 import MenuIcon from 'assets/svg/Menu';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './styles.module.less';
-
 const Header = () => {
   const router = useRouter();
   const { pathname, asPath, query, locale } = router;
@@ -13,9 +12,15 @@ const Header = () => {
     console.log('zooo');
     router.replace({ pathname, query }, asPath, { locale: value });
   };
+  const localeCurrent = router.locale || 'en';
 
+  const [activeFlag,setActiveFlag] = useState('en'); 
+
+  useEffect(() => {
+    setActiveFlag(localeCurrent)
+  }, [locale])
   const menu = (
-    <Menu
+    <Menu className={styles.wrapMenu}
       onClick={(value) => {
         handleChangeLanguage(value.key);
       }}
@@ -23,11 +28,23 @@ const Header = () => {
       items={[
         {
           key: 'en',
-          label: <span>English</span>,
+          label: <span className={styles.flag}><Image objectFit='contain' width={24} height={24} alt='flag' src='/images/en.png'></Image><span>English</span></span>,
         },
         {
           key: 'vn',
-          label: <span>Vietnam</span>,
+          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/vn.png'></Image> <span>Vietnam</span></span>,
+        },
+        {
+          key: 'it',
+          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/it.png'></Image> <span>Italy</span></span>,
+        },
+        {
+          key: 'cn',
+          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/cn.png'></Image> <span>China</span></span>,
+        },
+        {
+          key: 'kr',
+          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/kr.png'></Image> <span>Korea</span></span>,
         },
       ]}
     ></Menu>
@@ -38,7 +55,7 @@ const Header = () => {
       items={[
         {
           key: 'AboutUs',
-          label: <a>AboutUs</a>,
+          label: <a>About Us</a>,
         },
         {
           key: 'Journey',
@@ -46,7 +63,7 @@ const Header = () => {
         },
         {
           key: 'WhyIDS',
-          label: <a>WhyIDS</a>,
+          label: <a>Why IDS</a>,
         },
         {
           key: 'Product',
@@ -101,8 +118,8 @@ const Header = () => {
         </Dropdown>
         <Dropdown className={styles.dropDown} overlay={menu}>
           <div className={styles.wrapContent}>
-            <Image width={24} height={24} alt="country" src="/images/country-1.png" />
-            <a onClick={(e) => e.preventDefault()}>EN</a>
+            <Image width={24} height={24} alt="country" src={`/images/${activeFlag}.png`} />
+            <a onClick={(e) => e.preventDefault()}>{activeFlag}</a>
             <Image width={12} height={6} alt="drop" src="/images/down-icon.png" />
           </div>
         </Dropdown>

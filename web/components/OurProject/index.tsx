@@ -45,7 +45,7 @@ const OurProject = () => {
           swipeToSlide={true}
           className={styles.slider}
           slidesToShow={3}
-          // autoplay={true}
+          autoplay={true}
           centerPadding={'10px'}
         >
           <div className={styles.itemCarousel}>

@@ -7,6 +7,10 @@
   padding: 77px 0;
   .location {
     display: flex;
+    &>.wrapImage:first-child{
+      min-width: 20px;
+      min-height: 20px;
+    }
     .wrapText {
       margin-left: 10px;
     }
@@ -17,6 +21,12 @@
       display: flex;
       .text {
         margin-left: 10px;
+      }
+    }
+    .wrapIcon{
+      margin-top: 10px;
+      &>.wrapImage:first-child{
+        margin-right: 20px;
       }
     }
   }

@@ -10,11 +10,9 @@ const Footer = () => {
       <div className={styles.spacing}>
         <Row>
           <Col md={24} lg={24} xl={13} className={styles.location}>
-            <div>
               <div className={styles.wrapImage}>
-                <Image objectFit="contain" width={18} height={22} alt="location" src="/images/location.png"></Image>
+                <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
               </div>
-            </div>
 
             <div className={styles.wrapText}>
               <p>MEL: Level 1, Suite 1, 182 Victoria Parade, East Melbourne 3002, Victoria, Australia</p>
@@ -28,19 +26,31 @@ const Footer = () => {
               <div className={styles.wrapImage}>
                 <Image width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
-              <div className={styles.text}>AUS: +61411139957</div>
+              <div className={styles.text}><strong>AUS:</strong> +61411139957<br/> <strong>mr.Joe</strong></div>
             </div>
             <div className={styles.cardContact}>
-              <div className={clsx(styles.wrapImage, styles.hidden)}>
-                <Image objectFit="contain" width={20} height={16} alt="phone" src="/images/email.png"></Image>
+              <div className={clsx(styles.wrapImage,styles.hidden)}>
+                <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
-              <div className={styles.text}>VN: +84905325555</div>
+              <div className={styles.text}><strong>VN:</strong> +84905325555 <br/> <strong>mr.Long</strong></div>
             </div>
             <div className={styles.cardContact}>
-              <div className={clsx(styles.wrapImage, styles.hidden)}>
-                <Image objectFit="contain" width={20} height={16} alt="phone" src="/images/email.png"></Image>
+              <div className={clsx(styles.wrapImage)}>
+                <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/email.png"></Image>
               </div>
               <div className={styles.text}>business@ids.com</div>
+            </div>
+            <div className={clsx(styles.cardContact,styles.wrapIcon)}>
+              <div className={styles.wrapImage}>
+                <a target='_blank' href='https://www.facebook.com/intelligentdirectsourcing'>
+                <Image width={32} height={32} alt="facebook" src="/images/facebook.png"></Image>
+                </a>
+              </div>
+              <div className={styles.wrapImage}>
+                <a target='_blank' href='https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y='>
+                <Image width={32} height={32} src="/images/linkedin.png"></Image>
+                </a>
+              </div>
             </div>
           </Col>
           <Col className={clsx(styles.listSection, styles.hiddenMd)} sm={24} md={12} lg={8} xl={6}>
@@ -56,7 +66,6 @@ const Footer = () => {
               <div className={styles.text}>PRODUCT DIVERSITY</div>
               <div className={styles.text}>CONTACT US</div>
             </div>
-
             <div className={styles.row}>
               <div className={styles.text}>OUR PROJECT</div>
             </div>

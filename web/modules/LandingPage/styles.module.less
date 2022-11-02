@@ -522,6 +522,7 @@
       }
       .text {
         font-size: 0.8125rem;
+        text-align: center;
       }
     }
   }
@@ -686,6 +687,7 @@
       align-items: center;
     }
   }
+
   .header {
     display: flex;
     align-items: center;
@@ -909,11 +911,22 @@
     .feature {
       flex-direction: column;
       .leftFeature {
+      display: block !important;
+        .wrapImage{
+          margin: auto;
+        }
         justify-content: center !important;
         align-items: flex-start !important;
         .featureTitle {
-          align-self: center;
+          margin-left: 0 !important;
+          margin-top: 10px;
+          text-align: center ;
+          width: 100%;
         }
+        
+      }
+      .text{
+        text-align: center !important;
       }
     }
   }
