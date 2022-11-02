@@ -1,0 +1,120 @@
+{
+    "common": {
+      "home": "Khanh Ha Khung Nhung ma JP"
+    },
+    "sourcing": {
+      "title1": "Approvvigionamento realizzato",
+      "title2": "Facile ed efficace",
+      "intel": "Gruppo di approvvigionamento diretto intelligente",
+      "des": "IDS (Intelligent Direct Sourcing) è stata fondata con l'obiettivo di creare una connessione tra i clienti B2B (Business to Business) in tutto il mondo e i produttori in Vietnam in modo da raggiungere i massimi standard di qualità, tempi di consegna e valore.",
+      "contactBut": "CONTATTACI"
+    },
+    "aboutUs": {
+      "title": "Chi siamo",
+      "des1" : "Il Vietnam, che è un paese con una solida base istituzionale, molte risorse e prezzi ragionevoli, si è attivamente integrato nell'economia globale attraverso un ampio sistema di accordi di libero scambio.",
+      "des2": "Nell'attuale macro-ambiente vantaggioso, l'obiettivo di IDS è assistere le unità di acquisto internazionali nel chiarire e sistematizzare i piani di acquisto al fine di ottenere un'efficienza ottimale."
+    },
+    "ourJourney": {
+      "title": "Il nostro viaggio",
+      "des1": "Il viaggio di IDS è iniziato nel 2021, ispirato dalla tenacia degli effetti disastrosi della pandemia di Covid-19. Con un team che ha sia la lungimiranza che la volontà di imparare, IDS espande costantemente la sua rete di approvvigionamento attraverso Il Vietnam, che è la destinazione ideale per i piani di acquisto nel nuovo contesto.",
+      "des2": "Attualmente, IDS ha non solo la sua sede centrale a Ho Chi Minh City (Vietnam), ma anche due uffici a Melbourne (Australia) e Da Nang (Vietnam). Siamo fiduciosi di poter supportare partner internazionali, in particolare quelli in Nord America e Australia, accedendo al servizio di fornitura in modo semplice, efficiente e rapido.",
+      "des3": "IDS ha stabilito e consolidato rapporti con centinaia di stabilimenti che producono un'ampia gamma di merci dopo un anno di attività, come 5B - Solar Reinvented, VBP Interior, Aldi Supermarket, Austdoor Group JSC, Watt EV. Grazie al obiettivo di diversificare i nostri servizi, abbiamo prosperato ed esaminato attentamente il settore delle forniture del Vietnam.",
+      "buyersTitle": "compratori internazionali",
+      "buyer1": "Australia",
+      "buyer2": "Nordamericano"
+    },
+    "offices": {
+      "title": "UFFICI",
+      "country1": "Australia",
+      "office1": "SYDNEY",
+      "country2": "Australia",
+      "office2": "MELBOURNE",
+      "country3": "Vietnam",
+      "office3": "DANANG",
+      "country4": "Vietnam",
+      "office4": "HO CHI MINH"
+    },
+    "vision": {
+      "title": "Visione",
+      "des1": "Il miglior business che fornisce",
+      "des2": "servizi di supply chain in Vietnam"
+    },
+    "mission": {
+      "title": "Missione",
+      "des": "IDS è un ponte che crea valore per la possibilità di sviluppare imprese e imprese internazionali in Vietnam. Forniamo la massima esperienza di servizio ai clienti B2B (Business to Business) con il criterio \"Qualità - Velocità - Valore\"."
+    },
+    "quote": {
+      "des": "Quando pensi al reperimento dei prodotti reso facile, pensa a noi!",
+      "from": "- Dal team IDS -"
+    },
+    "coreValue": {
+      "core1": "Integrità",
+      "desCore1": "Le basi per avere successo.",
+      "core2": "Affidabilità",
+      "desCore2": "L'affidabilità viene prima di tutto.",
+      "core3": "VELOCITÀ",
+      "desCore3": "Il valore viene creato dal controllo della velocità.",
+      "core4": "Innovazione",
+      "desCore4": "Aggiorna lo standard giorno per giorno.",
+      "core5": "Creatività",
+      "desCore5": "Ogni problema ha una soluzione"
+    },
+    "whyIds": {
+      "title": "PERCHÉ IDS?",
+      "reason1": "Rete",
+      "reason2": "Specializzarsi",
+      "reason3": "Professionista",
+      "des1": "Rete intensiva con i principali produttori vietnamiti",
+      "des2": "Comprensione approfondita dei prodotti e del modo di fare affari in Vietnam",
+      "des3": "Assistenza professionale a tutte le visite degli acquirenti"
+    },
+    "productDiversity": {
+      "title1": "Prodotto",
+      "title2": " Diversità",
+      "product1": "Legno e legno",
+      "product2": "Prodotti industriali",
+      "product3": "Materiali da costruzione e da costruzione",
+      "product4": "CENERE VOLANTE",
+      "product5": "Prodotti agricoli",
+      "contact1": "Contattaci",
+      "contact2": "Contattaci",
+      "contact3": "Contattaci",
+      "contact4": "ContattaciS",
+      "contact5": "Contattaci"
+    },
+    "ourProjects":{
+      "title": "I nostri progetti",
+      "des": "IDS vuole sempre essere un compagno per realizzare esperienze collaborative che creino il valore esistente.",
+      "prev": "Precedente",
+      "next": "Avanti"
+    },
+    "ourTeam": {
+      "title": "La nostra squadra",
+      "des1": "IDS dispone di un gruppo di esperti competenti che ci consentono di offrire a ogni cliente i servizi adeguati di cui ha bisogno. Risorse umane forti che sono desiderose di imparare e seguono sempre il valore fondamentale \"Affidabilità - Integrità - Velocità - Innovazione - Creatività\" è lo sfondo per servire i clienti.",
+      "des2": "IDS si collega facilmente alla fonte di fornitura del prodotto.",
+      "name1": "Joe Nguyen",
+      "name2": "Hua Hai Long",
+      "name3": "Tran Cong Hau",
+      "name4": "Daniel Hearn",
+      "pos1": "Presidente della Società",
+      "pos2": "Direttore Generale",
+      "pos3": "VICE direttore generale",
+      "pos4": "Direttore di IDS Australia",
+      "desPos1": "La volatilità del mercato causa sfide significative agli acquisti, siamo qui per aiutarti a padroneggiare il gioco.",
+      "desPos2": "Un forte desiderio di prosperare, la connessione crea valore e la volontà di imparare sono le basi che collegano i clienti di IDS allo sviluppo dell'azienda.",
+      "desPos3": "Lavoriamo per te come estensione della tua attività per aiutarti a prosperare in modo sostenibile.",
+      "desPos4": "Lavoriamo per te come estensione della tua attività per aiutarti a prosperare in modo sostenibile."
+    },
+    "clientSays": {
+      "title": "Cosa dicono i nostri clienti?",
+      "des": "È stato un privilegio lavorare con Joe e Kenny, soprattutto quando la pandemia di Covid-19 ha messo a dura prova tutte le aziende del mondo. IDS ci ha aiutato a realizzare un miracolo: 60 container di merci consegnati con successo in 5 totali -woking-online mesi da zero",
+      "name": "Matteo Vocale",
+      "desName": "Chief Supply Chain Office of 5B"
+    },
+    "contactUs": {
+      "title": "CONTATTACI",
+      "des": "Iscriviti alla newsletter",
+      "button": "INVIA",
+      "seeMore": "VEDI DI PIÙ SU DI NOI"
+    }
+  }

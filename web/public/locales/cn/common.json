@@ -1,0 +1,120 @@
+{
+    "common": {
+      "home": "Khanh Ha Khung Nhung ma JP"
+    },
+    "sourcing": {
+      "title1": "采购制造 ",
+      "title2": "简单有效",
+      "intel": "智能直采组",
+      "des": "IDS (Intelligent Direct Sourcing) 成立的目标是在全球 B2B(企业对企业) 客户和越南制造商之间建立联系，以达到质量、周转时间和价值的最高标准。",
+      "contactBut": "联系我们"
+    },
+    "aboutUs": {
+      "title": "关于我们",
+      "des1" : "越南是一个制度基础雄厚、资源丰富、物价合理的国家，通过广泛的自由贸易协定体系积极融入全球经济。",
+      "des2": "在当前有利的宏观环境下, IDS的目标是协助国际采购单位明确采购计划, 系统化采购计划, 以达到最优效率。"
+    },
+    "ourJourney": {
+      "title": "我们的旅程",
+      "des1": "IDS 的征程始于 2021 年，受到 Covid-19 大流行灾难性影响的顽强启发。IDS 拥有一支具有远见和学习意愿的团队，不断扩大其供应网络。越南是新背景下采购计划的理想目的地。",
+      "des2": "目前, IDS不仅总部设在胡志明市(越南, 还在墨尔本（澳大利亚）和岘港（越南）设有两个办事处。我们有信心能够支持国际合作伙伴，尤其是北美和澳大利亚的用户可以轻松、高效、快速地访问供应服务。",
+      "des3": "经过一年的运营, IDS 已经与数百家生产各种商品的工厂建立并巩固了关系，例如 5B - Solar Reinvented、VBP Interior、Aldi Supermarket、Austdoor Group JSC、Watt EV。感谢为实现服务多元化的目标, 我们蓬勃发展并仔细研究了越南的供应行业。",
+      "buyersTitle": "国际买家",
+      "buyer1": "澳大利亚",
+      "buyer2": "北美"
+    },
+    "offices": {
+      "title": "办公室",
+      "country1": "Australia",
+      "office1": "SYDNEY",
+      "country2": "Australia",
+      "office2": "MELBOURNE",
+      "country3": "Vietnam",
+      "office3": "DANANG",
+      "country4": "Vietnam",
+      "office4": "HO CHI MINH"
+    },
+    "vision": {
+      "title": "愿景",
+      "des1": "提供顶级业务",
+      "des2": "越南供应链服务"
+    },
+    "mission": {
+      "title": "使命",
+      "des": "IDS 是为在越南发展国际企业和业务的可能性创造价值的桥梁。我们以“质量 - 速度 - 价值”的标准为 B2B 客户（企业对企业）提供最大的服务体验。"
+    },
+    "quote": {
+      "des": "当您想到产品采购变得容易时，请想到我们！",
+      "from": "-来自 IDS 团队-"
+    },
+    "coreValue": {
+      "core1": "诚信",
+      "desCore1": "成功的基础。",
+      "core2": "可信度",
+      "desCore2": "诚信第一。",
+      "core3": "速度",
+      "desCore3": "速度控制创造价值",
+      "core4": "创新",
+      "desCore4": "逐日升级标准。",
+      "core5": "创意",
+      "desCore5": "每个问题都有解决方案。"
+    },
+    "whyIds": {
+      "title": "为什么是 IDS?",
+      "reason1": "网络",
+      "reason2": "专业化",
+      "reason3": "专业",
+      "des1": "与越南领先制造商的密集网络",
+      "des2": "深入了解产品和越南商业方式",
+      "des3": "专业协助所有买家来访"
+    },
+    "productDiversity": {
+      "title1": "产品",
+      "title2": "多样性",
+      "product1": "木材和木材",
+      "product2": "工业产品",
+      "product3": "建筑和建筑材料",
+      "product4": "飞灰",
+      "product5": "农产品",
+      "contact1": "联系我们",
+      "contact2": "联系我们",
+      "contact3": "联系我们",
+      "contact4": "联系我们",
+      "contact5": "联系我们"
+    },
+    "ourProjects":{
+      "title": "我们的项目",
+      "des": "IDS 一直希望成为伙伴，以实现创造存在价值的协作体验。",
+      "prev": "上一个",
+      "next": "下一个"
+    },
+    "ourTeam": {
+      "title": "我们的团队 ",
+      "des1": "IDS拥有一批知识渊博的专家, 使我们能够为每个客户提供他们需要的合适的服务。强大的人力资源, 渴望学习并始终遵循“诚信-诚信-速度-创新-创造力”的核心价值观是为客户服务的背景。",
+      "des2": "IDS 轻松连接产品供应源。",
+      "name1": "Joe Nguyen",
+      "name2": "Hua Hai Long",
+      "name3": "Tran Cong Hau",
+      "name4": "Daniel Hearn",
+      "pos1": "公司总裁",
+      "pos2": "总经理",
+      "pos3": "副总经理",
+      "pos4": "IDS 澳大利亚总监",
+      "desPos1": "市场波动对采购造成重大挑战，我们助您一臂之力。",
+      "desPos2": "蓬勃发展的强烈愿望、人脉创造价值和乐于学习是 IDS 的客户与公司发展联系在一起的基础。",
+      "desPos3": "我们为您服务，作为您业务的延伸，帮助您实现可持续发展。",
+      "desPos4": "我们为您服务，作为您业务的延伸，帮助您实现可持续发展。"
+    },
+    "clientSays": {
+      "title": "我们的客户怎么说？",
+      "des": "与 Joe 和 Kenny 合作是一种荣幸，尤其是在 Covid-19 大流行对全球所有企业造成沉重打击的情况下。IDS 帮助我们创造了一个奇迹：总共 5 个集装箱内成功交付了 60 个货物- 从头开始​​在线几个月",
+      "name": "Matthew Vocale",
+      "desName": "5B 首席供应链办公室"
+    },
+    "contactUs": {
+      "title": "联系我们",
+      "des": "订阅时事通讯",
+      "button": "提交",
+      "seeMore": "查看更多关于我们的信息"
+    }
+  }
