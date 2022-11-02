@@ -10,9 +10,9 @@ const Footer = () => {
       <div className={styles.spacing}>
         <Row>
           <Col md={24} lg={24} xl={13} className={styles.location}>
-              <div className={styles.wrapImage}>
-                <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
-              </div>
+            <div className={styles.wrapImage}>
+              <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
+            </div>
 
             <div className={styles.wrapText}>
               <p>MEL: Level 1, Suite 1, 182 Victoria Parade, East Melbourne 3002, Victoria, Australia</p>
@@ -26,13 +26,18 @@ const Footer = () => {
               <div className={styles.wrapImage}>
                 <Image width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
-              <div className={styles.text}><strong>AUS:</strong> +61411139957<br/> <strong>mr.Joe</strong></div>
+              <div className={styles.text}>
+                <strong>AUS:</strong> +61411139957
+                <br /> <strong>mr.Joe</strong>
+              </div>
             </div>
             <div className={styles.cardContact}>
-              <div className={clsx(styles.wrapImage,styles.hidden)}>
+              <div className={clsx(styles.wrapImage, styles.hidden)}>
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
-              <div className={styles.text}><strong>VN:</strong> +84905325555 <br/> <strong>mr.Long</strong></div>
+              <div className={styles.text}>
+                <strong>VN:</strong> +84905325555 <br /> <strong>mr.Long</strong>
+              </div>
             </div>
             <div className={styles.cardContact}>
               <div className={clsx(styles.wrapImage)}>
@@ -40,15 +45,15 @@ const Footer = () => {
               </div>
               <div className={styles.text}>business@ids.com</div>
             </div>
-            <div className={clsx(styles.cardContact,styles.wrapIcon)}>
+            <div className={clsx(styles.cardContact, styles.wrapIcon)}>
               <div className={styles.wrapImage}>
-                <a target='_blank' href='https://www.facebook.com/intelligentdirectsourcing'>
-                <Image width={32} height={32} alt="facebook" src="/images/facebook.png"></Image>
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/intelligentdirectsourcing">
+                  <Image width={32} height={32} alt="facebook" src="/images/facebook.png"></Image>
                 </a>
               </div>
               <div className={styles.wrapImage}>
-                <a target='_blank' href='https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y='>
-                <Image width={32} height={32} src="/images/linkedin.png"></Image>
+                <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
+                  <Image width={32} height={32} src="/images/linkedin.png"></Image>
                 </a>
               </div>
             </div>
