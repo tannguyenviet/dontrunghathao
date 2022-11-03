@@ -644,7 +644,7 @@ const LandingPage = () => {
         {/* <div className={styles.bg}>12512</div> */}
         <div className={styles.spacing}>
           <Row gutter={[93, 0]}>
-            <Col md={14}>
+            <Col md={16}>
               <div className={styles.header}>
                 <div className={styles.wrapImage}>
                   <Image src="/images/vector-horizon.png" alt="vector" width={235} height={22} />
@@ -673,8 +673,8 @@ const LandingPage = () => {
                 </Col>
               </Row>
             </Col>
-            <Col className={styles.wrapSocial} md={10}>
-              {/* <div className={styles.social}>
+            {/* <Col className={styles.wrapSocial} md={10}>
+              <div className={styles.social}>
                   <span>{t('contactUs.seeMore')}</span>
                   <div className={styles.listIcon}>
                     <a className={styles.wrapImage} href="">
@@ -684,8 +684,8 @@ const LandingPage = () => {
                       <Image alt="instagram" width={37} height={37} src="/images/linkedin.png"></Image>
                     </a>
                   </div>
-                </div>  */}
-            </Col>
+                </div> 
+            </Col> */}
           </Row>
         </div>
       </div>

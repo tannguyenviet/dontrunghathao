@@ -26,11 +26,11 @@ const OurProject = () => {
           value.
         </div>
         <div className={styles.wrapArrows}>
-          <span onClick={goNext} className={styles.arrow}>
+          <span onClick={goPrev} className={styles.arrow}>
             <PreviousIcon />
             <span>Previous&nbsp;/</span>
           </span>
-          <span onClick={goPrev} className={styles.arrow}>
+          <span onClick={goNext} className={styles.arrow}>
             <span>&nbsp;Next</span>
             <NextIcon color='#8a1722' />
           </span>
