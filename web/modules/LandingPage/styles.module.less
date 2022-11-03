@@ -522,7 +522,6 @@
       }
       .text {
         font-size: 0.8125rem;
-        text-align: center;
       }
     }
   }
@@ -606,8 +605,6 @@
   .clientTitle {
     font-size: 3.875rem;
     margin-bottom: 95px;
-    font-weight: 600;
-    text-align: center;
   }
   .left {
     .bg {
@@ -687,7 +684,6 @@
       align-items: center;
     }
   }
-
   .header {
     display: flex;
     align-items: center;
@@ -786,9 +782,12 @@
           .leftFeature {
             justify-content: space-around;
             margin-bottom: 20px;
+            .featureTitle {
+              width: 220px;
+            }
           }
           .text {
-            justify-content: center;
+            justify-content: flex-start;
           }
         }
       }
@@ -875,13 +874,19 @@
     .feature {
       flex-direction: row;
       .leftFeature {
+        flex-direction: column;
         justify-content: center !important;
-        align-items: flex-start !important;
         .featureTitle {
           align-self: center;
+          width: unset !important;
+          margin-left: 0 !important;
         }
       }
+      .text{
+        justify-content: center !important;
+      }
     }
+
   }
   .gallery {
     .item {
@@ -899,11 +904,6 @@
   }
 }
 @media (max-width: 576px) {
-  .clientSay{
-    .clientTitle{
-      text-align: center;
-    }
-  }
   .why {
     .right {
       width: 100%;
@@ -911,19 +911,15 @@
     .feature {
       flex-direction: column;
       .leftFeature {
-      display: block !important;
-        .wrapImage{
-          margin: auto;
-        }
         justify-content: center !important;
         align-items: flex-start !important;
         .featureTitle {
-          margin-left: 0 !important;
-          margin-top: 10px;
-          text-align: center ;
-          width: 100%;
+          align-self: center;
         }
-        
+        .wrapImage{
+          margin: auto;
+          margin-bottom: 16px;
+        }
       }
       .text{
         text-align: center !important;

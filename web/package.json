@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ids-networks.com",
+  "homepage": "https://ids-networks.com",
   "name": "web",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "@auth0/auth0-react": "^1.12.0",
     "@reduxjs/toolkit": "^1.8.6",
     "antd": "^4.23.5",
+    "aos": "^2.3.4",
     "clsx": "^1.2.1",
     "less": "^4.1.3",
     "less-loader": "^11.1.0",

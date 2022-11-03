@@ -43,7 +43,7 @@ const Footer = () => {
               <div className={clsx(styles.wrapImage)}>
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/email.png"></Image>
               </div>
-              <div className={styles.text}>business@ids.com</div>
+              <div className={styles.text}>business@ids-networks.com</div>
             </div>
             <div className={clsx(styles.cardContact, styles.wrapIcon)}>
               <div className={styles.wrapImage}>
@@ -53,7 +53,12 @@ const Footer = () => {
               </div>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
-                  <Image width={32} height={32} src="/images/linkedin.png"></Image>
+                  <Image alt='linkedin' width={32} height={32} src="/images/linkedin.png"></Image>
+                </a>
+              </div>
+              <div className={styles.wrapImage}>
+                <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
+                  <Image alt='instagram' width={32} height={32} src="/images/instagram-2.png"></Image>
                 </a>
               </div>
             </div>

@@ -59,7 +59,7 @@ const Header = () => {
         },
         {
           key: 'Journey',
-          label: <a>Journey</a>,
+          label: <a>Jour ney</a>,
         },
         {
           key: 'WhyIDS',
@@ -92,13 +92,13 @@ const Header = () => {
         </a>
         <ul className={styles.listNav}>
           <li>
-            <a>AboutUs</a>
+            <a>About Us</a>
           </li>
           <li>
             <a>Journey</a>
           </li>
           <li>
-            <a>WhyIDS</a>
+            <a>Why IDS</a>
           </li>
           <li>
             <a>Product</a>
@@ -113,15 +113,16 @@ const Header = () => {
             <a>Clients</a>
           </li>
         </ul>
-        <Dropdown className={styles.sectionDropdown} overlay={sectionMenu}>
-          <MenuIcon />
-        </Dropdown>
+
         <Dropdown className={styles.dropDown} overlay={menu}>
           <div className={styles.wrapContent}>
             <Image width={24} height={24} alt="country" src={`/images/${activeFlag}.png`} />
             <a onClick={(e) => e.preventDefault()}>{activeFlag}</a>
             <Image width={12} height={6} alt="drop" src="/images/down-icon.png" />
           </div>
+        </Dropdown>
+        <Dropdown className={styles.sectionDropdown} overlay={sectionMenu}>
+          <MenuIcon />
         </Dropdown>
       </div>
     </div>
