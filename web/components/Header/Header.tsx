@@ -46,6 +46,10 @@ const Header = () => {
           key: 'kr',
           label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/kr.png'></Image> <span>Korea</span></span>,
         },
+        {
+          key: 'ru',
+          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/ru.png'></Image> <span>Russian</span></span>,
+        },
       ]}
     ></Menu>
   );
