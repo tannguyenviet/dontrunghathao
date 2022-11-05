@@ -63,7 +63,7 @@ const Header = () => {
         },
         {
           key: 'Journey',
-          label: <a>Jour ney</a>,
+          label: <a>Journey</a>,
         },
         {
           key: 'WhyIDS',

@@ -27,8 +27,8 @@ const Footer = () => {
                 <Image width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
-                <strong>AUS:</strong> +61411139957
-                <br /> <strong>Mr.Joe</strong>
+                <strong>AUS-Melbourne:</strong> +61411139957
+                <br /> <strong>Joe Nguyen</strong>
               </div>
             </div>
             <div className={styles.cardContact}>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
-                <strong>VN:</strong> +84905325555 <br /> <strong>Mr.Long</strong>
+                <strong>VN:</strong> +84905325555 <br /> <strong>Hua Hai Long</strong>
               </div>
             </div>
             <div className={styles.cardContact}>
