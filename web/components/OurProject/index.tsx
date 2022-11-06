@@ -16,7 +16,7 @@ const OurProject = () => {
     carouselRef.current?.prev();
   };
   return (
-    <div className={styles.ourProject}>
+    <div  className={styles.ourProject}>
       <div className={styles.bgLeft}></div>
       <div className={styles.bgRight}></div>
       <div className={styles.left}>

@@ -3,10 +3,26 @@ import Item from 'antd/lib/list/Item';
 import MenuIcon from 'assets/svg/Menu';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import styles from './styles.module.less';
-const Header = () => {
+interface Props {
+  // handleScroll:Function;
+  aboutUsRef:React.MutableRefObject<null>
+}
+const Header :FC<Props> = ({aboutUsRef}) => {
   const router = useRouter();
+  const handleScroll = (sectionId:string) =>{
+    console.log('zooo');
+    // const selector = "#" + sectionId ;
+    const element = document.getElementById(sectionId);
+    console.log({sectionId},{element},element?.offsetTop);
+    
+    window?.scrollTo({
+      top: element?.offsetTop-120,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
   const { pathname, asPath, query, locale } = router;
   const handleChangeLanguage = (value?: string) => {
     console.log('zooo');
@@ -59,31 +75,31 @@ const Header = () => {
       items={[
         {
           key: 'AboutUs',
-          label: <a>About Us</a>,
+          label: <a onClick={()=>{handleScroll('aboutUs')}}>About Us</a>,
         },
         {
           key: 'Journey',
-          label: <a>Journey</a>,
+          label: <a onClick={()=>{handleScroll('journey')}} >Journey</a>,
         },
         {
           key: 'WhyIDS',
-          label: <a>Why IDS</a>,
+          label: <a onClick={()=>{handleScroll('whyIDS')}}>Why IDS</a>,
         },
         {
           key: 'Product',
-          label: <a>Product</a>,
+          label: <a onClick={()=>{handleScroll('product')}}>Product</a>,
         },
         {
           key: 'Projects',
-          label: <a>Projects</a>,
+          label: <a onClick={()=>{handleScroll('project')}}>Projects</a>,
         },
         {
           key: 'Team',
-          label: <a>Team</a>,
+          label: <a onClick={()=>{handleScroll('team')}}>Team</a>,
         },
         {
           key: 'Clients',
-          label: <a>Clients</a>,
+          label: <a onClick={()=>{handleScroll('client')}}>Clients</a>,
         },
       ]}
     ></Menu>
@@ -96,25 +112,25 @@ const Header = () => {
         </a>
         <ul className={styles.listNav}>
           <li>
-            <a>About Us</a>
+            <a onClick={()=>{handleScroll('aboutUs')}}>About Us</a>
           </li>
           <li>
-            <a>Journey</a>
+            <a  onClick={()=>{handleScroll('journey')}}>Journey</a>
           </li>
           <li>
-            <a>Why IDS</a>
+            <a  onClick={()=>{handleScroll('whyIDS')}}>Why IDS</a>
           </li>
           <li>
-            <a>Product</a>
+            <a onClick={()=>{handleScroll('product')}}>Product</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a onClick={()=>{handleScroll('project')}}>Projects</a>
           </li>
           <li>
-            <a>Team</a>
+            <a onClick={()=>{handleScroll('team')}}>Team</a>
           </li>
           <li>
-            <a>Clients</a>
+            <a onClick={()=>{handleScroll('client')}}>Clients</a>
           </li>
         </ul>
 
