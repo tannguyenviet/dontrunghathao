@@ -6,6 +6,10 @@
 .root {
   padding: 0 172px;
 }
+.wrapJourneyId{
+  z-index: 10;
+  position: relative;
+}
 .spacing {
   padding: 0 172px;
   max-width: 1440px;
@@ -290,6 +294,10 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    .commaRotate{
+      transform: rotate(180deg);
+      display: block;
+    }
   }
   img {
     top: 0;
@@ -800,6 +808,9 @@
       & > span:first-child {
         width: 40px !important;
       }
+      & > span:nth-child(3) {
+        width: 40px !important;
+      }
     }
   }
   .clientSay {
@@ -814,6 +825,7 @@
     .listCard {
       margin-top: 46px;
       .wrapCard {
+        width: 100%;
         height: 595px;
         margin-bottom: 16px;
       }
@@ -906,6 +918,20 @@
   }
 }
 @media (max-width: 576px) {
+  .coreValue {
+    .features {
+      justify-content: center;
+      .feature {
+        flex-basis: 50%;
+        width: 50%;
+        align-items: center;
+        margin-bottom: 30px;
+        .text{
+          text-align: center;
+        }
+      }
+    }
+  }
   .sourcing{
     .floatIconRight{
       top: 0;
@@ -958,6 +984,9 @@
       padding: 20px;
       font-size: 1.375rem;
       & > span:first-child {
+        width: 24px !important;
+      }
+      & > span:nth-child(3) {
         width: 24px !important;
       }
       .smallTitle {

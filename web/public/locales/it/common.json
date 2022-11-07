@@ -25,14 +25,14 @@
     },
     "offices": {
       "title": "UFFICI",
-      "country1": "Australia",
-      "office1": "SYDNEY",
-      "country2": "Australia",
-      "office2": "MELBOURNE",
-      "country3": "Vietnam",
-      "office3": "DANANG",
-      "country4": "Vietnam",
-      "office4": "HO CHI MINH"
+      "country1": "Vietnam",
+      "office1": "HO CHI MINH",
+      "country2": "Vietnam",
+      "office2": "DANANG",
+      "country3": "Australia",
+      "office3": "MELBOURNE",
+      "country4": "Australia",
+      "office4": "SYDNEY"
     },
     "vision": {
       "title": "Visione",

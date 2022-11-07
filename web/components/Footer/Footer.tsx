@@ -5,6 +5,18 @@ import Image from 'next/image';
 import React from 'react';
 import styles from './styles.module.less';
 const Footer = () => {
+  const handleScroll = (sectionId:string) =>{
+    console.log('zooo');
+    // const selector = "#" + sectionId ;
+    const element = document.getElementById(sectionId);
+    console.log({sectionId},{element},element?.offsetTop);
+    
+    window?.scrollTo({
+      top: element?.offsetTop-120,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
   return (
     <div className={styles.footer}>
       <div className={styles.spacing}>
@@ -27,8 +39,16 @@ const Footer = () => {
                 <Image width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
-                <strong>AUS-Melbourne:</strong> +61411139957
-                <br /> <strong>Joe Nguyen</strong>
+                <strong>AUS-Sydney:</strong> +61417202439
+                <br /> <strong>Daniel Hearn</strong>
+              </div>
+            </div>
+            <div className={styles.cardContact}>
+              <div className={clsx(styles.wrapImage, styles.hidden)}>
+                <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
+              </div>
+              <div className={styles.text}>
+                <strong>AUS-Melbourne:</strong> +61411139957 <br /> <strong>Joe Nguyen</strong>
               </div>
             </div>
             <div className={styles.cardContact}>
@@ -63,21 +83,21 @@ const Footer = () => {
               </div>
             </div>
           </Col>
-          <Col className={clsx(styles.listSection, styles.hiddenMd)} sm={24} md={12} lg={8} xl={6}>
+          <Col className={clsx(styles.listSection)} sm={24} md={12} lg={8} xl={6}>
             <div className={styles.row}>
-              <div className={styles.text}>OUR JOURNEY</div>
-              <div className={styles.text}>OUR LEADERS</div>
+              <div onClick={()=>{handleScroll('aboutUs')}}className={styles.text}>About Us</div>
+              <div onClick={()=>{handleScroll('journey')}} className={styles.text}>Journey</div>
             </div>
             <div className={styles.row}>
-              <div className={styles.text}>WHY IDS</div>
-              <div className={styles.text}>OUR CLIENTS</div>
+              <div onClick={()=>{handleScroll('whyIDS')}} className={styles.text}>WHY IDS</div>
+              <div onClick={()=>{handleScroll('product')}} className={styles.text}>Product</div>
             </div>
             <div className={styles.row}>
-              <div className={styles.text}>PRODUCT DIVERSITY</div>
-              <div className={styles.text}>CONTACT US</div>
+              <div onClick={()=>{handleScroll('project')}} className={styles.text}>Project</div>
+              <div onClick={()=>{handleScroll('team')}} className={styles.text}>Team</div>
             </div>
             <div className={styles.row}>
-              <div className={styles.text}>OUR PROJECT</div>
+              <div onClick={()=>{handleScroll('client')}} className={styles.text}>Clients</div>
             </div>
           </Col>
         </Row>

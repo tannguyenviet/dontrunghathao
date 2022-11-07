@@ -110,7 +110,7 @@ const LandingPage = () => {
     <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
   </div>
   {/* <div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000"> */}
-    <div id='journey' data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000" className={clsx(styles.spacing)}>
+    <div id='journey' data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000" className={clsx(styles.spacing,styles.wrapJourneyId)}>
       <Row  gutter={[40, 0]} className={clsx(styles.ourJourney)}>
         <Col className={styles.wrapImageLeft} sm={24} md={10}>
           <Image
@@ -292,10 +292,13 @@ const LandingPage = () => {
       alt="grid-1-banner"
     />
     <div className={styles.contentImage}>
-      <Image priority={true} width={98} height={80} className={styles.comma} src="/images/comma.png" alt="" />
-      <span>When you think of product sourcing made easy, think of us!</span>
+      <Image priority={true} width={72} height={64} className={styles.comma} src="/images/comma.png" alt="" />
+      <span> When you think of product sourcing made easy, think of us! </span>
+      <Image priority={true}  width={72} height={64} className={styles.commaRotate} src="/images/comma.png" alt="" />
+
       <span className={styles.smallTitle}>- From IDS team -</span>
     </div>
+
   </div>
   <div className={styles.wrapDivider}>
     <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />

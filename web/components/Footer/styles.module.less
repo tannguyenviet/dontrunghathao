@@ -64,6 +64,24 @@
   }
 }
 @media (max-width: 768px) {
+  .listSection{
+    .row {
+      display: flex;
+      div {
+        text-align: left;
+        white-space: nowrap;
+        margin-bottom: 6px;
+      }
+      & > div:first-child {
+        width: 150px;
+        margin-right: 40px !important;
+      }
+      // & > div:last-child {
+      //   width: 150px;
+      //   margin-left: 40px;
+      // }
+    }
+  }
   .spacing {
     padding: 0 42px;
   }
