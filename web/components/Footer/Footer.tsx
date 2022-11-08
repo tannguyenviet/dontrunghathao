@@ -68,17 +68,17 @@ const Footer = () => {
             <div className={clsx(styles.cardContact, styles.wrapIcon)}>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/intelligentdirectsourcing">
-                  <Image width={32} height={32} alt="facebook" src="/images/facebook.png"></Image>
+                  <Image alt='facebook' width={32} height={32} src="/images/facebook.png"></Image>
                 </a>
               </div>
               <div className={styles.wrapImage}>
-                <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/intelligent-direct-sourcing-group">
                   <Image alt='linkedin' width={32} height={32} src="/images/linkedin.png"></Image>
                 </a>
               </div>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
-                  <Image alt='instagram' width={32} height={32} src="/images/instagram-2.png"></Image>
+                  <Image alt='instagram' width={32} height={32} src="/images/instagram.png"></Image>
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Footer = () => {
               <div onClick={()=>{handleScroll('product')}} className={styles.text}>Product</div>
             </div>
             <div className={styles.row}>
-              <div onClick={()=>{handleScroll('project')}} className={styles.text}>Project</div>
+              <div onClick={()=>{handleScroll('project')}} className={styles.text}>Projects</div>
               <div onClick={()=>{handleScroll('team')}} className={styles.text}>Team</div>
             </div>
             <div className={styles.row}>

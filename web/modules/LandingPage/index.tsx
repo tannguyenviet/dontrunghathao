@@ -250,29 +250,29 @@ const LandingPage = () => {
   </div>
   <div className={styles.spacing}>
     <div className={styles.coreValue}>
-      <div className={styles.coreTitle}>{t('coreValue.title')}</div>
+      <div data-aos="zoom-in-down" data-aos-duration="1200" className={styles.coreTitle}>{t('coreValue.title')}</div>
       <Row gutter={[20, 0]} className={styles.features}>
-        <Col className={styles.feature}>
+        <Col data-aos="zoom-in-down" data-aos-duration="1500"  className={styles.feature}>
           <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-1.png'}></Image>
           <div className={styles.featureTitle}>{t('coreValue.core1')}</div>
           <div className={styles.text}>{t('coreValue.desCore1')}</div>
         </Col>
-        <Col className={styles.feature}>
+        <Col data-aos="zoom-in-down" data-aos-duration="1800"  className={styles.feature}>
           <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-2.png'}></Image>
           <div className={styles.featureTitle}>{t('coreValue.core2')}</div>
           <div className={styles.text}>{t('coreValue.desCore2')}</div>
         </Col>
-        <Col className={styles.feature}>
+        <Col data-aos="zoom-in-down" data-aos-duration="2100"  className={styles.feature}>
           <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-3.png'}></Image>
           <div className={styles.featureTitle}>{t('coreValue.core3')}</div>
           <div className={styles.text}>{t('coreValue.desCore3')}</div>
         </Col>
-        <Col className={styles.feature}>
+        <Col data-aos="zoom-in-down" data-aos-duration="2400" className={styles.feature}>
           <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-4.png'}></Image>
           <div className={styles.featureTitle}>{t('coreValue.core4')} </div>
           <div className={styles.text}>{t('coreValue.desCore4')}</div>
         </Col>
-        <Col className={styles.feature}>
+        <Col data-aos="zoom-in-down" data-aos-duration="2700" className={styles.feature}>
           <Image priority={true} alt="feature" width={40} height={40} src={'/images/feature-5.png'}></Image>
           <div className={styles.featureTitle}>{t('coreValue.core5')} </div>
           <div className={styles.text}>{t('coreValue.desCore5')}</div>
@@ -303,7 +303,7 @@ const LandingPage = () => {
   <div className={styles.wrapDivider}>
     <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
   </div>
-  <div id="whyIDS" data-aos="zoom-in-down" data-aos-duration="1500" className={styles.wrapWhy}>
+  <div id="whyIDS" data-aos="zoom-in-down" data-aos-duration="1200" className={styles.wrapWhy}>
     <div className={styles.floatIconLeft}>
       <Image priority={true} width={126} height={212} src="/images/float-icon.png" alt="" />
     </div>
@@ -328,7 +328,7 @@ const LandingPage = () => {
           <Col className={styles.right} sm={24} md={24} lg={12}>
             <div className={styles.whyTitle}>{t('whyIds.title')}</div>
             <div className={styles.features}>
-              <Row className={styles.feature}>
+              <Row  data-aos="fade-left" data-aos-duration="1500" className={styles.feature}>
                 <Col sm={24} md={14} className={styles.leftFeature}>
                   <div className={styles.wrapImage}>
                     <Image
@@ -345,7 +345,7 @@ const LandingPage = () => {
                   {t('whyIds.des1')}
                 </Col>
               </Row>
-              <Row className={styles.feature}>
+              <Row data-aos="fade-left" data-aos-duration="1800" className={styles.feature}>
                 <Col sm={24} md={14} className={styles.leftFeature}>
                   <div className={styles.wrapImage}>
                     <Image
@@ -362,7 +362,7 @@ const LandingPage = () => {
                   {t('whyIds.des2')}
                 </Col>
               </Row>
-              <Row className={styles.feature}>
+              <Row data-aos="fade-left" data-aos-duration="2100" className={styles.feature}>
                 <Col sm={24} md={14} className={styles.leftFeature}>
                   <div className={styles.wrapImage}>
                     <Image
@@ -510,7 +510,7 @@ const LandingPage = () => {
                   <PhoneIcon />
                 </span>
 
-                <Tooltip title="business@ids-networks.com">
+                <Tooltip title="joe@ids-networks.com">
                 <span className={styles.wrapIcon}>
                 <EmailIcon />
 
@@ -542,7 +542,7 @@ const LandingPage = () => {
               <span onClick={()=>{handleScroll('contact')}} className={styles.wrapIcon}>
                   <PhoneIcon />
                 </span>
-                <Tooltip title="business@ids-networks.com">
+                <Tooltip title="huahailong@ids-networks.com">
                 <span className={styles.wrapIcon}>
                 <EmailIcon />
 
@@ -574,7 +574,7 @@ const LandingPage = () => {
               <span onClick={()=>{handleScroll('contact')}} className={styles.wrapIcon}>
                   <PhoneIcon />
                 </span>
-                <Tooltip title="business@ids-networks.com">
+                <Tooltip title="kennytran@ids-networks.com">
                 <span className={styles.wrapIcon}>
                 <EmailIcon />
 
@@ -606,7 +606,7 @@ const LandingPage = () => {
               <span onClick={()=>{handleScroll('contact')}} className={styles.wrapIcon}>
                   <PhoneIcon />
                 </span>
-                <Tooltip title="business@ids-networks.com">
+                <Tooltip title="dan@ids-networks.com">
                 <span className={styles.wrapIcon}>
                 <EmailIcon />
 
