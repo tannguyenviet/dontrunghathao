@@ -435,7 +435,7 @@ const LandingPage = () => {
         width={'477px'}
         height={'498px'}
         className={styles.comma}
-        src="/images/grid-3.png"
+        src="/images/grid-6.png"
         alt=""
       />
       <div className={styles.wrapContent}>

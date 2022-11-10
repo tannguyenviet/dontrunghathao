@@ -78,7 +78,7 @@ const Footer = () => {
               </div>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
-                  <Image alt='instagram' width={32} height={32} src="/images/instagram.png"></Image>
+                  <Image alt='instagram' width={32} height={32} src="/images/instagram-3.png"></Image>
                 </a>
               </div>
             </div>
