@@ -11,7 +11,13 @@ interface Props {
 }
 const Header: FC<Props> = ({ aboutUsRef }) => {
   const router = useRouter();
+  console.log(router)
   const handleScroll = (sectionId: string) => {
+    if (router.pathname !== '/') {
+      console.log('here');
+      
+      return router.push(`/${router.locale}?act=${sectionId}`);
+    }
     console.log('zooo');
     // const selector = "#" + sectionId ;
     const element = document.getElementById(sectionId);
