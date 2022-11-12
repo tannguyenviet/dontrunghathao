@@ -11,14 +11,10 @@ interface Props {
 }
 const Header: FC<Props> = ({ aboutUsRef }) => {
   const router = useRouter();
-  console.log(router)
   const handleScroll = (sectionId: string) => {
     if (router.pathname !== '/') {
-      console.log('here');
-      
       return router.push(`/${router.locale}?act=${sectionId}`);
     }
-    console.log('zooo');
     // const selector = "#" + sectionId ;
     const element = document.getElementById(sectionId);
     console.log({ sectionId }, { element }, element?.offsetTop);
@@ -31,13 +27,10 @@ const Header: FC<Props> = ({ aboutUsRef }) => {
   };
   const { pathname, asPath, query, locale } = router;
   const handleChangeLanguage = (value?: string) => {
-    console.log('zooo');
     router.replace({ pathname, query }, asPath, { locale: value });
   };
   const localeCurrent = router.locale || 'en';
-
   const [activeFlag, setActiveFlag] = useState('en');
-
   useEffect(() => {
     setActiveFlag(localeCurrent);
   }, [locale]);
