@@ -6,14 +6,14 @@ import store from 'store';
 import { Auth0Provider } from '@auth0/auth0-react';
 import Layout from 'components/Layout';
 import { useEffect } from 'react';
-import AOS from "aos";
+import AOS from 'aos';
 
-import "aos/dist/aos.css";
+import 'aos/dist/aos.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
-      easing: "ease-out-cubic",
+      easing: 'ease-out-cubic',
       once: true,
       offset: 50,
     });
@@ -25,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         clientId="gMHc30aqq3YiUlpUCX5kLXaELEHDlcFE"
         redirectUri={'http://localhost:3000'}
       > */}
-          <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
       {/* </Auth0Provider> */}
     </Provider>
   );

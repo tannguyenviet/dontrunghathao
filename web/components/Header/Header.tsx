@@ -7,22 +7,22 @@ import React, { FC, useEffect, useState } from 'react';
 import styles from './styles.module.less';
 interface Props {
   // handleScroll:Function;
-  aboutUsRef:React.MutableRefObject<null>
+  aboutUsRef?: React.MutableRefObject<null>;
 }
-const Header :FC<Props> = ({aboutUsRef}) => {
+const Header: FC<Props> = ({ aboutUsRef }) => {
   const router = useRouter();
-  const handleScroll = (sectionId:string) =>{
+  const handleScroll = (sectionId: string) => {
     console.log('zooo');
     // const selector = "#" + sectionId ;
     const element = document.getElementById(sectionId);
-    console.log({sectionId},{element},element?.offsetTop);
-    
+    console.log({ sectionId }, { element }, element?.offsetTop);
+
     window?.scrollTo({
-      top: element?.offsetTop-120,
+      top: element?.offsetTop - 120,
       left: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
-  }
+  };
   const { pathname, asPath, query, locale } = router;
   const handleChangeLanguage = (value?: string) => {
     console.log('zooo');
@@ -30,13 +30,14 @@ const Header :FC<Props> = ({aboutUsRef}) => {
   };
   const localeCurrent = router.locale || 'en';
 
-  const [activeFlag,setActiveFlag] = useState('en'); 
+  const [activeFlag, setActiveFlag] = useState('en');
 
   useEffect(() => {
-    setActiveFlag(localeCurrent)
-  }, [locale])
+    setActiveFlag(localeCurrent);
+  }, [locale]);
   const menu = (
-    <Menu className={styles.wrapMenu}
+    <Menu
+      className={styles.wrapMenu}
       onClick={(value) => {
         handleChangeLanguage(value.key);
       }}
@@ -44,27 +45,62 @@ const Header :FC<Props> = ({aboutUsRef}) => {
       items={[
         {
           key: 'en',
-          label: <span className={styles.flag}><Image objectFit='contain' width={24} height={24} alt='flag' src='/images/en.png'></Image><span>English</span></span>,
+          label: (
+            <span className={styles.flag}>
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/en.png"></Image>
+              <span>English</span>
+            </span>
+          ),
         },
         {
           key: 'vn',
-          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/vn.png'></Image> <span>Vietnam</span></span>,
+          label: (
+            <span className={styles.flag}>
+              {' '}
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/vn.png"></Image>{' '}
+              <span>Vietnam</span>
+            </span>
+          ),
         },
         {
           key: 'it',
-          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/it.png'></Image> <span>Italy</span></span>,
+          label: (
+            <span className={styles.flag}>
+              {' '}
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/it.png"></Image>{' '}
+              <span>Italy</span>
+            </span>
+          ),
         },
         {
           key: 'cn',
-          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/cn.png'></Image> <span>China</span></span>,
+          label: (
+            <span className={styles.flag}>
+              {' '}
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/cn.png"></Image>{' '}
+              <span>China</span>
+            </span>
+          ),
         },
         {
           key: 'kr',
-          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/kr.png'></Image> <span>Korea</span></span>,
+          label: (
+            <span className={styles.flag}>
+              {' '}
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/kr.png"></Image>{' '}
+              <span>Korea</span>
+            </span>
+          ),
         },
         {
           key: 'ru',
-          label:  <span  className={styles.flag}>  <Image  objectFit='contain'  width={24} height={24} alt='flag' src='/images/ru.png'></Image> <span>Russian</span></span>,
+          label: (
+            <span className={styles.flag}>
+              {' '}
+              <Image objectFit="contain" width={24} height={24} alt="flag" src="/images/ru.png"></Image>{' '}
+              <span>Russian</span>
+            </span>
+          ),
         },
       ]}
     ></Menu>
@@ -75,31 +111,91 @@ const Header :FC<Props> = ({aboutUsRef}) => {
       items={[
         {
           key: 'AboutUs',
-          label: <a onClick={()=>{handleScroll('aboutUs')}}>About Us</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('aboutUs');
+              }}
+            >
+              About Us
+            </a>
+          ),
         },
         {
           key: 'Journey',
-          label: <a onClick={()=>{handleScroll('journey')}} >Journey</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('journey');
+              }}
+            >
+              Journey
+            </a>
+          ),
         },
         {
           key: 'WhyIDS',
-          label: <a onClick={()=>{handleScroll('whyIDS')}}>Why IDS</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('whyIDS');
+              }}
+            >
+              Why IDS
+            </a>
+          ),
         },
         {
           key: 'Product',
-          label: <a onClick={()=>{handleScroll('product')}}>Product</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('product');
+              }}
+            >
+              Product
+            </a>
+          ),
         },
         {
           key: 'Projects',
-          label: <a onClick={()=>{handleScroll('project')}}>Projects</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('project');
+              }}
+            >
+              Projects
+            </a>
+          ),
         },
         {
           key: 'Team',
-          label: <a onClick={()=>{handleScroll('team')}}>Team</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('team');
+              }}
+            >
+              Team
+            </a>
+          ),
         },
         {
           key: 'Clients',
-          label: <a onClick={()=>{handleScroll('client')}}>Clients</a>,
+          label: (
+            <a
+              onClick={() => {
+                handleScroll('client');
+              }}
+            >
+              Clients
+            </a>
+          ),
+        },
+        {
+          key: 'Clients',
+          label: <a href="/news">News</a>,
         },
       ]}
     ></Menu>
@@ -107,30 +203,75 @@ const Header :FC<Props> = ({aboutUsRef}) => {
   return (
     <div className={styles.header}>
       <div className={styles.wrap}>
-        <a href="">
+        <a href="/">
           <Image width={138} height={50} alt="logo" src="/images/ids-logo.png"></Image>
         </a>
         <ul className={styles.listNav}>
           <li>
-            <a onClick={()=>{handleScroll('aboutUs')}}>About Us</a>
+            <a
+              onClick={() => {
+                handleScroll('aboutUs');
+              }}
+            >
+              About Us
+            </a>
           </li>
           <li>
-            <a  onClick={()=>{handleScroll('journey')}}>Journey</a>
+            <a
+              onClick={() => {
+                handleScroll('journey');
+              }}
+            >
+              Journey
+            </a>
           </li>
           <li>
-            <a  onClick={()=>{handleScroll('whyIDS')}}>Why IDS</a>
+            <a
+              onClick={() => {
+                handleScroll('whyIDS');
+              }}
+            >
+              Why IDS
+            </a>
           </li>
           <li>
-            <a onClick={()=>{handleScroll('product')}}>Product</a>
+            <a
+              onClick={() => {
+                handleScroll('product');
+              }}
+            >
+              Product
+            </a>
           </li>
           <li>
-            <a onClick={()=>{handleScroll('project')}}>Projects</a>
+            <a
+              onClick={() => {
+                handleScroll('project');
+              }}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a onClick={()=>{handleScroll('team')}}>Team</a>
+            <a
+              onClick={() => {
+                handleScroll('team');
+              }}
+            >
+              Team
+            </a>
           </li>
           <li>
-            <a onClick={()=>{handleScroll('client')}}>Clients</a>
+            <a
+              onClick={() => {
+                handleScroll('client');
+              }}
+            >
+              Clients
+            </a>
+          </li>
+          <li>
+            <a href="/news">News</a>
           </li>
         </ul>
 
