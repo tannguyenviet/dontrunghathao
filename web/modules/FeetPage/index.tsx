@@ -1,5 +1,6 @@
 import { Col, Row } from 'antd';
 import clsx from 'clsx';
+import Banner from 'components/Banner';
 import ReadMore from 'components/ReadMore';
 import Spacing from 'components/Spacing';
 import { useTranslation } from 'next-i18next';
@@ -10,15 +11,11 @@ const Feet = () => {
   const { t } = useTranslation();
   return (
     <div className={styles.feet}>
-      <div className={clsx(styles.banner, 'w-100 m-auto mb-99')}>
-        <img className="cover w-100" src="/images/feets/image-1.png" alt="" />
-        <Spacing>
-          <div className={clsx(styles.textFloat, 'white d-flex f-column')}>
-            <span className="mb-8 mt-8">28 October, 2022</span>
-            <div className="text-35 white">IDS Vietnam Head Office Relocation</div>
-          </div>
-        </Spacing>
-      </div>
+      <Banner
+        title="IDS Vietnam Head Office Relocation"
+        time={'28 October, 2022'}
+        image={'/images/feets/image-1.png'}
+      ></Banner>
       <Spacing>
         <div className="bold text-20">
           We are proud to officially announce the relocation of the head office in Vietnam, from Danang city to the
