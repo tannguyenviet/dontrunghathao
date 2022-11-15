@@ -17,7 +17,7 @@ const SubNews = () => {
             </div>
             <div className="d-flex f-between mb-8 mt-auto">
               <span>28 October, 2022</span>
-              <ReadMore link='/feet?id=1' />
+              <ReadMore link='/feet' />
             </div>
           </Col>
           <Col className="d-flex f-column" xs={24} md={24} lg={8}>
@@ -27,7 +27,7 @@ const SubNews = () => {
             </div>
             <div className="d-flex f-between mb-8 mt-auto">
               <span>28 October, 2022</span>
-              <ReadMore />
+              <ReadMore link='/feet?id=1' />
             </div>
           </Col>
           <Col className="d-flex f-column" xs={24} md={24} lg={8}>
