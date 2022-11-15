@@ -98,14 +98,22 @@
     "name2": "Hua Hai Long",
     "name3": "Kenny EMBA",
     "name4": "Daniel Hearn",
+    "name5": "Allan Lie",
+    "name6": "Tommy Hua",
+
     "pos1": "Chairman",
     "pos2": "Chief Executive Officer",
     "pos3": "Deputy Chief Executive Officer",
     "pos4": "Director of IDS Australia",
+    "pos5": "Director of IDS China",
+    "pos6": "Chief Marketing Officer",
+
     "desPos1": "Market volatility causes significant challenges to procurement, we are here to help you master the game.",
     "desPos2": "A strong desire to flourish, the connection creates value and being willing to learn are the basis which links IDS's clients to the development of the firm.",
     "desPos3": "We work for you as an extension of your business in helping you thrive sustainably.",
-    "desPos4": "With valuable expertise to many high-profile clients, IDS team will drive your business’s growth and strengthen its success."
+    "desPos4": "With valuable expertise to many high-profile clients, IDS team will drive your business's growth and strengthen its success.",
+    "desPos5": "With valuable expertise to many high-profile clients, IDS team will drive your business's growth and strengthen its success.",
+    "desPos6": "Innovation, along with intensive digital transformation, at IDS is our key to success in our journey to support international partners"
   },
   "clientSays": {
     "title": "What do our clients say?",

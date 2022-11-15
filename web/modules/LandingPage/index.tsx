@@ -531,7 +531,7 @@ const LandingPage = () => {
               {t('ourTeam.des2')}
             </div>
             <Row gutter={[16, 0]} className={styles.listCard}>
-              <Col data-aos="fade-left" data-aos-duration="900" className={styles.card} xs={24} sm={12} md={12} lg={6}>
+              <Col data-aos="fade-left" data-aos-duration="900" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name1')}</span>
@@ -568,7 +568,7 @@ const LandingPage = () => {
                   <div className={styles.script}>{t('ourTeam.desPos1')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="1300" className={styles.card} xs={24} sm={12} md={12} lg={6}>
+              <Col data-aos="fade-left" data-aos-duration="1300" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name2')}</span>
@@ -604,7 +604,7 @@ const LandingPage = () => {
                   <div className={styles.script}>{t('ourTeam.desPos2')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="1700" className={styles.card} xs={24} sm={12} md={12} lg={6}>
+              <Col data-aos="fade-left" data-aos-duration="1700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name3')}</span>
@@ -640,7 +640,7 @@ const LandingPage = () => {
                   <div className={styles.script}>{t('ourTeam.desPos3')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={6}>
+              <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name4')}</span>
@@ -674,6 +674,78 @@ const LandingPage = () => {
                     />
                   </div>
                   <div className={styles.script}>{t('ourTeam.desPos4')}</div>
+                </div>
+              </Col>
+              <Col data-aos="fade-left" data-aos-duration="2400" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>{t('ourTeam.name5')}</span>
+                    <span className={styles.wrapImages}>
+                      <span
+                        onClick={() => {
+                          handleScroll('contact');
+                        }}
+                        className={styles.wrapIcon}
+                      >
+                        <PhoneIcon />
+                      </span>
+                      <Tooltip title="allan@ids-networks.com">
+                        <span className={styles.wrapIcon}>
+                          <EmailIcon />
+                        </span>
+                      </Tooltip>
+                    </span>
+                  </div>
+                  <div className={styles.job}>{t('ourTeam.pos5')}</div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>{t('ourTeam.desPos5')}</div>
+                </div>
+              </Col>
+              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>{t('ourTeam.name6')}</span>
+                    <span className={styles.wrapImages}>
+                      <span
+                        onClick={() => {
+                          handleScroll('contact');
+                        }}
+                        className={styles.wrapIcon}
+                      >
+                        <PhoneIcon />
+                      </span>
+                      <Tooltip title="tommy@ids-networks.com">
+                        <span className={styles.wrapIcon}>
+                          <EmailIcon />
+                        </span>
+                      </Tooltip>
+                    </span>
+                  </div>
+                  <div className={styles.job}>{t('ourTeam.pos6')}</div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
             </Row>
