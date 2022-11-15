@@ -18,25 +18,7 @@ import OurProject from 'components/OurProject';
 import NextIcon from 'assets/svg/Next';
 import PhoneIcon from 'assets/svg/Phone';
 import EmailIcon from 'assets/svg/Email';
-import dynamic from 'next/dynamic';
 
-import {
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut,
-} from 'react-scroll-motion';
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
 const LandingPage = () => {
