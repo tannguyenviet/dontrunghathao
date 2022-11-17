@@ -6,14 +6,19 @@
     "title1": "Sourcing Made ",
     "title2": "Easy & Effective",
     "intel": "Intelligent direct sourcing group",
-    "des": "IDS (Intelligent Direct Sourcing) is an international supply chain and sourcing organization - we deliver expert knowledge, systems and processes within the VietNam market that enable our clients to make high quality and cost effective procurement and supply chain decisions when selecting strategic partners, suppliers and manufacturers in Vietnam.",
+    "des": "IDS (Intelligent Direct Sourcing) is an international supply chain and sourcing organisation - we deliver expertise, insight, systems and processes within the Vietnam market that enable our clients to make high quality, cost effective  and strategic procurement and supply chain decisions when establishing supply partnerships and new product development in Vietnam.",
     "contactBut": "CONTACT US"
   },
   "aboutUs": {
     "title": "About us",
-    "des1": "Our team of expert supply chain and quality engineers drive and implement supply chain and procurement strategies that lower risk, increase speed of supply and lower cost of strategic sourcing programs in the Vietnam market. We pride ourselves on dealing with only tier 1 supply chain partners that operate to global standards of quality and business governance - with a strong institutional foundation, with a strong history of delivery excellence.",
-    "des2" : "We also provide in depth knowledge of imports and exports requirements and the use of global Free Trade Agreements to support international transactions.",
-    "des3": "In the current advantageous macro-environment, IDS's goal is to assist international purchasing units with transparency and systematizing purchase plans in order to achieve optimal efficiency"
+    "des1": "Our team of expert supply chain, procurement and quality engineers drive and implement supply chain and procurement strategies that lower risk, increase speed of supply and lower cost of strategic sourcing programs in the Vietnam market. We pride ourselves on dealing with only tier one supply chain partners that operate to global quality standards and business governance - backed by strong institutional foundations, with a strong history of delivery excellence.",
+    "des2" : "Our support services extend well pass the supplier qualification and sourcing process, we provide an end to end procurement solution and translation services, utilising the full suite of supply chain, procurement and quality management services: ",
+    "des3": "Pre tender/sourcing: Procurement specifications, tender package development, supplier vetting and pre qualifications",
+    "des4": "Tender Management and sourcing: Tender release and management, supplier assessment and assurance, proposal assessment and financial assessment & down select.",
+    "des5": "Shortlisting, samples/prototyping & Quality Assurance and Control: Factory Audits, 2nd and third tier supply chain audits, Pre production and Shipment Audit services, ESG and social compliance and management, technical support services for samples and prototyping.",
+    "des6": "Contract management and negotiation services: Local expertise in contract management, commercial negotiation support, translation support services",
+    "des7": "Government compliance and international supply chain:  in depth knowledge of Vietnam government transaction management and imports and exports requirements and the use of global Free Trade Agreements to support international transactions.",
+    "des8": "Supplier performance management: ongoing support services to drive continues improvement and leverage of suppler investment and innovation."
   },
   "ourJourney": {
     "title": "Our Journey",
@@ -37,7 +42,7 @@
   },
   "vision": {
     "title": "Vision",
-    "des1": "Through leveraging our vietnam market intelligence and utilising our expert supply chain and procurement team, we will deliver high quality cost effective sourcing solution to our clients that bring suppliers and customers together ",
+    "des1": "Through leveraging our Vietnam market intelligence and utilising our expertise in supply chain and procurement management, we will deliver high quality cost effective sourcing solutions to our clients that accelerate the trust, performance and commercial success journey of suppliers and customers.",
     "des2": ""
   },
   "mission": {

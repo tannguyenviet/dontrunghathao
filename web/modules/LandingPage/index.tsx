@@ -93,7 +93,16 @@ const LandingPage = () => {
                 <div className={styles.aboutTitle}>{t('aboutUs.title')}</div>
                 <div className={styles.text}>{t('aboutUs.des1')}</div>
                 <div className={styles.text}>{t('aboutUs.des2')}</div>
-                <div className={styles.text}>{t('aboutUs.des3')}</div>
+                <br />
+                <div className={styles.text}>{t('aboutUs.des4')}</div>
+                <br />
+                <div className={styles.text}>{t('aboutUs.des5')}</div>
+                <br />
+                <div className={styles.text}>{t('aboutUs.des6')}</div>
+                <br />
+                <div className={styles.text}>{t('aboutUs.des7')}</div>
+                <br />
+                <div className={styles.text}>{t('aboutUs.des8')}</div>
               </Col>
             </Row>
           </div>
