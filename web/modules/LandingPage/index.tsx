@@ -694,7 +694,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-5.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
