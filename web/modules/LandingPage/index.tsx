@@ -550,7 +550,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-1.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
@@ -586,7 +586,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-2.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
@@ -622,7 +622,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-3.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
@@ -658,7 +658,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-4.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
@@ -730,7 +730,7 @@ const LandingPage = () => {
                       sizes={'fill'}
                       objectFit="cover"
                       alt="avatar"
-                      src="/images/avatar.png"
+                      src="/images/avatar-6.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
