@@ -608,7 +608,7 @@ const LandingPage = () => {
                       >
                         <PhoneIcon />
                       </span>
-                      <Tooltip title="kennytran@ids-networks.com">
+                      <Tooltip title="business@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
                         </span>
