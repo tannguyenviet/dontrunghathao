@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React from 'react';
+import FeetBoat from './FeetBoat';
 import FeetTrade from './FeetTrade';
 import styles from './styles.module.less';
 const Feet = () => {
@@ -16,7 +17,6 @@ const Feet = () => {
   return (
     <>
       {query.id === '1' && <FeetTrade />}
-
       {!query.id && (
         <div className={styles.feet}>
           <Banner
@@ -121,6 +121,7 @@ const Feet = () => {
           </Spacing>
         </div>
       )}
+      {query.id === '2' && <FeetBoat></FeetBoat>}
     </>
   );
 };

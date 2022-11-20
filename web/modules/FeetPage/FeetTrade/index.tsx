@@ -16,7 +16,7 @@ const FeetTrade = () => {
             Vietnam’s Free Trade <br /> Agreements – Opportunities for Your Business
           </>
         }
-        image="/images/feets/image-3.png"
+        image="/images/feets/image-2.png"
         time={'28 October, 2022'}
       ></Banner>
       <Spacing className="my-60">
