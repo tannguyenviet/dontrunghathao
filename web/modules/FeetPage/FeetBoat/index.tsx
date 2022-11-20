@@ -219,7 +219,7 @@ const FeetBoat = () => {
       <Spacing>
         <div className="red text-20 bolder">Insights</div>
         <div className="divider-x-black mb-38 mt-20"></div>
-        <Row className="mb-99" gutter={[32, 0]}>
+        <Row className="mb-99" gutter={[32, 32]}>
           <Col className="d-flex f-column" xs={24} md={24} lg={6}>
             <img className="cover w-100 mb-8" src="/images/feets/image-1.png" alt="" />
             <div className="bold text-20 mb-14">IDS Vietnam Head Office Relocation</div>

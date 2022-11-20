@@ -758,7 +758,7 @@ const LandingPage = () => {
                     priority={true}
                     className={styles.image}
                     width={384}
-                    src="/images/smile-person.png"
+                    src="/images/5B.png"
                     alt="smile-person"
                     height={384}
                     objectFit="contain"
