@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Banner from 'components/Banner';
 import ReadMore from 'components/ReadMore';
 import Spacing from 'components/Spacing';
+import FeetAuto from 'modules/FeetAuto';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
@@ -122,6 +123,7 @@ const Feet = () => {
         </div>
       )}
       {query.id === '2' && <FeetBoat></FeetBoat>}
+      {query.id === '3' && <FeetAuto />}
     </>
   );
 };
