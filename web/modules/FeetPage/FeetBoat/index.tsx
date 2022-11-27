@@ -253,6 +253,8 @@ const FeetBoat = () => {
             </div>
           </Col>
         </Row>
+      
+      
       </Spacing>
     </div>
   );

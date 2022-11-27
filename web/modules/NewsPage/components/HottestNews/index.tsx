@@ -15,11 +15,12 @@ export interface Content {
 }
 
 export interface New {
+  id: string;
   backgroundImage: string;
   contents: Content[];
   mainTitle: string;
   script: string;
-  time:string;
+  time: string;
 }
 export interface Props {
   news: New[];
@@ -35,12 +36,8 @@ const HottestNews = ({ news }: Props) => {
             <img className="cover w-100" src={news[0]?.backgroundImage} alt="" />
           </div>
           <span className="mb-8 mt-8">28 October, 2022</span>
-          <div className="mb-8 bolder text-20 mb-12">
-           {news[0]?.mainTitle}
-          </div>
-          <div className="mb-8">
-            {news[0]?.script}
-          </div>
+          <div className="mb-8 bolder text-20 mb-12">{news[0]?.mainTitle}</div>
+          <div className="mb-8">{news[0]?.script}</div>
           <div className="mb-8">
             <ReadMore></ReadMore>
           </div>
