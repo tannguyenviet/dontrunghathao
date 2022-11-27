@@ -10,9 +10,9 @@ interface Props {
 }
 const LastedNews = ({ news }: Props) => {
   const fourNewsLasted = useMemo(() => {
-    if (news.length <= 4) {
-      return news;
-    }
+    // if (news.length <= 4) {
+    //   return news;
+    // }
     const sufferNews = news.sort(()=>0.5 - Math.random());
     return sufferNews
   }, [news]);
@@ -21,7 +21,7 @@ const LastedNews = ({ news }: Props) => {
   return (
     <Row className={clsx(styles.lastedNews, 'mb-99')} gutter={[32, 32]}>
       {fourNewsLasted?.map((post) => (
-        <Col className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
+        <Col key={post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
           <Card className="h-100 d-flex f-column" hoverable cover={<img alt="example" src={post.backgroundImage} />}>
             <div className="mt-auto d-flex f-column h-100">
               <div className="bold text-20 mb-14">{post.mainTitle}</div>
