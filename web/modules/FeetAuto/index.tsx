@@ -6,6 +6,9 @@ import { New } from 'modules/NewsPage/components/HottestNews';
 import Spacing from 'components/Spacing';
 import ReadMore from 'components/ReadMore';
 import { Row, Col } from 'antd';
+import Meta from 'antd/lib/card/Meta';
+import Card from 'antd/lib/card/Card';
+import LastedNews from 'components/LastedNews';
 
 interface Props {
   newPost: New;
@@ -28,18 +31,7 @@ const FeetAuto = ({ newPost, news }: Props) => {
         ))}
         <div className="red text-20 bolder">Insights</div>
         <div className="divider-x-black mb-38 mt-20"></div>
-        <Row className="mb-99" gutter={[32, 32]}>
-          {news?.map((post) => (
-            <Col className="d-flex f-column" xs={24} md={24} lg={6}>
-              <img className="cover w-100 mb-8" src="/images/feets/image-1.png" alt="" />
-              <div className="bold text-20 mb-14">{post.mainTitle}</div>
-              <div className="d-flex f-between mb-8 mt-auto">
-                <span>28 October, 2022</span>
-                <ReadMore link={`/news/${post.id}`} />
-              </div>
-            </Col>
-          ))}
-        </Row>
+      <LastedNews news={news}/>
       </Spacing>
     </div>
   );
