@@ -1,0 +1,24 @@
+.button {
+  border-radius: 12px;
+  height: unset;
+  border: solid 1px #cccccc;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+  &:hover {
+    color: #ffffff;
+    background-color: var(--dark-red);
+  }
+}
+.active {
+  color: #ffffff;
+  background-color: var(--dark-red);
+  &:hover {
+    background-color: var(--dark-red);
+    color: #ffffff;
+  }
+}
+.pagination {
+}
+.card :global .ant-card-body{
+    padding: 6px;
+}

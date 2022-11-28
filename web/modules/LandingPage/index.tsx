@@ -24,6 +24,7 @@ import Footer from 'components/Footer/Footer';
 import LastedNews from 'components/LastedNews';
 import { New } from 'modules/NewsPage/components/HottestNews';
 import Spacing from 'components/Spacing';
+import Products from 'components/Products';
 
 interface Props {
   news: New[];
@@ -417,13 +418,12 @@ const LandingPage = ({ news }: Props) => {
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
         </div>
 
-        <div id="product" data-aos="fade-up" data-aos-duration="1500" className={styles.gallery}>
-          <div className={clsx(styles.item, styles.item1)}>
-            <span className={styles.titleProduct}>
-              {t('productDiversity.title1')} <br /> {t('productDiversity.title2')}
-            </span>
+        <div id="product" data-aos="fade-up" data-aos-duration="1500">
+          <div className={styles.teamTitle}>
+            {t('productDiversity.title1')} {t('productDiversity.title2')}
           </div>
-          <div className={clsx(styles.item, styles.item2)}>
+          <Products />
+          {/* <div className={clsx(styles.item, styles.item2)}>
             <Image
               priority={true}
               width={'477px'}
@@ -507,8 +507,9 @@ const LandingPage = ({ news }: Props) => {
                 <Image src="/images/small-next.png" width={21} height={13.5}></Image>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
+
         <div className={clsx(styles.wrapDivider, styles.hiddenMd)}>
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
         </div>
