@@ -3,10 +3,11 @@ import clsx from 'clsx';
 import ReadMore from 'components/ReadMore';
 import Spacing from 'components/Spacing';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useMemo, useState } from 'react';
 import styles from './styles.module.less';
 import { db } from 'firebase-config';
 import { collection, getDocs, getDoc, doc } from 'firebase/firestore';
+import { useRouter } from 'next/router';
 
 export interface Content {
   image: string;
@@ -19,62 +20,108 @@ export interface New {
   backgroundImage: string;
   contents: Content[];
   mainTitle: string;
-  script: string;
-  time: string;
+  script?: string;
+  time?: any;
+  isCustom?: boolean;
 }
 export interface Props {
   news: New[];
 }
 
 const HottestNews = ({ news }: Props) => {
+  const lastedNews = useMemo(() => {
+    const mixingNews = [
+      ...news,
+      {
+        id: '1',
+        backgroundImage:
+          'https://res.cloudinary.com/dveexa3ua/image/upload/v1669554166/ids-networks/new-custom-1_nhzpnl.png',
+        mainTitle: 'IDS Vietnam Head Office Relocation',
+        isCustom: true,
+        contents: [],
+        time: '28 October, 2022',
+      },
+      {
+        id: '2',
+        backgroundImage:
+          'https://res.cloudinary.com/dveexa3ua/image/upload/v1669554165/ids-networks/new-custom-2_ml4jex.png',
+        mainTitle: 'Vietnam’s Free Trade Agreements – Opportunities for Your Business',
+        isCustom: true,
+        contents: [],
+        time: '28 October, 2022',
+      },
+      {
+        id: '3',
+        backgroundImage:
+          'https://res.cloudinary.com/dveexa3ua/image/upload/v1669554234/ids-networks/new-custom-3_c88xyy.png',
+        mainTitle: 'An Introduction to Vietnam’s Import and Export Industries',
+        isCustom: true,
+        contents: [],
+        time: '28 October, 2022',
+      },
+      {
+        id: '4',
+        backgroundImage:
+          'https://res.cloudinary.com/dveexa3ua/image/upload/v1669554191/ids-networks/new-custom-4_ppefyh.png',
+        mainTitle: 'Vietnam agricultural product exports',
+        isCustom: true,
+        contents: [],
+        time: '28 October, 2022',
+      },
+    ];
+    return mixingNews.splice(0, 3);
+  }, [news]);
+
   return (
     <Spacing className={clsx(styles.news)}>
       <div className="text-35 bolder red mb-20">Hottest News</div>
       <Row gutter={[20, 0]}>
         <Col lg={12}>
-          <div>
-            <img className="cover w-100" src={news[0]?.backgroundImage} alt="" />
-          </div>
-          <span className="mb-8 mt-8">28 October, 2022</span>
-          <div className="mb-8 bolder text-20 mb-12">{news[0]?.mainTitle}</div>
-          <div className="mb-8">{news[0]?.script}</div>
-          <div className="mb-8">
-            <ReadMore></ReadMore>
-          </div>
+          <a
+            className="h-100 mb-99"
+            href={news[0].isCustom ? `/feet?id=${news[0].id}` : `/news/${news[0].id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <img className="cover w-100" src={news[0]?.backgroundImage} alt="" />
+            </div>
+            <span className="mb-8 mt-8">28 October, 2022</span>
+            <div className="mb-8 bolder text-20 mb-12">{news[0]?.mainTitle}</div>
+            <div className="mb-8">{news[0]?.script}</div>
+            <div className="mb-8">
+              <ReadMore></ReadMore>
+            </div>
+          </a>
         </Col>
         <Col lg={12}>
-          <Row gutter={[16, 0]}>
-            <Col span={9}>
-              <img className="cover w-100" src="/images/news/image-2.png" alt="" />
-            </Col>
-            <Col span={15}>
-              <span className="mb-8">28 October, 2022</span>
-              <div className="bolder text-16">The top shipping delays, fees and events impacting Australia in 2022</div>
-              <ReadMore />
-            </Col>
-          </Row>
-          <div className="divider-x my-32"></div>
-          <Row gutter={[16, 0]}>
-            <Col span={9}>
-              <img className="cover w-100" src="/images/news/image-3.png" alt="" />
-            </Col>
-            <Col span={15}>
-              <span className="mb-8">28 October, 2022</span>
-              <div className="bolder text-16">The top shipping delays, fees and events impacting Australia in 2022</div>
-              <ReadMore />
-            </Col>
-          </Row>
-          <div className="divider-x my-32"></div>
-          <Row className="mb-99" gutter={[16, 0]}>
-            <Col span={9}>
-              <img className="cover w-100" src="/images/news/image-4.png" alt="" />
-            </Col>
-            <Col span={15}>
-              <span className="mb-8">28 October, 2022</span>
-              <div className="bolder text-16">The top shipping delays, fees and events impacting Australia in 2022</div>
-              <ReadMore />
-            </Col>
-          </Row>
+          {lastedNews.map((post) => (
+            <Fragment key={post.id}>
+              <a
+                className="h-100 mb-99"
+                href={post.isCustom ? `/feet?id=${post.id}` : `/news/${post.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Row gutter={[16, 0]}>
+                  <Col span={9}>
+                    <img className="cover w-100" src={post.backgroundImage} alt="" />
+                  </Col>
+                  <Col span={15}>
+                    <span className="mb-8">{post.time}</span>
+                    <div className="bolder text-16">{post.mainTitle}</div>
+                    <ReadMore />
+                  </Col>
+                </Row>
+                <div className="divider-x my-32"></div>
+              </a>
+            </Fragment>
+          ))}
+          {/* {lastedNews.map((post) => {
+            <Fragment>
+
+            </Fragment>
+          })} */}
         </Col>
       </Row>
     </Spacing>

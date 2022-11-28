@@ -5,18 +5,16 @@ import Image from 'next/image';
 import React from 'react';
 import styles from './styles.module.less';
 const Footer = () => {
-  const handleScroll = (sectionId:string) =>{
-    console.log('zooo');
+  const handleScroll = (sectionId: string) => {
     // const selector = "#" + sectionId ;
     const element = document.getElementById(sectionId);
-    console.log({sectionId},{element},element?.offsetTop);
-    
+
     window?.scrollTo({
-      top: element?.offsetTop-120,
+      top: element?.offsetTop - 120,
       left: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
-  }
+  };
   return (
     <div className={styles.footer}>
       <div className={styles.spacing}>
@@ -68,36 +66,89 @@ const Footer = () => {
             <div className={clsx(styles.cardContact, styles.wrapIcon)}>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/intelligentdirectsourcing">
-                  <Image alt='facebook' width={32} height={32} src="/images/facebook.png"></Image>
+                  <Image alt="facebook" width={32} height={32} src="/images/facebook.png"></Image>
                 </a>
               </div>
               <div className={styles.wrapImage}>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/intelligent-direct-sourcing-group">
-                  <Image alt='linkedin' width={32} height={32} src="/images/linkedin.png"></Image>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/company/intelligent-direct-sourcing-group"
+                >
+                  <Image alt="linkedin" width={32} height={32} src="/images/linkedin.png"></Image>
                 </a>
               </div>
               <div className={styles.wrapImage}>
                 <a target="_blank" rel="noreferrer" href="https://instagram.com/idsnetworks?igshid=YmMyMTA2M2Y=">
-                  <Image alt='instagram' width={32} height={32} src="/images/instagram-5.png"></Image>
+                  <Image alt="instagram" width={32} height={32} src="/images/instagram-5.png"></Image>
                 </a>
               </div>
             </div>
           </Col>
           <Col className={clsx(styles.listSection)} sm={24} md={12} lg={8} xl={6}>
             <div className={styles.row}>
-              <div onClick={()=>{handleScroll('aboutUs')}}className={styles.text}>About Us</div>
-              <div onClick={()=>{handleScroll('journey')}} className={styles.text}>Journey</div>
+              <div
+                onClick={() => {
+                  handleScroll('aboutUs');
+                }}
+                className={styles.text}
+              >
+                About Us
+              </div>
+              <div
+                onClick={() => {
+                  handleScroll('journey');
+                }}
+                className={styles.text}
+              >
+                Journey
+              </div>
             </div>
             <div className={styles.row}>
-              <div onClick={()=>{handleScroll('whyIDS')}} className={styles.text}>WHY IDS</div>
-              <div onClick={()=>{handleScroll('product')}} className={styles.text}>Product</div>
+              <div
+                onClick={() => {
+                  handleScroll('whyIDS');
+                }}
+                className={styles.text}
+              >
+                WHY IDS
+              </div>
+              <div
+                onClick={() => {
+                  handleScroll('product');
+                }}
+                className={styles.text}
+              >
+                Product
+              </div>
             </div>
             <div className={styles.row}>
-              <div onClick={()=>{handleScroll('project')}} className={styles.text}>Projects</div>
-              <div onClick={()=>{handleScroll('team')}} className={styles.text}>Team</div>
+              <div
+                onClick={() => {
+                  handleScroll('project');
+                }}
+                className={styles.text}
+              >
+                Projects
+              </div>
+              <div
+                onClick={() => {
+                  handleScroll('team');
+                }}
+                className={styles.text}
+              >
+                Team
+              </div>
             </div>
             <div className={styles.row}>
-              <div onClick={()=>{handleScroll('client')}} className={styles.text}>Clients</div>
+              <div
+                onClick={() => {
+                  handleScroll('client');
+                }}
+                className={styles.text}
+              >
+                Clients
+              </div>
             </div>
           </Col>
         </Row>

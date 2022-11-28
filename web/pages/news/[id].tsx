@@ -13,14 +13,13 @@ export async function getServerSideProps({ locale }: any) {
   const newPost = docSnap.data();
 
   const querySnapshot = await getDocs(collection(db, 'news'));
+
   const news: any = [];
   const id = docSnap.id;
-  console.log('index', docSnap.id);
 
   querySnapshot.forEach((doc) => {
     news.push({ id: doc.id, ...doc.data() });
   });
-  console.log('indexs');
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common', 'footer'])),

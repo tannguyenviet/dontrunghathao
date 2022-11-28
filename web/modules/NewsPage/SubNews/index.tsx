@@ -1,4 +1,5 @@
 import { Col, Row } from 'antd';
+import LastedNews from 'components/LastedNews';
 import ReadMore from 'components/ReadMore';
 import Spacing from 'components/Spacing';
 import React from 'react';
@@ -14,7 +15,7 @@ const SubNews = ({ news }: Props) => {
       <Spacing>
         <div className="red text-20 bolder">Exporting News</div>
         <div className="divider-x-black mb-38 mt-20"></div>
-        <Row className="mb-99" gutter={[32, 0]}>
+        {/* <Row className="mb-99" gutter={[24, 0]}>
           <Col className="d-flex f-column" xs={24} md={24} lg={8}>
             <img className="cover w-100 mb-8" src="/images/news/image-5.png" alt="" />
             <div className="bold text-20 mb-14">
@@ -81,7 +82,8 @@ const SubNews = ({ news }: Props) => {
               <ReadMore />
             </div>
           </Col>
-        </Row>
+        </Row> */}
+        <LastedNews news={news}/>
       </Spacing>
     </>
   );

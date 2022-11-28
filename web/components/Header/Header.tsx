@@ -17,8 +17,6 @@ const Header: FC<Props> = ({ aboutUsRef }) => {
     }
     // const selector = "#" + sectionId ;
     const element = document.getElementById(sectionId);
-    console.log({ sectionId }, { element }, element?.offsetTop);
-
     window?.scrollTo({
       top: element?.offsetTop - 120,
       left: 0,

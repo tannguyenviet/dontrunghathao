@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
 import { getAccount } from '../../store/ducks/account/slice';
 import { useAppSelector } from 'hooks/reduxHook';
-import { Button, Col, Row, Tooltip } from 'antd';
+import { Button, Card, Col, Row, Tooltip } from 'antd';
 import { useAuth0 } from '@auth0/auth0-react';
 import { typeList } from 'antd/lib/message';
 import { imageOptimizer } from 'next/dist/server/image-optimizer';
@@ -21,7 +21,14 @@ import EmailIcon from 'assets/svg/Email';
 
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
-const LandingPage = () => {
+import LastedNews from 'components/LastedNews';
+import { New } from 'modules/NewsPage/components/HottestNews';
+import Spacing from 'components/Spacing';
+
+interface Props {
+  news: New[];
+}
+const LandingPage = ({ news }: Props) => {
   const { t } = useTranslation();
   const router = useRouter();
   // const account = useAppSelector(getAccount);
@@ -508,6 +515,15 @@ const LandingPage = () => {
         <div id="project" data-aos="zoom-in-up" data-aos-duration="800" className={styles.spacing}>
           <OurProject />
         </div>
+        <div className={styles.wrapDivider}>
+          <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
+        </div>
+
+        <Spacing>
+          <div className={clsx(styles.teamTitle)}>{'News'}</div>
+          <div className="divider-x-black mb-38 mt-20"></div>
+          <LastedNews news={news} />
+        </Spacing>
 
         <div className={styles.wrapDivider}>
           <Image priority={true} alt="divider" width={22} height={111} src="/images/divider.png" />
