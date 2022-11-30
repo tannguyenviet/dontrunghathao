@@ -91,11 +91,12 @@ const Products = () => {
       <div className="d-flex f-center">
         <Pagination
           className={clsx(styles.pagination, 'mb-32')}
-          onChange={(value) => setCurrentPage(value)} 
+          onChange={(value) => setCurrentPage(value)}
           defaultPageSize={6}
           defaultCurrent={1}
           current={currentPage}
           total={activeProduct?.itemQuantity || 0}
+          hideOnSinglePage
         />
       </div>
     </Spacing>

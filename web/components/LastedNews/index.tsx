@@ -64,9 +64,9 @@ const LastedNews = ({ news }: Props) => {
       {fourNewsLasted?.map((post) => (
         <Col key={post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
           <a
-            className="h-100 mb-99"
+            className="h-100"
             href={post.isCustom ? `/feet?id=${post.id}` : `/news/${post.id}`}
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
           >
             <Card className="h-100 d-flex f-column" hoverable cover={<img alt="example" src={post.backgroundImage} />}>

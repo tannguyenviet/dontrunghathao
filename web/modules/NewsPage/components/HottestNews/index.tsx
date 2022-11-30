@@ -74,13 +74,13 @@ const HottestNews = ({ news }: Props) => {
 
   return (
     <Spacing className={clsx(styles.news)}>
-      <div className="text-35 bolder red mb-20">Hottest News</div>
+      <div className="text-35 bolder red mb-20">News</div>
       <Row gutter={[20, 0]}>
         <Col lg={12}>
           <a
             className="h-100 mb-99"
             href={news[0].isCustom ? `/feet?id=${news[0].id}` : `/news/${news[0].id}`}
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
           >
             <div>
@@ -100,7 +100,7 @@ const HottestNews = ({ news }: Props) => {
               <a
                 className="h-100 mb-99"
                 href={post.isCustom ? `/feet?id=${post.id}` : `/news/${post.id}`}
-                target="_blank"
+                // target="_blank"
                 rel="noopener noreferrer"
               >
                 <Row gutter={[16, 0]}>

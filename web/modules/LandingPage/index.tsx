@@ -521,7 +521,9 @@ const LandingPage = ({ news }: Props) => {
         </div>
 
         <Spacing>
-          <div className={clsx(styles.teamTitle)}>{'News'}</div>
+          <div className={clsx(styles.teamTitle)}>
+            <a href="/news">News</a>
+          </div>
           <div className="divider-x-black mb-38 mt-20"></div>
           <LastedNews news={news} />
         </Spacing>
