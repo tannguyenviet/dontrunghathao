@@ -93,7 +93,7 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                About Us
+                <a href="">About Us</a>
               </div>
               <div
                 onClick={() => {
@@ -101,7 +101,7 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                Journey
+                <a href="">Journey</a>
               </div>
             </div>
             <div className={styles.row}>
@@ -111,7 +111,7 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                WHY IDS
+                <a href="">Why IDS</a>
               </div>
               <div
                 onClick={() => {
@@ -119,7 +119,7 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                Product
+                <a href="">Product</a>
               </div>
             </div>
             <div className={styles.row}>
@@ -129,15 +129,15 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                Projects
+                <a href="">Projects</a>
               </div>
               <div
                 onClick={() => {
-                  handleScroll('team');
+                  handleScroll('product');
                 }}
                 className={styles.text}
               >
-                Team
+                <a href="">Products</a>
               </div>
             </div>
             <div className={styles.row}>
@@ -147,9 +147,18 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                Clients
+                <a href="">Team</a>
+              </div>
+              <div
+                onClick={() => {
+                  handleScroll('client');
+                }}
+                className={styles.text}
+              >
+                <a href="">Clients</a>
               </div>
             </div>
+
           </Col>
         </Row>
       </div>

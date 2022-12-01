@@ -237,7 +237,7 @@ const Header: FC<Props> = ({ aboutUsRef }) => {
                 handleScroll('product');
               }}
             >
-              Product
+              Products
             </a>
           </li>
           <li>
@@ -248,6 +248,9 @@ const Header: FC<Props> = ({ aboutUsRef }) => {
             >
               Projects
             </a>
+          </li>
+          <li>
+            <a href="/news">News</a>
           </li>
           <li>
             <a
@@ -266,9 +269,6 @@ const Header: FC<Props> = ({ aboutUsRef }) => {
             >
               Clients
             </a>
-          </li>
-          <li>
-            <a href="/news">News</a>
           </li>
         </ul>
 
