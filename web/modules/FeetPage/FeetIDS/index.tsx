@@ -8,6 +8,7 @@ import { New } from 'modules/NewsPage/components/HottestNews';
 import Image from 'next/image';
 import React from 'react';
 import styles from './styles.module.less'
+import BannerBackground from '../../../components/BannerBackground/index'
 interface Props {
   news: New[];
 }
@@ -38,6 +39,7 @@ const FeetIDS = ({news}:Props) => {
           With this new head office location, it will be much more convenient for our international partners when
           visiting and working in Vietnam.
         </div>
+        
         <div className={styles.clientSay}>
           <Row gutter={[84, 0]}>
             <Col className={styles.left} xs={24} sm={24} md={24} lg={9}>

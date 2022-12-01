@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Feet from 'modules/FeetPage'
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 import { db } from 'firebase-config';
-
+import { initializeApp } from 'firebase-admin/app';
 export default Feet
 export async function getStaticProps({ locale } :any) {
   const querySnapshot = await getDocs(collection(db, 'news'));
