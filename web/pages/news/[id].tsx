@@ -5,7 +5,7 @@ import { db } from 'firebase-config';
 import Banner from 'components/Banner';
 import { collection, getDocs, getDoc, doc } from 'firebase/firestore';
 import FeetAuto from 'modules/FeetAuto';
-
+import { getDatabase, ref, onValue } from 'firebase/database';
 export default FeetAuto;
 export async function getServerSideProps({ locale }: any) {
   const docRef = doc(db, 'news', 'kbZB5JdiGpIfdMwLaz9p');
@@ -19,6 +19,14 @@ export async function getServerSideProps({ locale }: any) {
 
   querySnapshot.forEach((doc) => {
     news.push({ id: doc.id, ...doc.data() });
+  });
+
+  const database = getDatabase();
+  const starCountRef = ref(database, 'products/');
+  onValue(starCountRef, (snapshot) => {
+    const data = snapshot.val();
+    console.log({data})
+    // updateStarCount(postElement, data);
   });
   return {
     props: {

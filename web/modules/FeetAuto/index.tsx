@@ -24,8 +24,8 @@ const FeetAuto = ({ newPost, news }: Props) => {
         {newPost?.contents.map((content,index) => (
           <Fragment key={index}>
             <div className="text-30 bold mt-99 mb-32">{content.title}</div>
-            {content.texts.map((text) => (
-              <div className="mb-20">{text}</div>
+            {content.texts.map((text,index) => (
+              <div key={'text'+index} className="mb-20">{text}</div>
             ))}
             <img className="w-100 cover mb-40" src={content.image} alt="" />
           </Fragment>

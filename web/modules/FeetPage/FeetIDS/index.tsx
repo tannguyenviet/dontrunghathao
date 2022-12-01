@@ -27,6 +27,7 @@ const FeetIDS = ({news}:Props) => {
           intellectual communities with a rich culture for a global citizen over Vietnam.
         </div>
         <div className="divider-x-black mt-32 mb-32"></div>
+        <img className='w-100 cover mb-32' src="./images/feets/vanphong.png" alt="" />
         <div className="mb-20 text-16">
           The change of IDS Vietnam head office represents the strategic vision of the leadership team, particularly Phu
           My Hung, lying at the heart of Ho Chi Minh city, known as a major centre for finance, media, technology,
@@ -38,7 +39,7 @@ const FeetIDS = ({news}:Props) => {
         <div className="mb-99">
           With this new head office location, it will be much more convenient for our international partners when
           visiting and working in Vietnam.
-        </div>
+        </div>avatar-1.png
         
         <div className={styles.clientSay}>
           <Row gutter={[84, 0]}>
@@ -49,7 +50,7 @@ const FeetIDS = ({news}:Props) => {
                   priority={true}
                   className={styles.image}
                   width={384}
-                  src="/images/smile-person.png"
+                  src="/images/avatar-1.png"
                   alt="smile-person"
                   height={384}
                   objectFit="contain"

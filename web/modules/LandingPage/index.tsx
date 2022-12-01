@@ -546,15 +546,11 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name1')}</span>
                     <span className={styles.wrapImages}>
-                      <span
-                        onClick={() => {
-                          handleScroll('contact');
-                        }}
-                        className={styles.wrapIcon}
-                      >
-                        <PhoneIcon />
-                      </span>
-
+                      <Tooltip title="09125127581">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
                       <Tooltip title="joe@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
