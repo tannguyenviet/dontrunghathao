@@ -63,7 +63,7 @@ const Products = () => {
 
   return (
     <Spacing>
-      <div className="d-flex gap-24 f-center mt-32 mb-32">
+      <div className="d-flex gap-24 f-center f-wrap mt-32 mb-32">
         {products.map((product) => (
           <div
             key={'button' + product.name}

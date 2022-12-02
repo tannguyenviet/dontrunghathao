@@ -546,7 +546,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name1')}</span>
                     <span className={styles.wrapImages}>
-                      <Tooltip title="09125127581">
+                      <Tooltip title="+61411139957">
                         <span className={styles.wrapIcon}>
                           <PhoneIcon />
                         </span>
@@ -579,14 +579,12 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name2')}</span>
                     <span className={styles.wrapImages}>
-                      <span
-                        onClick={() => {
-                          handleScroll('contact');
-                        }}
-                        className={styles.wrapIcon}
-                      >
-                        <PhoneIcon />
-                      </span>
+                      <Tooltip title="+84905325555">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
+
                       <Tooltip title="huahailong@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
@@ -615,14 +613,11 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name3')}</span>
                     <span className={styles.wrapImages}>
-                      <span
-                        onClick={() => {
-                          handleScroll('contact');
-                        }}
-                        className={styles.wrapIcon}
-                      >
-                        <PhoneIcon />
-                      </span>
+                    <Tooltip title="">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
                       <Tooltip title="business@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
@@ -651,14 +646,11 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name4')}</span>
                     <span className={styles.wrapImages}>
-                      <span
-                        onClick={() => {
-                          handleScroll('contact');
-                        }}
-                        className={styles.wrapIcon}
-                      >
-                        <PhoneIcon />
-                      </span>
+                    <Tooltip title="+61417202439">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
                       <Tooltip title="dan@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
@@ -687,14 +679,11 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name6')}</span>
                     <span className={styles.wrapImages}>
-                      <span
-                        onClick={() => {
-                          handleScroll('contact');
-                        }}
-                        className={styles.wrapIcon}
-                      >
-                        <PhoneIcon />
-                      </span>
+                    <Tooltip title="+84965999905">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
                       <Tooltip title="tommy@ids-networks.com">
                         <span className={styles.wrapIcon}>
                           <EmailIcon />
