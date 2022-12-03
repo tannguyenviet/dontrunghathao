@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Ultorex - The ultimate exchange for the head runners</title>
+        <title>The international supply chain and sourcing organization!</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="robots" content="all" />
         <meta property="og:type" content="website" />
