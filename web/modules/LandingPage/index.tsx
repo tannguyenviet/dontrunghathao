@@ -25,6 +25,7 @@ import LastedNews from 'components/LastedNews';
 import { New } from 'modules/NewsPage/components/HottestNews';
 import Spacing from 'components/Spacing';
 import Products from 'components/Products';
+import { Helmet } from 'react-helmet';
 
 interface Props {
   news: New[];
@@ -56,6 +57,18 @@ const LandingPage = ({ news }: Props) => {
   return (
     <>
       <Header aboutUsRef={aboutUsRef} />
+      <Helmet>
+        <title>IDS network</title>
+        {/* <meta property="og:title" content={title} />
+        <meta name="description" content={description} />
+        <meta property="og:description" content={description} /> */}
+        <meta property="og:image" content={"/images/ids-logo.png"} />
+        {/* <meta property="og:url" content={metaDecorator.hostname + window.location.pathname + window.location.search} /> */}
+        {/* <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content={imageAlt} />
+        <meta name="twitter:site" content={metaDecorator. twitterUsername} /> */}
+      </Helmet>
+
       <div className={clsx(styles.container)}>
         <div data-aos="fade-up" data-aos-duration="1200" className={clsx(styles.sourcing)}>
           <div className={styles.bgImage}>
@@ -613,7 +626,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name3')}</span>
                     <span className={styles.wrapImages}>
-                    <Tooltip title="">
+                      <Tooltip title="">
                         <span className={styles.wrapIcon}>
                           <PhoneIcon />
                         </span>
@@ -646,7 +659,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name4')}</span>
                     <span className={styles.wrapImages}>
-                    <Tooltip title="+61417202439">
+                      <Tooltip title="+61417202439">
                         <span className={styles.wrapIcon}>
                           <PhoneIcon />
                         </span>
@@ -679,7 +692,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name6')}</span>
                     <span className={styles.wrapImages}>
-                    <Tooltip title="+84965999905">
+                      <Tooltip title="+84965999905">
                         <span className={styles.wrapIcon}>
                           <PhoneIcon />
                         </span>
