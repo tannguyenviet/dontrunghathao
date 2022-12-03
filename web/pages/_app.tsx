@@ -31,13 +31,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:url" content={baseUrl} />
         <meta property="og:title" content="IDS Networks" />
         <meta property="og:description" content="The international supply chain and sourcing organization!" />
-        <meta property="og:image" content={`${baseUrl}/static/ids-logo.png`} />
+        <meta property="og:image" content={`${baseUrl}/static/logo-ids.png`} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={baseUrl} />
         <meta property="twitter:title" content="IDS Networks" />
         <meta property="twitter:description" content="The international supply chain and sourcing organization!" />
-        <meta property="twitter:image" content={`${baseUrl}/static/ids-logo.png`} />
+        <meta property="twitter:image" content={`${baseUrl}/static/logo-ids.png`} />
         <meta name="keywords" content="idsnetworks, exchange, trade, supply chain, sourcing organization" />
       </Head>
       <Provider store={store}>
