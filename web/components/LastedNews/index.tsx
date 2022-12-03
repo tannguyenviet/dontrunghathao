@@ -67,7 +67,7 @@ const LastedNews = ({ news }: Props) => {
         <Col key={post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
           <a
             className="h-100"
-            href={post.isCustom ? `/feet?id=${post.id}` : `/news/${post.id}`}
+            href={post.isCustom ? `/feet?id=${post.id}/${post.mainTitle.split(' ').join('-')}` : `/news/${post.id}`}
             // target="_blank"
             rel="noopener noreferrer"
           >

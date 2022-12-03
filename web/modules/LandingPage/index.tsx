@@ -57,17 +57,6 @@ const LandingPage = ({ news }: Props) => {
   return (
     <>
       <Header aboutUsRef={aboutUsRef} />
-      <Helmet>
-        <title>IDS network</title>
-        {/* <meta property="og:title" content={title} />
-        <meta name="description" content={description} />
-        <meta property="og:description" content={description} /> */}
-        <meta property="og:image" content={"/images/ids-logo.png"} />
-        {/* <meta property="og:url" content={metaDecorator.hostname + window.location.pathname + window.location.search} /> */}
-        {/* <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content={imageAlt} />
-        <meta name="twitter:site" content={metaDecorator. twitterUsername} /> */}
-      </Helmet>
 
       <div className={clsx(styles.container)}>
         <div data-aos="fade-up" data-aos-duration="1200" className={clsx(styles.sourcing)}>
