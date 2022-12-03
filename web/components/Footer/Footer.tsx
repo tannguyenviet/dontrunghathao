@@ -119,7 +119,7 @@ const Footer = () => {
                 }}
                 className={styles.text}
               >
-                <a href="">Product</a>
+                <a href="">Products</a>
               </div>
             </div>
             <div className={styles.row}>
@@ -132,12 +132,10 @@ const Footer = () => {
                 <a href="">Projects</a>
               </div>
               <div
-                onClick={() => {
-                  handleScroll('product');
-                }}
+                
                 className={styles.text}
               >
-                <a href="">Products</a>
+                <a href="/news">News</a>
               </div>
             </div>
             <div className={styles.row}>
