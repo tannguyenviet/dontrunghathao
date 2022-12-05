@@ -10,8 +10,6 @@ interface Props {
   news: New[];
 }
 const LastedNews = ({ news }: Props) => {
-  const router = useRouter();
-
   const fourNewsLasted = useMemo(() => {
     // if (news.length <= 4) {
     //   return news;
@@ -55,19 +53,22 @@ const LastedNews = ({ news }: Props) => {
         time: '28 October, 2022',
       },
     ];
-    console.log({mixingNews});
-    
+
     const sufferNews = mixingNews.sort(() => 0.5 - Math.random()).splice(0, 4);
     return sufferNews;
   }, [news]);
 
   return (
-    <Row className={clsx(styles.lastedNews,'mb-32')} gutter={[32, 32]}>
-      {fourNewsLasted?.map((post) => (
-        <Col key={post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
+    <Row className={clsx(styles.lastedNews, 'mb-32')} gutter={[32, 32]}>
+      {fourNewsLasted?.map((post: New) => (
+        <Col key={'post' + post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
           <a
             className="h-100"
-            href={post.isCustom ? `/feet?id=${post.id}/${post.mainTitle.split(' ').join('-')}` : `/news/${post.id}`}
+            href={
+              post.isCustom
+                ? `/feet?id=${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+                : `/news/${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+            }
             // target="_blank"
             rel="noopener noreferrer"
           >
