@@ -8,7 +8,7 @@
     color: #ffffff;
     background-color: var(--dark-red);
   }
- }
+}
 .active {
   color: #ffffff;
   background-color: var(--dark-red);
@@ -24,10 +24,37 @@
 .card :global .ant-card-body {
   padding: 6px;
   :hover {
-    opacity: 0.9;
+    // opacity: 0.9;
+  }
+  & >img{
+    filter: brightness(0.5);
   }
 }
-
+.card {
+  color: #ffffff;
+  position: relative;
+  .name {
+    position: absolute;
+    left: 12%;
+    top: 8%;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .nextIcon {
+    position: absolute;
+    bottom: 7%;
+    right: 11%;
+  }
+}
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+@media (max-width: 997px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 687px) {
 }

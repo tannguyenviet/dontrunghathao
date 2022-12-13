@@ -21,6 +21,7 @@ const Feet = ({news}:Props) => {
   const { t } = useTranslation();
 
   const { query } = useRouter();
+  
   return (
     <>
       {query.id === '2' && <FeetTrade news={news} />}

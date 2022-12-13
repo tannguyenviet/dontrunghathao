@@ -69,7 +69,7 @@ const HottestNews = ({ news }: Props) => {
         time: '28 October, 2022',
       },
     ];
-    return mixingNews.splice(0, 3);
+    return mixingNews.slice(1, 4);
   }, [news]);
 
   return (
@@ -79,7 +79,11 @@ const HottestNews = ({ news }: Props) => {
         <Col lg={12}>
           <a
             className="h-100 mb-99"
-            href={news[0].isCustom ? `/feet?id=${news[0].id}` : `/news/${news[0].id}`}
+            href={
+              news[0].isCustom
+                ? `/feet?id=${news[0].id}&title=${news[0].mainTitle.split(' ').join('-')}`
+                : `/news/${news[0].id}&title=${news[0].mainTitle.split(' ').join('-')}`
+            }
             // target="_blank"
             rel="noopener noreferrer"
           >
@@ -96,10 +100,14 @@ const HottestNews = ({ news }: Props) => {
         </Col>
         <Col lg={12}>
           {lastedNews.map((post) => (
-            <Fragment key={post.id}>
+            <Fragment key={'lasted-post' + post.id}>
               <a
                 className="h-100 mb-99"
-                href={post.isCustom ? `/feet?id=${post.id}` : `/news/${post.id}`}
+                href={
+                  post.isCustom
+                    ? `/feet?id=${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+                    : `/news/${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+                }
                 // target="_blank"
                 rel="noopener noreferrer"
               >

@@ -1,0 +1,27 @@
+.wrapImage {
+  position: relative;
+  .bg {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    background-color: var(--dark);
+    z-index: -1;
+  }
+  .img{
+    position: relative;
+  }
+}
+
+@media (max-width: 997px) {
+  .wrapImage {
+    position: relative;
+    .bg {
+      display: none;
+    }
+
+  }
+  
+}

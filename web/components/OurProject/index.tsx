@@ -2,7 +2,10 @@ import Carousel, { CarouselRef } from 'antd/lib/carousel';
 import NextIcon from 'assets/svg/Next';
 import PreviousIcon from 'assets/svg/Previous';
 import Slider from 'components/Carousel/Carousel';
-import React, { useRef, useState } from 'react';
+import { getDatabase, onValue, ref } from 'firebase/database';
+import { collection, getDocs } from 'firebase/firestore';
+import { getImageSize } from 'next/dist/server/image-optimizer';
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './styles.module.less';
 
 const OurProject = () => {
@@ -15,8 +18,21 @@ const OurProject = () => {
   const goPrev = () => {
     carouselRef.current?.prev();
   };
+
+  const database = getDatabase();
+  const [projectImages, setProjectImages] = useState<string[]>([]);
+
+  const starCountRef = ref(database, 'project/projects');
+  useEffect(() => {
+    onValue(starCountRef, (snapshot) => {
+      const data = snapshot.val();
+      // updateStarCount(postElement, data);
+      setProjectImages(data);
+    });
+  }, []);
+
   return (
-    <div  className={styles.ourProject}>
+    <div className={styles.ourProject}>
       <div className={styles.bgLeft}></div>
       <div className={styles.bgRight}></div>
       <div className={styles.left}>
@@ -32,7 +48,7 @@ const OurProject = () => {
           </span>
           <span onClick={goNext} className={styles.arrow}>
             <span>&nbsp;Next</span>
-            <NextIcon color='#8a1722' />
+            <NextIcon color="#8a1722" />
           </span>
         </div>
       </div>
@@ -48,29 +64,20 @@ const OurProject = () => {
           autoplay={true}
           centerPadding={'10px'}
         >
-          <div className={styles.itemCarousel}>
-            <div className={styles.wrapItem}>
-              <img src="/images/carousel-1.png" alt="" />
-            </div>
-          </div>
-          <div className={styles.itemCarousel}>
-            <div className={styles.wrapItem}>
-              <img src="/images/carousel-3.png" alt="" />
-            </div>
-          </div>
-          <div className={styles.itemCarousel}>
-            <div className={styles.wrapItem}>
-              <img src="/images/carousel-2.png" alt="" />
-            </div>
-          </div>
-          <div className={styles.itemCarousel}>
-            <div className={styles.wrapItem}>
-              <img src="/images/carousel-3.png" alt="" />
-            </div>
-          </div>
+          {projectImages.map((image, index) => {
+            return (
+              <div key={'projects' + index} className={styles.itemCarousel}>
+                <div className={styles.wrapItem}>
+                  <img src={image.split('/upload').join('/upload/w_1020,h_1264,c_fill/')} alt="" />
+                </div>
+              </div>
+            );
+          })}
         </Carousel>
       </div>
-      <button className={styles.hidden} onClick={goNext}>Next</button>
+      <button className={styles.hidden} onClick={goNext}>
+        Next
+      </button>
     </div>
   );
 };

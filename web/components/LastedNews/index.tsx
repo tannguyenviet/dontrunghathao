@@ -4,17 +4,17 @@ import clsx from 'clsx';
 import ReadMore from 'components/ReadMore';
 import { New } from 'modules/NewsPage/components/HottestNews';
 import { useRouter } from 'next/router';
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import styles from './styles.module.less';
 interface Props {
   news: New[];
+  fullNews?: boolean;
 }
-const LastedNews = ({ news }: Props) => {
-  const fourNewsLasted = useMemo(() => {
-    // if (news.length <= 4) {
-    //   return news;
-    // }
-    const mixingNews = [
+const LastedNews = ({ news, fullNews }: Props) => {
+  const [page, setPage] = useState(1);
+
+  const mixingNews = useMemo(() => {
+    return [
       ...news,
       {
         id: '1',
@@ -53,45 +53,56 @@ const LastedNews = ({ news }: Props) => {
         time: '28 October, 2022',
       },
     ];
-
-    const sufferNews = mixingNews.sort(() => 0.5 - Math.random()).splice(0, 4);
-    return sufferNews;
   }, [news]);
 
+  const fourNewsLasted = useMemo(() => {
+    return fullNews ? mixingNews.slice(0, page * 4) : mixingNews.slice(0, 4);
+  }, [news, page]);
   return (
-    <Row className={clsx(styles.lastedNews, 'mb-32')} gutter={[32, 32]}>
-      {fourNewsLasted?.map((post: New) => (
-        <Col key={'post' + post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
-          <a
-            className="h-100"
-            href={
-              post.isCustom
-                ? `/feet?id=${post.id}&title=${post.mainTitle.split(' ').join('-')}`
-                : `/news/${post.id}&title=${post.mainTitle.split(' ').join('-')}`
-            }
-            // target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className="h-100 d-flex f-column" hoverable cover={<img alt="example" src={post.backgroundImage} />}>
-              <div className="mt-auto d-flex f-column h-100">
-                <div className="bold text-20 mb-14">{post.mainTitle}</div>
-                <div className="d-flex f-between mb-8 mt-auto">
-                  <span>{post.time}</span>
-                  <ReadMore />
+    <>
+      <Row className={clsx(styles.lastedNews, 'mb-32')} gutter={[32, 32]}>
+        {fourNewsLasted?.map((post: New) => (
+          <Col key={'post' + post.id} className="d-flex f-column" xs={24} sm={12} md={12} lg={6}>
+            <a
+              className="h-100"
+              href={
+                post.isCustom
+                  ? `/feet?id=${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+                  : `/news/${post.id}&title=${post.mainTitle.split(' ').join('-')}`
+              }
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card
+                className="h-100 d-flex f-column"
+                hoverable
+                cover={<img alt="example" src={post.backgroundImage} />}
+              >
+                <div className="mt-auto d-flex f-column h-100">
+                  <div className="bold text-20 mb-14">{post.mainTitle}</div>
+                  <div className="d-flex f-between mb-8 mt-auto">
+                    <span>{post.time}</span>
+                    <ReadMore />
+                  </div>
                 </div>
-              </div>
-            </Card>
-          </a>
+              </Card>
+            </a>
 
-          {/* <img className="cover w-100 mb-8" src={post.backgroundImage} alt="" />
+            {/* <img className="cover w-100 mb-8" src={post.backgroundImage} alt="" />
         <div className="bold text-20 mb-14">{post.mainTitle}</div>
         <div className="d-flex f-between mb-8 mt-auto">
           <span>28 October, 2022</span>
           <ReadMore link={`/news/${post.id}`} />
         </div> */}
-        </Col>
-      ))}
-    </Row>
+          </Col>
+        ))}
+      </Row>
+      {fullNews && fourNewsLasted.length >= page * 4 && (
+        <div className={clsx(styles.loadmore, 'f-center mb-32')}>
+          <button onClick={() => setPage(page + 1)}>Load more</button>
+        </div>
+      )}
+    </>
   );
 };
 

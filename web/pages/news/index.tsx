@@ -3,15 +3,17 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import NewsPage from 'modules/NewsPage';
 import { db } from 'firebase-config';
 import Banner from 'components/Banner';
-import { collection, getDocs } from 'firebase/firestore';
+import { collection, doc, getDocs } from 'firebase/firestore';
 
 export default NewsPage;
 export async function getServerSideProps({ locale }: any) {
   const querySnapshot = await getDocs(collection(db, 'news'));
+
   const news: any = [];
-  console.log('indexs');
-  
-  querySnapshot.forEach((doc) => news.push(doc.data()));
+
+  querySnapshot.forEach((doc) => {
+    news.push({ id: doc.id, ...doc.data() });
+  });
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common', 'footer'])),

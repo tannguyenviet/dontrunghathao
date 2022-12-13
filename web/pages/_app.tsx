@@ -10,10 +10,14 @@ import AOS from 'aos';
 import Head from 'next/head';
 
 const baseUrl = 'https://ids-networks.com';
+import { db } from 'firebase-config';
 
 import 'aos/dist/aos.css';
+import { collection, getDocs } from 'firebase/firestore';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const querySnapshot = getDocs(collection(db, 'news')); 
+
   useEffect(() => {
     AOS.init({
       easing: 'ease-out-cubic',

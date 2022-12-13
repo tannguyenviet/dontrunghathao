@@ -15,7 +15,7 @@ interface Props {
   news: New[];
 }
 const FeetAuto = ({ newPost, news }: Props) => {
-  console.log({ news });
+  ({ news });
 
   return (
     <div>

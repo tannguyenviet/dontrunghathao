@@ -1,0 +1,592 @@
+{
+    "products": [
+        {
+            "type": "building",
+            "name": "Building materials",
+            "script": "Vietnam possesses plentiful mineral resources so the export of products related to construction materials is a huge advantage. We meet 30% of the capacity for export. And now, Vietnam's building materials industry has exported to over 120 countries and territories.",
+            "itemQuantity": 10,
+            "items": [
+                {
+                    "name": "Exact Mechanic",
+                    "information": "Mechanics is the area of mathematics and physics concerned with the relationships between force, matter, and motion among physical objects. Forces applied to objects result in displacements, or changes of an object's position relative to its environment.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "ISO 9001:2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670890166/ids-networks/product/building/building-9_s7kwqz.jpg"
+                },
+                {
+                    "name": "Wood",
+                    "information": "Wood has been a building material for thousands of years, it's only in the second place after stone in terms of the diversity and historical tier in the construction world. This versatile material is commonly used to build houses, shelters and boats, but wood is also widely used in the furniture and home decoration industry. In addition, wood is an eco-friendly material, maximum used when damaged, easy to repair, can be split into pallets, regenerated for wood packaging, decoration, or fuel.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Dong Nai"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction."
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-5_olpqaa.png"
+                },
+                {
+                    "name": "Steel",
+                    "information": "Steel is an alloy with the main composition are iron (Fe), with carbon (C), from 0.02% to 2.14% by weight, and some other chemical elements. Steel is widely used in the construction such as houses, offices, factories, factories, bridges, roads, hydroelectric power plants... This material has great bearing capacity, high strength and reliability as well as easy installation.",
+                    "manufacturePlaces": [
+                        "Ha Tinh",
+                        "Ha Noi",
+                        "Dong Nai",
+                        "Binh Duong"
+                    ],
+                    "certificates": [
+                        "ISO 9001:2008",
+                        "ISO 1400:2004",
+                        "ISO 18001:2007"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-3_wdxg4m.png"
+                },
+                {
+                    "name": "Screw",
+                    "information": "Screws and bolts are similar fasteners, usually made of metal, and have a featured spiral groove design, known as an external thread.",
+                    "manufacturePlaces": [
+                        "Ho Chi Minh",
+                        "Ha Noi",
+                        "Binh Duong"
+                    ],
+                    "certificates": [
+                        "TCVN ISO 9001:2008",
+                        "ISO 9001:2008"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592500/ids-networks/product/building/building-7_vttj4r.png"
+                },
+                {
+                    "name": "Marble",
+                    "information": "Marble is a metamorphic rock from limestone with a non-shale structure. Its main component is calcite (crystallized form of calcium carbonate, CaCO3). It is commonly used for sculpture as well as decorative materials in buildings and other applications. Marble has been used in Vietnam for over a thousand years, contributing to the construction of many architectural works over time from ancient time to modern time. In recent years, marble has gradually developed into an industry. From a small production of 0.2 million m2 in 1990 to 0.5 million m2 in 1995 and 1.52 million m2 in 2000, it has increased to 6.5 million m2, 32 times higher than in 1990 currently.",
+                    "manufacturePlaces": [
+                        "Yen Bai ",
+                        "Quy Nhon, Binh Dinh ",
+                        "Nha Trang, Khanh Hoa "
+                    ],
+                    "certificates": [
+                        "ISO 9001:2008",
+                        "ISO 1400:2004",
+                        "ISO 18001:2007"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592500/ids-networks/product/building/building-9_w4shxg.png"
+                },
+                {
+                    "name": "Flyash",
+                    "information": "Flyash is a mixture of aluminum oxide Al2O3, calcium oxide CaO, silicon oxide SiO2, iron oxide Fe2O3, sulfur oxide SO2 and an amount of unburnt coal. The product has a high applicability in the industry of producing concrete for construction, architectural materials.",
+                    "manufacturePlaces": [
+                        "Long An",
+                        "Dong Nai"
+                    ],
+                    "certificates": [
+                        "ISO 9001:2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-2_cil6c4.png"
+                },
+                {
+                    "name": "Clinker",
+                    "information": "Clinker is a product of sintering at 1450 degrees Celsius of limestone - clay, seashells and some coefficient-adjusting additives such as iron ore, bauxite, sand.",
+                    "manufacturePlaces": [
+                        "Binh Phuoc",
+                        "Kien Giang",
+                        "Ho Chi Minh"
+                    ],
+                    "certificates": [
+                        "QCVN 16-1:2011/BXD"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592502/ids-networks/product/building/building-6_ghdnlf.png"
+                },
+                {
+                    "name": "Cement",
+                    "information": "Cement is a hydraulic binder used as a construction material. Cement is made by finely grinding clinker, natural gypsum and additives (clamshell, clay). In Vietnam, cement is the earliest developed industry and Hai Phong is also the cradle of Vietnam's cement industry today.",
+                    "manufacturePlaces": [
+                        "Hai Phong",
+                        "Thanh Hoa",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "QCVN 16:2019/BXD"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-4_kuni0u.png"
+                },
+                {
+                    "name": "Brick",
+                    "information": "Red brick is a building material made from fired clay. Due to its durability over time, bricks have been used for construction works for thousands of years.",
+                    "manufacturePlaces": [
+                        "Quang Ninh",
+                        "Thai Binh",
+                        "Dong Nai"
+                    ],
+                    "certificates": [
+                        "QCVN 16:2019/BXD"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-8_b28aex.png"
+                },
+                {
+                    "name": "Aluminum",
+                    "information": "Aluminum plays an important role in the world economy. Pure aluminum has low tensile strength, but makes alloys with many elements such as copper, zinc, magnesium, manganese and silicon. When heat-machined, these aluminum alloys have mechanical properties significantly increased. It is highly applied in water treatment, construction, machinery manufacturing",
+                    "manufacturePlaces": [
+                        "Hai Duong",
+                        "Hung Yen",
+                        "Thai Nguyen"
+                    ],
+                    "certificates": [
+                        "ISO 9001 – 2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-10_byalwo.png"
+                }
+            ]
+        },
+        {
+            "type": "furniture",
+            "name": "Furniture",
+            "script": "Vietnam possesses plentiful mineral resources so the export of products related to construction materials is a huge advantage. We meet 30% of the capacity for export. And now, Vietnam's building materials industry has exported to over 120 countries and territories.",
+            "itemQuantity": 6,
+            "items": [
+                {
+                    "name": "Wardrobe",
+                    "information": "Wardrobe is a type of standing or lying wardrobe that can hold clothes used to store clothes. The wardrobe is always an inspiration every day for a more colorful life. The wardrobe collection has many new and modern beauties that help to show the lifestyle clearly. Dispelling the old notion of mere storage, these designs perfectly accommodate a wide range of personalities and usage habits with a variety of color schemes and styles.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Ho Chi Minh"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction."
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670888638/ids-networks/product/furniture/bilal-mansuri-RHARVor_ydc-unsplash_mpiqqm.jpg"
+                },
+                {
+                    "name": "Plywood",
+                    "information": "Plywood is one of the typical products of the wood processing and exporting industry. Due to the advantage of high durability, waterproof, not affected by the external environment leading to termites, warping, plywood is a nice economic option. It's suitable for many designs and uses of consumers. This is a trending product in the wood industry all around the world.",
+                    "manufacturePlaces": [
+                        "Dong Nai",
+                        "Ho Chi Minh",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "CARB P2 Certificate"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670637618/ids-networks/product/furniture/furniture-7_flywood_f9w2wf.jpg"
+                },
+                {
+                    "name": "Kitchen Cabinet",
+                    "information": "The kitchen cabinet is a delicate product that breathes life into a meal with full of loving aftertaste. Due to diverse designs, quality in layout and colors,... All of them bring the typical spiritual values of the family kitchen.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Ho Chi Minh",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction",
+                        "ISO 9001 - 2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592505/ids-networks/product/furniture/furniture-5_eawrdf.png"
+                },
+                {
+                    "name": "Desk",
+                    "information": "A desk is a piece of furniture with a flat table-style work surface used in a school, office, home. As the name implies – the desk – this is the place where all operations and activities related to work or study happen every day. This is also a place to store and preserve work tools such as papers, files, books, pens, etc., even for computers. The desk provides maximum support to help you have the best effectiveness in work, study, and efficiency.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Ho Chi Minh",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction",
+                        "ISO 9001 - 2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592505/ids-networks/product/furniture/furniture-3_lgjsia.png"
+                },
+                {
+                    "name": "Chair",
+                    "information": "Chair is an indispensable furniture item and it is also considered the soul of the house. The chair offers a comfortable, pleasant and convenient seat with a diversity of styles as well as colors and materials.",
+                    "manufacturePlaces": [
+                        "Binh Duong",
+                        "Ho Chi Minh",
+                        "Ha Noi"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction",
+                        "ISO 9001 - 2015"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592506/ids-networks/product/furniture/furniture-4_rvaf54.png"
+                },
+                {
+                    "name": "Bed",
+                    "information": "Beds are considered as one of the most important and indispensable items in our lives. This is an item that has a direct effect on health and psychological state. They are processed from the best wood material in Vietnam in order to give customers a great experience.",
+                    "manufacturePlaces": [
+                        "Ho Chi Minh",
+                        "Binh Duong",
+                        "Binh Dinh",
+                        "Gia Lai"
+                    ],
+                    "certificates": [
+                        "REACH (Registration, Evaluation, Authorisation, Restriction of Chemical substances)",
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670889348/ids-networks/product/furniture/spacejoy-nEtpvJjnPVo-unsplash_ep_lavimn.jpg"
+                }
+            ]
+        },
+        {
+            "type": "agricultural",
+            "name": "Agricultural",
+            "script": "Agricultural production capacity in Vietnam is a bright spot in the agricultural industry in the export market. Up to the present time (June 2022), the results of the agricultural product industry increased by 16.8% of the main export agricultural products according to the reported data on the export of agricultural products. Exporting pepper is on the top in the world; exporting cafes is on the second place in the world and the rice export reached nearly 3 million tons, increased by 10.3%.",
+            "itemQuantity": 16,
+            "items": [
+                {
+                    "name": "Tea",
+                    "information": "Tea is the second most popular beverage in the world (after drinking water) with a lold origin, attached to many Asian ethnic groups. Tea leaves can be oxidized (fermented), roasted, dried, or mixed with other herbs such as flowers, spices, or other fruits before being made into boiling water. Compared with other foods, tea is a low-energy drink that also has the ability to prevent diseases and improve health.",
+                    "manufacturePlaces": [
+                        "Thai Nguyen",
+                        "Moc Chau",
+                        "Ha Giang",
+                        "Bao Loc"
+                    ],
+                    "certificates": [
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "HC (Health Certificate)",
+                        "ISO 22000/HACCP"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595836/ids-networks/product/agricultural/agricultural-5_uf5onr.png"
+                },
+                {
+                    "name": "Tapioca Starch",
+                    "information": "Tapioca starch is extracted from the tubers (roots) of the tapioca plant. This is a widely used starch and is an indispensable ingredient in the food and construction industries and is widely used in thickening, thickeners or surface glue coatings in industries.",
+                    "manufacturePlaces": [
+                        "Tay Ninh",
+                        "Dong Nai"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "HC (Health Certificate)",
+                        "Phytosanitary Certificate"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595832/ids-networks/product/agricultural/agricultural-3_b5pwy3.png"
+                },
+                {
+                    "name": "Sugar",
+                    "information": "Sugar is the general name for chemical compounds in crystalline form that belong to the group of carbohydrates, also known as carbohydrates. This is a spice with a characteristic sweet taste, converted into energy in the human body.",
+                    "manufacturePlaces": [
+                        "Ha Noi",
+                        "Gia Lai",
+                        "Cao Bang",
+                        "Soc Trang"
+                    ],
+                    "certificates": [
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "Certificate of Origin(C/O)"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595841/ids-networks/product/agricultural/agricultural-7_j9r13i.png"
+                },
+                {
+                    "name": "Rice",
+                    "information": "Rice is a food product obtained from the rice plant. Rice grains are usually white, brown or crimson in color and contain many nutrients. Rice is a staple food for nearly half of the world's population. From rice, many different foods can be processed into traditional cakes, sticky rice, noodles, vermicelli noodles, pho or wine. Rice is also the main food in Asian cuisine, different from the main food in European and American cuisine, which is wheat and flour.",
+                    "manufacturePlaces": [
+                        "An Giang",
+                        "Kien Giang"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "HC (Health Certificate)",
+                        "Certificate of fumigation"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595843/ids-networks/product/agricultural/agricultural-9_xigz4l.png"
+                },
+                {
+                    "name": "Pepper",
+                    "information": "This is the seed of the pepper plant. Pepper is considered a crop with high economic and export value. Pepper is a spice commonly used in cooking. It helps to create a spicy, delicious flavor for the dish. In addition, pepper is also a medicine. Fresh pepper contains a large amount of vitamin C, even more than in tomatoes. In addition, they also contain essential oils, piperine, chanvixin, lipid, starch, creating the characteristic pungent taste of pepper.",
+                    "manufacturePlaces": [
+                        "Dak Nong",
+                        "Gia Lai",
+                        "Binh Phuoc"
+                    ],
+                    "certificates": [
+                        "HS: 09041120",
+                        "HS: 09041110"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595824/ids-networks/product/agricultural/agricultural-1_evnorj.png"
+                },
+                {
+                    "name": "Mango",
+                    "information": "Mango is a fruit that contains a lot of vitamins and minerals that are considered a storehouse of many healthy nutrients. The mango is native to South and Southeast Asia, from where it has been distributed worldwide to become one of the most cultivated fruits in the tropics.",
+                    "manufacturePlaces": [
+                        "Tien Giang",
+                        "Kien Giang",
+                        "Binh Thuan"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic "
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595831/ids-networks/product/agricultural/agricultural-2_xvayfh.png"
+                },
+                {
+                    "name": "Lychee",
+                    "information": "Lychee is a tropical woody and a subtropical fruit which originated in Southern China. This is a fruit with a rough, brown shell and sweet, white flesh that is rich in vitamin C. In the middle of the fruit has a large, shiny, brown seed with 2cm long and 1-1.5 cm in diameter. The harvest period is from June (in regions near the equator) to October (in regions far from the equator), about 100 days after flowering due to the cultivation characteristic of this kind of fruit. Hence, it is widely consumed in the US and Australia and currently conducted to expand the range of new markets....now also includes the European Union, Japan and the Netherlands.",
+                    "manufacturePlaces": [
+                        "Thanh Ha",
+                        "Luc Ngan",
+                        "Binh Thuan"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam."
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595841/ids-networks/product/agricultural/agricultural-6_jkekbl.png"
+                },
+                {
+                    "name": "Grapefruit",
+                    "information": "Grapefruit is a citrus fruit, usually has light green to yellow when it's ripe, with thick flesh, spongy juice vesicles, and depending on the type it will have a sweet, bitter or sweet and sour taste. This is a delicious and nutritious fruit, and provides many essential nutrients for the body such as protein, vitamin C, potassium, calcium, ... to not only prevent many diseases and beautify, but also make soft drinks.",
+                    "manufacturePlaces": [
+                        "Ben Tre",
+                        "Vinh Long",
+                        "Dong Nai"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "Certificate of Origin(C/O)"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595837/ids-networks/product/agricultural/agricultural-4_kwm6dr.png"
+                },
+                {
+                    "name": "Durian",
+                    "information": "Durian is native to Southeast Asia, widely grown in the tropics and is considered the \"King of fruits\". It is characterized by its large size, strong odor, and many sharp spines surrounding its shell. Depending on the type, the fruit has a shape from oblong to round, skin color from green to brown, and flesh color from light yellow to red. The flesh of it is edible, and gives off a characteristic, heavy and strong odor, even when the rind is intact.",
+                    "manufacturePlaces": [
+                        "Tien Giang",
+                        "Dak Lak"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595856/ids-networks/product/agricultural/agricultural-8_wvlbff.png"
+                },
+                {
+                    "name": "Dragon fruit",
+                    "information": "Dragon fruit is a plant grown mainly for its fruit and is also the name of several genera of the cactus family. Dragon fruit is a native plant in Mexico, Central American and South American countries. Currently, this fruit is also cultivated in Southeast Asia, Southern China, Taiwan and some other regions. Seeds resembling black sesame seeds lie mixed in the intestines. The fleshy layer in the intestines is usually eaten in the form of fresh fruit, has a mild aroma, is moderately sweet and provides few calories. Its taste is sometimes like that of kiwi fruit (Actinidia deliciosa). The fruit can be processed into juice or wine; the flowers can be eaten or steeped in water like tea. Dragon fruit in Vietnam is also used as a raw ingredient for the production of dragon fruit bread.",
+                    "manufacturePlaces": [
+                        "Binh Thuan",
+                        "Long An",
+                        "Tien Giang"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595829/ids-networks/product/agricultural/agricultural-11_nni06t.png"
+                },
+                {
+                    "name": "Coffee Beans",
+                    "information": "Coffee beans are the raw materials for coffee drinks. Vietnam is the second largest coffee exporter in the world and the leading exporter of Robusta coffee. Four provinces grow a lot of Robusta coffee with an area of about 90% of the total coffee area of the country - currently about 550,000ha.",
+                    "manufacturePlaces": [
+                        "Lam Dong",
+                        "Dak Lak",
+                        "Dak Nong",
+                        "Gia Lai"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595839/ids-networks/product/agricultural/agricultural-12_dl2wi8.png"
+                },
+                {
+                    "name": "Coconut",
+                    "information": "Coconut is ubiquitous in coastal tropical regions and is a tropical cultural icon. Coconut provides food, fuel, cosmetics, folk medicines and building materials, and many other uses. The nutrients in coconut water help balance muscle, cardiology, nervous system and immune system, as well as absorb and balance fluids inside the body. Currently, Vietnamese coconuts have been growing rapidly in export markets globally: China is the leading market for importing Vietnamese coconuts with 30.4% market share, reaching 33.2 million USD, Qatar increased by 578%, Spain increased by 93.4%, Australia  increased by 29.7%, South Korea increased by 28%.",
+                    "manufacturePlaces": [
+                        "Ben Tre",
+                        "Tien Giang",
+                        "Dong Thap"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595824/ids-networks/product/agricultural/agricultural-13_sykguv.png"
+                },
+                {
+                    "name": "Cocoa",
+                    "information": "Cocoa beans are used as raw materials in the food industry, including some products with high economic value such as chocolate, cocoa powder, cocoa butter, etc. In Vietnam, cocoa is introduced early, the tree was widely planted in many places, the Central Highlands region is still considered to have the most ideal conditions for cocoa tree development.",
+                    "manufacturePlaces": [
+                        "Lam Dong",
+                        "Dak Lak",
+                        "Dak Nong",
+                        "Soc Trang",
+                        "Tra Vinh"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "GlobalGAP",
+                        "Organic"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595829/ids-networks/product/agricultural/agricultural-14_lwd2wy.png"
+                },
+                {
+                    "name": "Cashew",
+                    "information": "Cashews are used as a snack for a meal or used in many recipes just like other nuts. Cashew nuts are not only delicious but also have a high nutritional value, good for health because it has many vitamins and minerals, antioxidants such as vitamins E, K, B6 and minerals copper, phosphorus, zinc, magnesium, Iron and selenium which help maintain body functions well.",
+                    "manufacturePlaces": [
+                        "Dong Nai",
+                        "Binh Phuoc",
+                        "Dak Nong",
+                        "Binh Thuan",
+                        "Gia Lai"
+                    ],
+                    "certificates": [
+                        "Phytosanitary Certificate"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595828/ids-networks/product/agricultural/agricultural-15_ev2lbs.png"
+                },
+                {
+                    "name": "Brown rice",
+                    "information": "Brown rice is a type of rice that is very rich in nutrients, especially vitamins and trace elements. The ingredient of brown rice includes starch, protein, fat, fiber and vitamins such as B1, B2, B3, B6; acids such as pantothenic (vitamin B5), paraaminobenzoic acid (PABA), folic (vitamin M), phytic; trace elements such as calcium, iron, magnesium, selenium, glutathione (GSH), potassium and sodium. With suitable natural conditions and rice production area ranked 5th in the world, Vietnam affirms to be the world's leading rice exporter, becoming a source of supply for countries such as the US, China, and Thailand, Australia.",
+                    "manufacturePlaces": [
+                        "Can Tho"
+                    ],
+                    "certificates": [
+                        "VietGAP (Vietnamese Good Agricultural Practices)includes standards/regulations on quality agricultural production for agricultural products (cultivation, animal husbandry, marine products) in Vietnam.",
+                        "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
+                        "HC (Health Certificate)"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595826/ids-networks/product/agricultural/agricultural-10_jknit0.png"
+                },
+                {
+                    "name": "Beans",
+                    "information": "Beans are one of the oldest crops and the seed of one of the genera of flowering plants in the family Fabaceae. They are commonly used as a vegetable in human or animal meals and prepared in a variety of ways, such as heating, frying and baking. It is also the type of nut used in the traditional dishes of many cultures around the world. In addition, these are also a great addition to the diet because they are very nutrient-dense, rich in antioxidants.",
+                    "manufacturePlaces": [
+                        "Mekong Delta",
+                        "Red River Delta"
+                    ],
+                    "certificates": [
+                        "Phytosanitary Certificate",
+                        "Certificate of Origin(C/O)"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595835/ids-networks/product/agricultural/agricultural-16_jd4an4.png"
+                }
+            ]
+        },
+        {
+            "type": "garment",
+            "name": "Garment",
+            "script": "Vietnam possesses plentiful mineral resources so the export of products related to construction materials is a huge advantage. We meet 30% of the capacity for export. And now, Vietnam's building materials industry has exported to over 120 countries and territories.",
+            "itemQuantity": 3,
+            "items": [
+                {
+                    "name": "Medical Protective Clothing",
+                    "information": "After Covid-19 pandemic, the demand for medical protective clothing to protect public health is increasing worldwide. The export of personal protective clothing (shirts, hats, shoes) is focused by Vietnamese enterprises and provided based on the quality of the accreditation to respond CE marking standards (adapted to the regulations of the EU ).",
+                    "manufacturePlaces": [
+                        "Ben Tre",
+                        "Ho Chi Minh",
+                        "Ha Nam",
+                        "Long An"
+                    ],
+                    "certificates": [
+                        "FDA",
+                        "CE"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592503/ids-networks/product/garment/garment-1_gynzav.png"
+                },
+                {
+                    "name": "Footwear",
+                    "information": "Footwear products are processed according to the customer's standard. Hence, the diversification of exporting processed activities is one of the most important issues. Footwear products of the garment industry are becoming the mainstay items in Vietnam.",
+                    "manufacturePlaces": [
+                        "Vinh Long",
+                        "Hai Phong",
+                        "Ho Chi Minh"
+                    ],
+                    "certificates": [
+                        "C/O"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670889549/ids-networks/product/garment/garment-03_q1l6k0.jpg"
+                },
+                {
+                    "name": "Clothing",
+                    "information": "Garment and exported clothing is being favor in the global market due to the quality, stable products and competitive prices. According to statistics from the General Department of Customs, textile and garment products reached 3.15 billion USD, bringing the total export turnover of this group to 11.83 billion USD, icreased by 22.2% over the same period last year, corresponding increased by 2.15 billion dollars.",
+                    "manufacturePlaces": [
+                        "Nam Dinh",
+                        "Ha Noi",
+                        "Ho Chi Minh"
+                    ],
+                    "certificates": [
+                        "ISO 9001 - 2015",
+                        "WRAP"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670889548/ids-networks/product/garment/garment-02_mi0n3y.jpg"
+                }
+            ]
+        },
+        {
+            "type": "technology",
+            "name": "Technology",
+            "script": "The technology industry is a dominant industry in the national economy, which is a mainstay position. It is also a measure of the level of economic and technical development in every country in the world. According to statistics from the General Department of Customs, the export turnover of computers and electronic components in December 2021 is estimated at over US$5.03 billion, an increase of 14.13% over the previous month and 23.12 % compared to December 2020. In general, the export turnover of those reached 50.82 billion USD, increased by 14.03% compared to 2020 and accounted for over 15.11% of the total export turnover of goods for the whole country in 2021.",
+            "itemQuantity": 2,
+            "items": [
+                {
+                    "name": "Fuse",
+                    "information": "A fuse is an element or device that protects an electrical circuit by breaking the circuit. Fuses are used to prevent overload on the line from causing a fire and explosion.",
+                    "manufacturePlaces": [
+                        "Ha Noi ",
+                        "Ho Chi Minh ",
+                        "Dong Nai ",
+                        "Binh Duong "
+                    ],
+                    "certificates": [
+                        "UL"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592506/ids-networks/product/other/other-2_tmfor4.png"
+                },
+                {
+                    "name": "Switch",
+                    "information": "Switches are an indispensable product in every household, devices that directly affect the safety of users as well as the quality of life in general.",
+                    "manufacturePlaces": [
+                        "Ha Noi ",
+                        "Binh Duong ",
+                        "Dong Nai Province Vietnam",
+                        "Ho Chi Minh "
+                    ],
+                    "certificates": [
+                        "UL"
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592505/ids-networks/product/other/other-1_omhl87.png"
+                }
+            ]
+        },
+        {
+            "type": "etc",
+            "name": "ETC",
+            "script": "More and more",
+            "itemQuantity": 1,
+            "items": [
+                {
+                    "name": "Wood Pellets",
+                    "information": "Wood pellets are considered a regenerated product from wood. It is used as a fuel in industrial boilers, in drying kilns, fireplaces and also in daily activities. Wood pellets become a solution for sustainable development, both saving production costs and contributing to the environmental protection. The export market of Vietnam's wood pellets is spread over 5 countries: India, Japan, Korea, China, Italy. And is expanding on the world map with export volume up to tens of millions of tons per year.",
+                    "manufacturePlaces": [
+                        "Dong Thap ",
+                        "Binh Duong ",
+                        "Vung Tau, Ba Ria - Vung Tau",
+                        "Binh Dinh "
+                    ],
+                    "certificates": [
+                        "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction."
+                    ],
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670637763/ids-networks/product/other/WoodPellet_l0a5g4.jpg"
+                }
+            ]
+        }
+    ]
+}

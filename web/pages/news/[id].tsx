@@ -21,13 +21,7 @@ export async function getServerSideProps({ locale }: any) {
     news.push({ id: doc.id, ...doc.data() });
   });
 
-  const database = getDatabase();
-  const starCountRef = ref(database, 'products/');
-  onValue(starCountRef, (snapshot) => {
-    const data = snapshot.val();
-    console.log({data})
-    // updateStarCount(postElement, data);
-  });
+
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common', 'footer'])),
