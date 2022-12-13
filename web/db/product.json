@@ -7,7 +7,7 @@
             "itemQuantity": 10,
             "items": [
                 {
-                    "name": "Exact Mechanic",
+                    "name": "Precise Mechanic",
                     "information": "Mechanics is the area of mathematics and physics concerned with the relationships between force, matter, and motion among physical objects. Forces applied to objects result in displacements, or changes of an object's position relative to its environment.",
                     "manufacturePlaces": [
                         "Binh Duong",
@@ -48,8 +48,8 @@
                     "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592499/ids-networks/product/building/building-3_wdxg4m.png"
                 },
                 {
-                    "name": "Screw",
-                    "information": "Screws and bolts are similar fasteners, usually made of metal, and have a featured spiral groove design, known as an external thread.",
+                    "name": "Fitting and Fasteners",
+                    "information": "Fitting and Fasteners and bolts are similar fasteners, usually made of metal, and have a featured spiral groove design, known as an external thread.",
                     "manufacturePlaces": [
                         "Ho Chi Minh",
                         "Ha Noi",
@@ -77,8 +77,8 @@
                     "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592500/ids-networks/product/building/building-9_w4shxg.png"
                 },
                 {
-                    "name": "Flyash",
-                    "information": "Flyash is a mixture of aluminum oxide Al2O3, calcium oxide CaO, silicon oxide SiO2, iron oxide Fe2O3, sulfur oxide SO2 and an amount of unburnt coal. The product has a high applicability in the industry of producing concrete for construction, architectural materials.",
+                    "name": "Fly ash",
+                    "information": "Fly ash is a mixture of aluminum oxide Al2O3, calcium oxide CaO, silicon oxide SiO2, iron oxide Fe2O3, sulfur oxide SO2 and an amount of unburnt coal. The product has a high applicability in the industry of producing concrete for construction, architectural materials.",
                     "manufacturePlaces": [
                         "Long An",
                         "Dong Nai"
@@ -217,7 +217,7 @@
                         "FSC (Forest Stewardship Council) ensures that the source of wood materials used for production has clear legal origins and does not cause forest destruction",
                         "ISO 9001 - 2015"
                     ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592506/ids-networks/product/furniture/furniture-4_rvaf54.png"
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670950429/ids-networks/product/furniture/furniture-4_tscppj.png"
                 },
                 {
                     "name": "Bed",
@@ -358,7 +358,7 @@
                         "CFS (Certificate of Free Sale) certifies that the products or goods are manufactured and allowed to circulate freely in the exporting country.",
                         "Certificate of Origin(C/O)"
                     ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595837/ids-networks/product/agricultural/agricultural-4_kwm6dr.png"
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670950703/ids-networks/product/agricultural/agriculture-4_xl5jzi.jpg"
                 },
                 {
                     "name": "Durian",
@@ -372,7 +372,7 @@
                         "GlobalGAP",
                         "Organic"
                     ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595856/ids-networks/product/agricultural/agricultural-8_wvlbff.png"
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670950609/ids-networks/product/agricultural/agriculture-8_knkedn.jpg"
                 },
                 {
                     "name": "Dragon fruit",
@@ -403,7 +403,7 @@
                         "GlobalGAP",
                         "Organic"
                     ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670595839/ids-networks/product/agricultural/agricultural-12_dl2wi8.png"
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670950569/ids-networks/product/agricultural/agriculture-12_dg4blw.jpg"
                 },
                 {
                     "name": "Coconut",
@@ -526,7 +526,7 @@
                         "ISO 9001 - 2015",
                         "WRAP"
                     ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670889548/ids-networks/product/garment/garment-02_mi0n3y.jpg"
+                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670950959/ids-networks/product/garment/garment-04_wbjcrv.jpg"
                 }
             ]
         },
@@ -534,22 +534,8 @@
             "type": "technology",
             "name": "Technology",
             "script": "The technology industry is a dominant industry in the national economy, which is a mainstay position. It is also a measure of the level of economic and technical development in every country in the world. According to statistics from the General Department of Customs, the export turnover of computers and electronic components in December 2021 is estimated at over US$5.03 billion, an increase of 14.13% over the previous month and 23.12 % compared to December 2020. In general, the export turnover of those reached 50.82 billion USD, increased by 14.03% compared to 2020 and accounted for over 15.11% of the total export turnover of goods for the whole country in 2021.",
-            "itemQuantity": 2,
+            "itemQuantity": 1,
             "items": [
-                {
-                    "name": "Fuse",
-                    "information": "A fuse is an element or device that protects an electrical circuit by breaking the circuit. Fuses are used to prevent overload on the line from causing a fire and explosion.",
-                    "manufacturePlaces": [
-                        "Ha Noi ",
-                        "Ho Chi Minh ",
-                        "Dong Nai ",
-                        "Binh Duong "
-                    ],
-                    "certificates": [
-                        "UL"
-                    ],
-                    "image": "https://res.cloudinary.com/dveexa3ua/image/upload/v1670592506/ids-networks/product/other/other-2_tmfor4.png"
-                },
                 {
                     "name": "Switch",
                     "information": "Switches are an indispensable product in every household, devices that directly affect the safety of users as well as the quality of life in general.",
