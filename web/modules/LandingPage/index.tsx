@@ -610,39 +610,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.script}>{t('ourTeam.desPos2')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="1700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
-                <div className={styles.wrapCard}>
-                  <div className={styles.header}>
-                    <span className={styles.name}>{t('ourTeam.name3')}</span>
-                    <span className={styles.wrapImages}>
-                      <Tooltip title="">
-                        <span className={styles.wrapIcon}>
-                          <PhoneIcon />
-                        </span>
-                      </Tooltip>
-                      <Tooltip title="business@ids-networks.com">
-                        <span className={styles.wrapIcon}>
-                          <EmailIcon />
-                        </span>
-                      </Tooltip>
-                    </span>
-                  </div>
-                  <div className={styles.job}>{t('ourTeam.pos3')}</div>
-                  <div className={styles.wrapAvatar}>
-                    <Image
-                      priority={true}
-                      sizes={'fill'}
-                      objectFit="cover"
-                      alt="avatar"
-                      src="/images/avatar-3.png"
-                      className={styles.avatar}
-                      width={222}
-                      height={222}
-                    />
-                  </div>
-                  <div className={styles.script}>{t('ourTeam.desPos3')}</div>
-                </div>
-              </Col>
+
               <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
