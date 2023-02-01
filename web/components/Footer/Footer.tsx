@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col className={styles.contact} sm={24} md={12} lg={8} xl={5}>
-            <div className={styles.cardContact}>
+            {/* <div className={styles.cardContact}>
               <div className={styles.wrapImage}>
                 <Image width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
@@ -40,9 +40,9 @@ const Footer = () => {
                 <strong>AUS-Sydney:</strong> +61417202439
                 <br /> <strong>Daniel Hearn</strong>
               </div>
-            </div>
+            </div> */}
             <div className={styles.cardContact}>
-              <div className={clsx(styles.wrapImage, styles.hidden)}>
+              <div className={clsx(styles.wrapImage)}>
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
