@@ -212,7 +212,7 @@ const LandingPage = ({ news }: Props) => {
             </Col>
             <Col className={styles.contents} sm={24} md={14}>
               <div className={styles.rank}>
-                <span>#4</span>
+                <span>#3</span>
                 <span className={styles.text}>{t('offices.title')}</span>
               </div>
               <div className={styles.places}>
@@ -228,10 +228,10 @@ const LandingPage = ({ news }: Props) => {
                   <div>{t('offices.country3')}</div>
                   <div className={styles.mainText}>{t('offices.office3')}</div>
                 </div>
-                <div className={styles.space}>
+                {/* <div className={styles.space}>
                   <div>{t('offices.country4')}</div>
                   <div className={styles.mainText}>{t('offices.office4')}</div>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>
