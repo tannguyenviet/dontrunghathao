@@ -76,7 +76,9 @@ const LastedNews = ({ news, fullNews }: Props) => {
               <Card
                 className="h-100 d-flex f-column"
                 hoverable
-                cover={<img alt="example" src={post.backgroundImage} />}
+                cover={
+                  <img alt="example" src={post.backgroundImage.split('upload/').join('upload/q_auto/h_180,w_320/')} />
+                }
               >
                 <div className="mt-auto d-flex f-column h-100">
                   <div className="bold text-20 mb-14">{post.mainTitle}</div>

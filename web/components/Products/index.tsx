@@ -6,8 +6,6 @@ import React, { useEffect, useMemo, useState } from 'react';
 import styles from './styles.module.less';
 import { db } from 'firebase-config';
 import { collection, getDocs } from 'firebase/firestore';
-import Link from 'next/link';
-import ReadMore from 'components/ReadMore';
 import NextIcon from 'assets/svg/Next';
 export interface Item {
   name: string;
@@ -78,16 +76,13 @@ const Products = () => {
       <Row className="mb-32 justify-center " gutter={[24, 24]}>
         {activeItemProducts?.map((item, index) => (
           <Col key={index} xs={12} md={8} lg={6} xl={4} span={4}>
-            <a
-              className="h-100"
-              href={`/product/${filter}/id/${item.name.toLowerCase()}`}
-              rel="noopener noreferrer"
-            >
+            <a className="h-100" href={`/product/${filter}/id/${item.name.toLowerCase()}`} rel="noopener noreferrer">
               <Card hoverable className={styles.card}>
                 <div className={clsx(styles.name, 'bolder')}>{item.name}</div>
                 <img
+                  loading="lazy"
                   className="w-100 cover"
-                  src={item.image.split('/upload').join('/upload/w_672,h_856,c_fill/')}
+                  src={item.image.split('/upload').join('/upload/q_auto/h_321,w_252/')}
                   alt=""
                 />
                 <span className={clsx(styles.nextIcon, 'f-start red opacity-8')}>
