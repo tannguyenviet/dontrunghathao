@@ -1,31 +1,19 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './styles.module.less';
-import Head from 'next/head';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
-import { getAccount } from '../../store/ducks/account/slice';
-import { useAppSelector } from 'hooks/reduxHook';
-import { Button, Card, Col, Row, Tooltip } from 'antd';
-import { useAuth0 } from '@auth0/auth0-react';
-import { typeList } from 'antd/lib/message';
-import { imageOptimizer } from 'next/dist/server/image-optimizer';
-import { text } from 'stream/consumers';
+import { Col, Row, Tooltip } from 'antd';
 import clsx from 'clsx';
-import Carousel from 'components/Carousel/Carousel';
-import Slider from 'components/Carousel/Carousel';
 import OurProject from 'components/OurProject';
-import NextIcon from 'assets/svg/Next';
 import PhoneIcon from 'assets/svg/Phone';
 import EmailIcon from 'assets/svg/Email';
 
 import Header from 'components/Header/Header';
-import Footer from 'components/Footer/Footer';
 import LastedNews from 'components/LastedNews';
 import { New } from 'modules/NewsPage/components/HottestNews';
 import Spacing from 'components/Spacing';
 import Products from 'components/Products';
-import { Helmet } from 'react-helmet';
 
 interface Props {
   news: New[];
@@ -33,8 +21,6 @@ interface Props {
 const LandingPage = ({ news }: Props) => {
   const { t } = useTranslation();
   const router = useRouter();
-  // const account = useAppSelector(getAccount);
-  const { loginWithRedirect, logout, user } = useAuth0();
   const aboutUsRef = useRef(null);
   useEffect(() => {
     const query = router.query?.act;

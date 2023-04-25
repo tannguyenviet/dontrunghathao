@@ -113,7 +113,11 @@ const HottestNews = ({ news }: Props) => {
               >
                 <Row gutter={[16, 0]}>
                   <Col span={9}>
-                    <img className="cover w-100" src={post.backgroundImage} alt="" />
+                    <img
+                      className="cover w-100"
+                      src={post.backgroundImage.split('/upload').join('/upload/q_auto/h_180,w_320')}
+                      alt=""
+                    />
                   </Col>
                   <Col span={15}>
                     <span className="mb-8">{post.time}</span>
