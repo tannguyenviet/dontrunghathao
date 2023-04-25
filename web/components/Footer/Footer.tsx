@@ -28,7 +28,7 @@ const Footer = () => {
               <p>MELB: Level 1, Suite 1, 182 Victoria Parade, East Melbourne 3002, Victoria, Australia</p>
               {/* <p>SYD: Level 26 - 1 Bligh Street, Sydney, 2000, Australia</p> */}
               <p>HCM: No. 16, 02 Street, Hung Gia 5, Phu My Hung, Tan Phong Ward, 07 District, Ho Chi Minh City</p>
-              <p>DN: 01 Le Dinh Tham, Hoa Thuan Dong Ward, Hai Chau District, Da Nang City</p>
+              {/* <p>DN: 01 Le Dinh Tham, Hoa Thuan Dong Ward, Hai Chau District, Da Nang City</p> */}
             </div>
           </Col>
           <Col className={styles.contact} sm={24} md={12} lg={8} xl={5}>
