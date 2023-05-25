@@ -596,8 +596,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.script}>{t('ourTeam.desPos2')}</div>
                 </div>
               </Col>
-
-              {/* <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+              <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name4')}</span>
@@ -629,7 +628,7 @@ const LandingPage = ({ news }: Props) => {
                   </div>
                   <div className={styles.script}>{t('ourTeam.desPos4')}</div>
                 </div>
-              </Col> */}
+              </Col>
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
@@ -655,6 +654,105 @@ const LandingPage = ({ news }: Props) => {
                       objectFit="cover"
                       alt="avatar"
                       src="/images/avatar-6.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                </div>
+              </Col>
+              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>Matt</span>
+                    <span className={styles.wrapImages}>
+                      <Tooltip title="+61423413335">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
+                      <Tooltip title="Matt@ids-networks.com">
+                        <span className={styles.wrapIcon}>
+                          <EmailIcon />
+                        </span>
+                      </Tooltip>
+                    </span>
+                  </div>
+                  <div className={styles.job}>General manager </div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar-9.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                </div>
+              </Col>
+              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>Logan</span>
+                    <span className={styles.wrapImages}>
+                      <Tooltip title="+61415928331">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
+                      <Tooltip title="Logan@ids-networks.com">
+                        <span className={styles.wrapIcon}>
+                          <EmailIcon />
+                        </span>
+                      </Tooltip>
+                    </span>
+                  </div>
+                  <div className={styles.job}>Sales executive</div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar-10.png"
+                      className={styles.avatar}
+                      width={222}
+                      height={222}
+                    />
+                  </div>
+                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                </div>
+              </Col>
+              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+                <div className={styles.wrapCard}>
+                  <div className={styles.header}>
+                    <span className={styles.name}>Ryan</span>
+                    <span className={styles.wrapImages}>
+                      <Tooltip title="+61449811855">
+                        <span className={styles.wrapIcon}>
+                          <PhoneIcon />
+                        </span>
+                      </Tooltip>
+                      <Tooltip title="Ryan@ids-networks.com">
+                        <span className={styles.wrapIcon}>
+                          <EmailIcon />
+                        </span>
+                      </Tooltip>
+                    </span>
+                  </div>
+                  <div className={styles.job}>{t('ourTeam.pos6')}</div>
+                  <div className={styles.wrapAvatar}>
+                    <Image
+                      priority={true}
+                      sizes={'fill'}
+                      objectFit="cover"
+                      alt="avatar"
+                      src="/images/avatar-11.png"
                       className={styles.avatar}
                       width={222}
                       height={222}
