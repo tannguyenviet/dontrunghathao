@@ -596,7 +596,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.script}>{t('ourTeam.desPos2')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+              {/* <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>{t('ourTeam.name4')}</span>
@@ -628,7 +628,7 @@ const LandingPage = ({ news }: Props) => {
                   </div>
                   <div className={styles.script}>{t('ourTeam.desPos4')}</div>
                 </div>
-              </Col>
+              </Col> */}
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
@@ -745,7 +745,7 @@ const LandingPage = ({ news }: Props) => {
                       </Tooltip>
                     </span>
                   </div>
-                  <div className={styles.job}>{t('ourTeam.pos6')}</div>
+                  <div className={styles.job}>Sales executive</div>
                   <div className={styles.wrapAvatar}>
                     <Image
                       priority={true}
