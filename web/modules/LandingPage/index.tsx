@@ -665,7 +665,7 @@ const LandingPage = ({ news }: Props) => {
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Matt</span>
+                    <span className={styles.name}>Matt Burton</span>
                     <span className={styles.wrapImages}>
                       <Tooltip title="+61423413335">
                         <span className={styles.wrapIcon}>
@@ -698,7 +698,7 @@ const LandingPage = ({ news }: Props) => {
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Logan</span>
+                    <span className={styles.name}>Logan Presley</span>
                     <span className={styles.wrapImages}>
                       <Tooltip title="+61415928331">
                         <span className={styles.wrapIcon}>
@@ -731,7 +731,7 @@ const LandingPage = ({ news }: Props) => {
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
-                    <span className={styles.name}>Ryan</span>
+                    <span className={styles.name}>Ryan Percy</span>
                     <span className={styles.wrapImages}>
                       <Tooltip title="+61449811855">
                         <span className={styles.wrapIcon}>
