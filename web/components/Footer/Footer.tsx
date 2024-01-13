@@ -25,10 +25,9 @@ const Footer = () => {
             </div>
 
             <div className={styles.wrapText}>
-              <p>MELB: Level 1, Suite 1, 182 Victoria Parade, East Melbourne 3002, Victoria, Australia</p>
-              {/* <p>SYD: Level 26 - 1 Bligh Street, Sydney, 2000, Australia</p> */}
-              <p>HCM: No. 16, 02 Street, Hung Gia 5, Phu My Hung, Tan Phong Ward, 07 District, Ho Chi Minh City</p>
-              {/* <p>DN: 01 Le Dinh Tham, Hoa Thuan Dong Ward, Hai Chau District, Da Nang City</p> */}
+              <p>31 Patch Circuit, Laverton North 3026 Melbourne, Victoria, Australia </p>
+              <p>2929 Westheimer Road  702 Houston, TX. 77098  USA</p>
+              <p>135/31 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Việt Nam </p>
             </div>
           </Col>
           <Col className={styles.contact} sm={24} md={12} lg={8} xl={5}>
