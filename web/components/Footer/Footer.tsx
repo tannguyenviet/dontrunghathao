@@ -20,14 +20,25 @@ const Footer = () => {
       <div className={styles.spacing}>
         <Row>
           <Col md={24} lg={24} xl={13} className={styles.location}>
-            <div className={styles.wrapImage}>
-              <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
-            </div>
-
             <div className={styles.wrapText}>
-              <p>31 Patch Circuit, Laverton North 3026 Melbourne, Victoria, Australia </p>
-              <p>2929 Westheimer Road  702 Houston, TX. 77098  USA</p>
-              <p>135/31 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Việt Nam </p>
+              <div className={styles.lineText}>
+                <div className={clsx(styles.wrapImage)}>
+                  <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
+                </div>
+                <p>31 Patch Circuit, Laverton North 3026 Melbourne, Victoria, Australia </p>
+              </div>
+              <div className={styles.lineText}>
+                <div className={clsx(styles.wrapImage)}>
+                  <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
+                </div>
+                <p>2929 Westheimer Road  702 Houston, TX. 77098  US </p>
+              </div>
+              <div className={styles.lineText}>
+                <div className={clsx(styles.wrapImage)}>
+                  <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
+                </div>
+                <p>135/31 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Việt Nam </p>
+              </div>
             </div>
           </Col>
           <Col className={styles.contact} sm={24} md={12} lg={8} xl={5}>

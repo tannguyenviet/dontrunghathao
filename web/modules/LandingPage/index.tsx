@@ -626,7 +626,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
               {/* <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
@@ -692,7 +692,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
@@ -725,7 +725,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
@@ -758,7 +758,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
@@ -791,7 +791,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
               <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
@@ -824,7 +824,7 @@ const LandingPage = ({ news }: Props) => {
                       height={222}
                     />
                   </div>
-                  <div className={styles.script}>{t('ourTeam.desPos6')}</div>
+                  <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
             </Row>
