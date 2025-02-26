@@ -596,7 +596,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={styles.script}>{t('ourTeam.desPos2')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+              {/* <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>Diem Tran</span>
@@ -628,7 +628,7 @@ const LandingPage = ({ news }: Props) => {
                   </div>
                   <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
-              </Col>
+              </Col> */}
               {/* <Col data-aos="fade-left" data-aos-duration="2100" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
@@ -794,7 +794,7 @@ const LandingPage = ({ news }: Props) => {
                   <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
               </Col>
-              <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
+              {/* <Col data-aos="fade-left" data-aos-duration="2700" className={styles.card} xs={24} sm={12} md={12} lg={8}>
                 <div className={styles.wrapCard}>
                   <div className={styles.header}>
                     <span className={styles.name}>Sam Tran</span>
@@ -826,7 +826,7 @@ const LandingPage = ({ news }: Props) => {
                   </div>
                   <div className={clsx(styles.script, 'visibility-hidden')}>{t('ourTeam.desPos6')}</div>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </div>
         </div>
