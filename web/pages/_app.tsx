@@ -43,6 +43,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:description" content="The international supply chain and sourcing organization!" />
         <meta property="twitter:image" content={`${baseUrl}/static/logo-ids.png`} />
         <meta name="keywords" content="idsnetworks, exchange, trade, supply chain, sourcing organization" />
+        <link rel="icon" href="/images/why-feature-1.png" sizes="any" />
       </Head>
       <Provider store={store}>
         {/* <Auth0Provider

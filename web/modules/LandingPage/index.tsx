@@ -712,7 +712,7 @@ const LandingPage = ({ news }: Props) => {
                       </Tooltip>
                     </span>
                   </div>
-                  <div className={styles.job}>General manager </div>
+                  <div className={styles.job}>CEO </div>
                   <div className={styles.wrapAvatar}>
                     <Image
                       priority={true}

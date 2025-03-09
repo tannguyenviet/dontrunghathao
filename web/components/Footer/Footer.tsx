@@ -31,13 +31,13 @@ const Footer = () => {
                 <div className={clsx(styles.wrapImage)}>
                   <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
                 </div>
-                <p>2929 Westheimer Road  702 Houston, TX. 77098  US </p>
+                <p>135/31 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Việt Nam </p>
               </div>
               <div className={styles.lineText}>
                 <div className={clsx(styles.wrapImage)}>
                   <Image objectFit="cover" width={24} height={24} alt="location" src="/images/location.png"></Image>
                 </div>
-                <p>135/31 Trần Hưng Đạo, Phường Cầu Ông Lãnh, Quận 1, Việt Nam </p>
+                <p>2929 Westheimer Road  702 Houston, TX. 77098  US </p>
               </div>
             </div>
           </Col>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
-                <strong>AUS-Melbourne:</strong> +61411139957 <br /> <strong>Joe Nguyen</strong>
+                <strong>AUS-Australia:</strong> +61411139957 <br /> <strong>Joe Nguyen</strong>
               </div>
             </div>
             <div className={styles.cardContact}>
@@ -64,14 +64,14 @@ const Footer = () => {
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
               <div className={styles.text}>
-                <strong>VN:</strong> +84905325555 <br /> <strong>Hua Hai Long</strong>
+                <strong>Vietnam:</strong> +84905325555 <br /> <strong>Hua Hai Long</strong>
               </div>
             </div>
             <div className={styles.cardContact}>
               <div className={clsx(styles.wrapImage)}>
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/email.png"></Image>
               </div>
-              <div className={styles.text}>business@ids-networks.com</div>
+              <div className={styles.text}>business@ids-networks.com.au</div>
             </div>
             <div className={clsx(styles.cardContact, styles.wrapIcon)}>
               <div className={styles.wrapImage}>
