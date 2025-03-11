@@ -63,9 +63,9 @@ const Footer = () => {
               <div className={clsx(styles.wrapImage, styles.hidden)}>
                 <Image objectFit="contain" width={20} height={20} alt="phone" src="/images/phone.png"></Image>
               </div>
-              <div className={styles.text}>
+              {/* <div className={styles.text}>
                 <strong>Vietnam:</strong> +84905325555 <br /> <strong>Hua Hai Long</strong>
-              </div>
+              </div> */}
             </div>
             <div className={styles.cardContact}>
               <div className={clsx(styles.wrapImage)}>
